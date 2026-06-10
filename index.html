@@ -56,7 +56,7 @@
           <div class="phone-rings" aria-hidden="true"></div>
           <div class="phone">
             <div class="phone-status">
-              <span class="status-time">9:41</span>
+              <span class="status-time" id="status-time">9:41</span>
               <div class="status-island"></div>
               <div class="status-icons" aria-hidden="true">
                 <svg class="status-signal" viewBox="0 0 20 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
@@ -273,6 +273,20 @@
         navToggle.setAttribute('aria-expanded', String(isOpen));
         navToggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
       });
+    }
+
+    const statusTime = document.querySelector('#status-time');
+
+    if (statusTime) {
+      const updateStatusTime = () => {
+        statusTime.textContent = new Date().toLocaleTimeString([], {
+          hour: 'numeric',
+          minute: '2-digit'
+        });
+      };
+
+      updateStatusTime();
+      setInterval(updateStatusTime, 1000);
     }
 
     window.__m?.();
