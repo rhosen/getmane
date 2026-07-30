@@ -1,0 +1,42 @@
+---
+layout: layouts/base.njk
+bodyClass: legal-page
+---
+<div class="legal-shell">
+  <div class="page">
+    {% set ctaContent = ctaContent or 'page' %}
+    {% include 'partials/legal-header.njk' %}
+
+    <main class="legal-panel">
+      <div class="eyebrow">{{ eyebrow }}</div>
+      <div class="divider"></div>
+      <h1 class="legal-title">{{ pageHeading or title }}</h1>
+      {% if pageIntro %}<div class="legal-meta">{{ pageIntro }}</div>{% endif %}
+
+      <div class="legal-layout">
+        <aside class="legal-note">
+          <h3>{{ sideTitle or 'Page details' }}</h3>
+          <ol>
+            {% for item in sideItems or [] %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ol>
+          {% if author or lastReviewed or appVersionTested or androidVersionTested or disclosure %}
+            <div class="divider"></div>
+            {% if author %}<p><strong>Author:</strong> {{ author }}</p>{% endif %}
+            {% if lastReviewed %}<p><strong>Last reviewed:</strong> {{ lastReviewed }}</p>{% endif %}
+            {% if appVersionTested %}<p><strong>App version tested:</strong> {{ appVersionTested }}</p>{% endif %}
+            {% if androidVersionTested %}<p><strong>Android version tested:</strong> {{ androidVersionTested }}</p>{% endif %}
+            {% if disclosure %}<p><strong>Disclosure:</strong> {{ disclosure }}</p>{% endif %}
+          {% endif %}
+        </aside>
+
+        <div class="article-stack">
+          {{ content | safe }}
+        </div>
+      </div>
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>

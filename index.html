@@ -1,14 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-BD">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mane — Know your words</title>
-  <meta name="description" content="Mane is an English–Bangla dictionary, translator, and vocabulary practice app." />
+  <title>Mane Bangla Dictionary – English to Bangla App</title>
+  <meta name="description" content="Mane is a modern offline English-to-Bangla and Bangla-to-English dictionary for Android with Banglish search, Study Scan, examples, and vocabulary practice." />
+  <link rel="canonical" href="https://rhosen.github.io/getmane/" />
+  <meta property="og:title" content="Mane Bangla Dictionary – English to Bangla App" />
+  <meta property="og:description" content="Offline English-to-Bangla and Bangla-to-English dictionary for Android with Banglish search, Study Scan, examples, and vocabulary practice." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rhosen.github.io/getmane/" />
+  <meta property="og:image" content="https://rhosen.github.io/getmane/social-preview.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mane Bangla Dictionary – English to Bangla App" />
+  <meta name="twitter:description" content="Offline English-to-Bangla and Bangla-to-English dictionary for Android with Banglish search, Study Scan, examples, and vocabulary practice." />
+  <meta name="twitter:image" content="https://rhosen.github.io/getmane/social-preview.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://rhosen.github.io/getmane/#website",
+          "url": "https://rhosen.github.io/getmane/",
+          "name": "Mane",
+          "description": "Official staging website for Mane, an offline English-to-Bangla and Bangla-to-English dictionary app for Android."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://rhosen.github.io/getmane/#app",
+          "name": "Mane",
+          "alternateName": [
+            "Mane Bangla Dictionary",
+            "Mane (মানে)"
+          ],
+          "description": "An offline English-to-Bangla and Bangla-to-English dictionary and vocabulary-learning app for Android with Banglish search and Study Scan.",
+          "applicationCategory": "EducationalApplication",
+          "operatingSystem": "Android",
+          "installUrl": "https://play.google.com/store/apps/details?id=com.mane.app",
+          "url": "https://rhosen.github.io/getmane/",
+          "identifier": "com.mane.app",
+          "featureList": [
+            "English to Bangla dictionary",
+            "Bangla to English dictionary",
+            "Banglish search",
+            "Offline word lookup",
+            "Study Scan OCR",
+            "Saved-word and vocabulary practice"
+          ],
+          "sameAs": [
+            "https://play.google.com/store/apps/details?id=com.mane.app"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0"
+          }
+        }
+      ]
+    }
+  </script>
 </head>
 <body class="home-page">
   <header class="site-header home-header">
@@ -25,7 +79,7 @@
         <a href="privacy-policy.html">Privacy Policy</a>
         <a href="terms-of-service.html">Terms of Service</a>
         <a href="account-deletion.html">Account Deletion</a>
-        <a class="nav-button" href="#dictionary">Open Dictionary</a>
+        <a class="nav-button" href="https://play.google.com/store/apps/details?id=com.mane.app&utm_source=mane_website&utm_medium=website&utm_campaign=organic&utm_content=nav" target="_blank" rel="noopener">Download on Google Play</a>
       </nav>
     </div>
   </header>
@@ -34,19 +88,19 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">English–Bangla</p>
-          <h1>Know your words<span>.</span></h1>
-          <p class="hero-lead">English–Bangla dictionary, translator, and vocabulary practice.</p>
-          <p class="hero-body">Search in English, বাংলা, or Banglish. Save useful words, translate quickly, and build vocabulary through simple guided practice.</p>
+          <p class="eyebrow">Offline English ↔ Bangla</p>
+          <h1>A modern offline Bangla dictionary for Android<span>.</span></h1>
+          <p class="hero-lead">Search English, বাংলা, or Banglish without switching modes.</p>
+          <p class="hero-body">Find detailed meanings, examples, phrases, synonyms, antonyms, and pronunciation—then save words, scan textbook pages, and practise vocabulary offline.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#dictionary">Open Dictionary <span>→</span></a>
-            <a class="button secondary icon-button" href="#features">
+            <a class="button primary" href="https://play.google.com/store/apps/details?id=com.mane.app&utm_source=mane_website&utm_medium=website&utm_campaign=organic&utm_content=hero" target="_blank" rel="noopener">Download Mane on Google Play <span>→</span></a>
+            <a class="button secondary icon-button" href="#dictionary">
               <span class="button-icon" aria-hidden="true">
                 <svg viewBox="0 0 256 256" fill="currentColor">
                   <path d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,11.58,7.16L128,198.43l60.42,32.73A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,178.52-52.42-28.39a8,8,0,0,0-7.16,0L72,210.52V48H184Z"></path>
                 </svg>
               </span>
-              Save a word
+Try preview
             </a>
           </div>
         </div>
@@ -146,6 +200,7 @@
       <div class="container">
         <div class="section-heading center">
           <p class="eyebrow">Core features</p>
+          <h2>English to Bangla, Bangla to English, Banglish search, and study tools.</h2>
         </div>
         <div class="feature-grid">
           <article>
@@ -248,13 +303,37 @@
         </div>
       </div>
     </section>
+
+    <section class="features" aria-labelledby="about-mane-heading">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Official app identity</p>
+          <h2 id="about-mane-heading">Mane (মানে) by Sumonon.</h2>
+          <p>Mane is an offline English-to-Bangla and Bangla-to-English dictionary and vocabulary-learning app for Android. Official package: <code>com.mane.app</code>.</p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Study Scan</h3>
+            <p>Scan textbook words, review meanings, and save useful vocabulary for later practice.</p>
+          </article>
+          <article>
+            <h3>Offline-friendly lookup</h3>
+            <p>Search and review words without depending on a constant internet connection.</p>
+          </article>
+          <article>
+            <h3>Similar names note</h3>
+            <p>Mane is not related to the English word “mane”, MANE Group, or unrelated products using similar names.</p>
+          </article>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer home-footer">
     <div class="container footer-inner">
       <div>
         <strong>Mane</strong>
-        <p>English–Bangla dictionary, translator, and vocabulary practice.</p>
+        <p>Offline English-to-Bangla and Bangla-to-English dictionary and vocabulary app for Android.</p>
       </div>
       <nav aria-label="Legal navigation" class="footer-legal-links">
         <a href="privacy-policy.html"><span aria-hidden="true"><svg viewBox="0 0 256 256" fill="currentColor"><path d="M208,80h-24V64a56,56,0,0,0-112,0V80H48a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80ZM88,64a40,40,0,0,1,80,0V80H88Zm120,144H48V96H208V208Zm-76-56V136a8,8,0,0,0-16,0v16a8,8,0,0,0,16,0Z"></path></svg></span>Privacy Policy</a>

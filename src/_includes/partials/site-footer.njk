@@ -1,0 +1,16 @@
+<footer class="site-footer home-footer{% if bodyClass == 'legal-page' %} legal-home-footer{% endif %}">
+  <div class="container footer-inner">
+    <div>
+      <strong class="footer-brand-title">
+        <img src="{{ site.icon | url }}" alt="" aria-hidden="true">
+        <span>{{ site.name }}</span>
+      </strong>
+      {% if site.footerDescription %}<p>{{ site.footerDescription }}</p>{% endif %}
+    </div>
+    <nav aria-label="Legal navigation" class="footer-legal-links">
+      <a href="{{ '/privacy-policy/' | url }}"><span aria-hidden="true"><svg viewBox="0 0 256 256" fill="currentColor"><path d="M208,80h-24V64a56,56,0,0,0-112,0V80H48a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80ZM88,64a40,40,0,0,1,80,0V80H88Zm120,144H48V96H208V208Zm-76-56V136a8,8,0,0,0-16,0v16a8,8,0,0,0,16,0Z"></path></svg></span>Privacy Policy</a>
+      <a href="{{ '/terms-of-service/' | url }}"><span aria-hidden="true"><svg viewBox="0 0 256 256" fill="currentColor"><path d="M210.78,39.25l-130.25-23A16,16,0,0,0,62,29.23l-29.75,169a16,16,0,0,0,13,18.53l130.25,23h0a16,16,0,0,0,18.54-13l29.75-169A16,16,0,0,0,210.78,39.25ZM178.26,224h0L48,201,77.75,32,208,55ZM89.34,58.42a8,8,0,0,1,9.27-6.48l83,14.65a8,8,0,0,1-1.39,15.88,8.36,8.36,0,0,1-1.4-.12l-83-14.66A8,8,0,0,1,89.34,58.42ZM83.8,89.94a8,8,0,0,1,9.27-6.49l83,14.66A8,8,0,0,1,174.67,114a7.55,7.55,0,0,1-1.41-.13l-83-14.65A8,8,0,0,1,83.8,89.94Zm-5.55,31.51A8,8,0,0,1,87.52,115L129,122.29a8,8,0,0,1-1.38,15.88,8.27,8.27,0,0,1-1.4-.12l-41.5-7.33A8,8,0,0,1,78.25,121.45Z"></path></svg></span>Terms of Service</a>
+      <a href="{{ '/account-deletion/' | url }}"><span aria-hidden="true"><svg viewBox="0 0 256 256" fill="currentColor"><path d="M128,128a48,48,0,1,0-48-48A48.05,48.05,0,0,0,128,128Zm0-80a32,32,0,1,1-32,32A32,32,0,0,1,128,48Zm0,96c-52.93,0-96,30.5-96,68a8,8,0,0,0,16,0c0-28.67,35.89-52,80-52s80,23.33,80,52a8,8,0,0,0,16,0C224,174.5,180.93,144,128,144Z"></path></svg></span>Account Deletion</a>
+    </nav>
+  </div>
+</footer>
