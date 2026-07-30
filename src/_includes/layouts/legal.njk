@@ -1,0 +1,60 @@
+---
+layout: layouts/base.njk
+bodyClass: legal-page editorial-page
+scripts:
+  - /scripts/blog.js
+---
+<div class="blog-shell editorial-page">
+  <div class="reading-progress" aria-hidden="true">
+    <div class="reading-progress__bar" data-reading-progress></div>
+  </div>
+  <div class="page">
+    {% include 'partials/legal-header.njk' %}
+
+    {% set sideItems = sideItems or atGlanceItems %}
+
+    <main>
+      <header class="blog-hero editorial-hero">
+        <p class="blog-kicker">{{ eyebrow or site.eyebrow }}</p>
+        <h1 class="blog-title">{{ pageHeading or title }}</h1>
+        {% if pageIntro or description %}<p class="blog-dek">{{ pageIntro or description }}</p>{% endif %}
+        {% if lastUpdated %}
+          <div class="blog-meta">
+            <span>Last updated: {{ lastUpdated }}</span>
+          </div>
+        {% endif %}
+      </header>
+
+      <div class="blog-article-layout editorial-layout">
+        <aside class="blog-toc editorial-sidebar" aria-label="Page details">
+          {% if sideTitle or sideItems %}
+            <div class="editorial-sidecard">
+              <div class="blog-toc-label">{{ sideTitle or 'At a glance' }}</div>
+              <ul class="editorial-side-list">
+                {% for item in sideItems or [] %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+
+          <div class="blog-toc-label">On this page</div>
+          <nav class="blog-toc-links" data-blog-toc></nav>
+        </aside>
+
+        <article class="blog-article">
+          {{ content | safe }}
+          {% set pageAuthor = author or site.publisher %}
+          {% if pageAuthor %}
+            <footer class="blog-article-footer" aria-label="Author information">
+              <span class="blog-article-footer__label">Written by</span>
+              <strong>{{ pageAuthor }}</strong>
+            </footer>
+          {% endif %}
+        </article>
+      </div>
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>

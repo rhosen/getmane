@@ -1,0 +1,82 @@
+---
+layout: layouts/base.njk
+bodyClass: legal-page blog-post-page
+ogType: article
+scripts:
+  - /scripts/blog.js
+---
+<div class="blog-shell blog-post-page">
+  <div class="reading-progress" aria-hidden="true">
+    <div class="reading-progress__bar" data-reading-progress></div>
+  </div>
+  <div class="page">
+    {% set ctaContent = ctaContent or 'article' %}
+    {% include 'partials/legal-header.njk' %}
+
+    <main>
+      <header class="blog-hero{% if showTitle == false %} blog-hero--minimal{% endif %}">
+        {% if showKicker != false %}<p class="blog-kicker">{{ postKicker or 'Mane Blog' }}</p>{% endif %}
+        {% if showTitle != false %}
+          <h1 class="blog-title{% if titleClass %} {{ titleClass }}{% endif %}">{{ title }}</h1>
+        {% endif %}
+        {% if description and showDescription != false %}<p class="blog-dek">{{ description }}</p>{% endif %}
+        {% if showMeta != false %}
+          <div class="blog-meta">
+            {% if lastUpdated %}<span>Last updated: {{ lastUpdated }}</span>{% endif %}
+            {% if lastReviewed %}<span>Last reviewed: {{ lastReviewed }}</span>{% endif %}
+            {% if appVersionTested %}<span>App version tested: {{ appVersionTested }}</span>{% endif %}
+            {% if androidVersionTested %}<span>Android version tested: {{ androidVersionTested }}</span>{% endif %}
+          </div>
+        {% endif %}
+      </header>
+
+      {% if showHeroVisual != false %}
+        <section class="blog-hero-visual" aria-label="{{ heroVisualLabel or title }}">
+          <div class="blog-hero-stat">
+            <span>{{ heroStatLabel or 'Reading time' }}</span>
+            <strong>{{ heroStatValue or '02' }}</strong>
+            <em>{{ heroStatNote or 'A short guide from Mane.' }}</em>
+          </div>
+        </section>
+      {% endif %}
+
+      <div class="blog-article-layout">
+        <aside class="blog-toc" aria-label="Table of contents">
+          {% set tocLabel = tocLabel or (showTitle == false and 'On this page' or 'In this article') %}
+          <div class="blog-toc-label">{{ tocLabel }}</div>
+          <nav class="blog-toc-links" data-blog-toc></nav>
+        </aside>
+
+        <article class="blog-article">
+          {{ content | safe }}
+          {% if showAuthor != false %}
+            <footer class="blog-article-footer" aria-label="Author information">
+              <span class="blog-article-footer__label">Written by</span>
+              <strong>{{ author or site.publisher }}</strong>
+            </footer>
+          {% endif %}
+        </article>
+      </div>
+
+      {% if showRelated != false %}
+        <section class="blog-related" aria-label="Continue reading">
+          <h2>Continue reading</h2>
+          <div class="blog-related-grid">
+            {% set shown = 0 %}
+            {% for post in collections.posts | reverse %}
+              {% if post.inputPath != page.inputPath and shown < 3 %}
+                <a class="blog-related-card" href="{{ post.url | url }}">
+                  <span>Article{% if post.data.lastReviewed %} · {{ post.data.lastReviewed }}{% endif %}</span>
+                  <h3>{{ post.data.title }}</h3>
+                </a>
+                {% set shown = shown + 1 %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>

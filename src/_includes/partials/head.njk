@@ -1,0 +1,37 @@
+{% set metaTitle = title or site.defaultTitle %}
+{% set metaDescription = description or site.defaultDescription %}
+{% set canonicalUrl = canonical or (page.url | absoluteUrl) %}
+{% set socialImageUrl = (socialImage or site.socialImage) | absoluteUrl %}
+<title>{{ metaTitle }}</title>
+<meta name="description" content="{{ metaDescription }}">
+{% if robots %}<meta name="robots" content="{{ robots }}">{% endif %}
+<link rel="canonical" href="{{ canonicalUrl }}">
+<meta property="og:title" content="{{ ogTitle or metaTitle }}">
+<meta property="og:description" content="{{ ogDescription or metaDescription }}">
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:url" content="{{ canonicalUrl }}">
+<meta property="og:image" content="{{ socialImageUrl }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ twitterTitle or ogTitle or metaTitle }}">
+<meta name="twitter:description" content="{{ twitterDescription or ogDescription or metaDescription }}">
+<meta name="twitter:image" content="{{ socialImageUrl }}">
+<link rel="icon" type="image/webp" href="{{ site.icon | url }}">
+<link rel="apple-touch-icon" href="{{ site.icon | url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/styles.css' | url }}">
+<link rel="stylesheet" href="{{ '/styles/blog.css' | url }}">
+<link rel="stylesheet" href="{{ '/styles/feature-showcase.css' | url }}">
+<link rel="stylesheet" href="{{ '/styles/reviews-showcase.css' | url }}">
+<link rel="stylesheet" href="{{ '/styles/trust-badges.css' | url }}">
+<link rel="stylesheet" href="{{ '/styles/faq.css' | url }}">
+{% for style in styles or [] %}
+<link rel="stylesheet" href="{{ style | url }}">
+{% endfor %}
+{% if schemaKey == 'homepage' %}
+  {% include 'partials/app-schema.njk' %}
+{% endif %}
+{% if faqItems and faqItems.length %}
+  {% include 'partials/faq-schema.njk' %}
+{% endif %}

@@ -1,0 +1,35 @@
+{
+  "lang": "en-BD",
+  "siteOrigin": "https://rhosen.github.io/getmane/",
+  "pathPrefix": "/getmane/",
+  "name": "Mane",
+  "fullName": "Mane Bangla Dictionary",
+  "productName": "Mane (মানে)",
+  "publisher": "Sumonon",
+  "packageId": "com.mane.app",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mane.app",
+  "supportEmail": "smonrun@gmail.com",
+  "icon": "/assets/mane-icon.webp",
+  "socialImage": "/social-preview.svg",
+  "defaultTitle": "Mane Bangla Dictionary – English to Bangla App",
+  "defaultDescription": "Mane is a modern offline English-to-Bangla and Bangla-to-English dictionary for Android with Banglish search, Study Scan, examples, and vocabulary practice.",
+  "footerDescription": "",
+  "eyebrow": "Mane",
+  "heroTitle": "Offline Bangla dictionary for Android.",
+  "heroLead": "Search English, বাংলা, or Banglish instantly.",
+  "heroBody": "Meanings, examples, Study Scan, and vocabulary practice in one app.",
+  "schemaDescription": "An offline English-to-Bangla and Bangla-to-English dictionary and vocabulary-learning app for Android with Banglish search and Study Scan.",
+  "featureList": [
+    "English to Bangla dictionary",
+    "Bangla to English dictionary",
+    "Banglish search",
+    "Offline word lookup",
+    "Study Scan OCR",
+    "Saved-word and vocabulary practice"
+  ],
+  "utm": {
+    "source": "mane_website",
+    "medium": "website",
+    "campaign": "organic"
+  }
+}

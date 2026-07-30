@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+title: Mane Blog
+description: Articles and guides from Mane.
+bodyClass: legal-page blog-page
+permalink: blog/index.html
+tags: []
+---
+<div class="blog-shell blog-page">
+  <div class="page">
+    {% set ctaContent = 'blog' %}
+    {% include 'partials/legal-header.njk' %}
+
+    <main>
+      <header class="blog-hero blog-index-hero">
+        
+        <h1 class="blog-title">Guides and updates.</h1>
+        <p class="blog-dek">Original guides, product notes, and feature explainers from Mane.</p>
+        <div class="blog-index-meta-line">Latest writing from the Mane team.</div>
+      </header>
+
+      <section class="blog-index-panel" aria-label="Blog posts">
+        {% if collections.posts | length %}
+          {% for post in collections.posts | reverse %}
+            {% if post.inputPath != page.inputPath %}
+              <article class="blog-index-card">
+                <div class="blog-index-meta">
+                  {% if post.data.lastReviewed %}<div>{{ post.data.lastReviewed }}</div>{% endif %}
+                </div>
+                <div class="blog-index-body">
+                  <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+                  {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+                </div>
+              </article>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          <article class="blog-empty-card">
+            <strong>Coming soon.</strong>
+            <p>Publish Markdown posts in <code>src/blog/</code> using front matter for title, description, and review metadata.</p>
+          </article>
+        {% endif %}
+      </section>
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>

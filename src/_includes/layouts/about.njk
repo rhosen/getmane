@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+bodyClass: legal-page about-page
+styles:
+  - /styles/about-legal.css
+scripts:
+  - /scripts/about.js
+---
+<div class="blog-shell about-page">
+  <div class="page">
+    {% set ctaContent = ctaContent or 'about' %}
+    {% include 'partials/legal-header.njk' %}
+
+    <main>
+      <div class="blog-article-layout about-layout">
+        <aside class="blog-toc" aria-label="Table of contents">
+          <div class="blog-toc-label">On this page</div>
+          <nav class="blog-toc-links" data-about-toc></nav>
+        </aside>
+
+        <article class="blog-article page-article">
+          <h1 class="page-article-title">{{ pageHeading or title }}</h1>
+          {{ content | safe }}
+        </article>
+      </div>
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>

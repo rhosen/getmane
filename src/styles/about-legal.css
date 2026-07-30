@@ -1,0 +1,64 @@
+.about-page .page-article-title {
+  margin: 0 0 1.05rem;
+  color: var(--heading-color);
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.8vw, 2.1rem);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+  font-weight: 620;
+  text-wrap: balance;
+}
+
+.about-page .page-article-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 0.85rem;
+  background: rgba(17, 17, 15, 0.18);
+}
+
+.about-page .blog-article > section + section {
+  margin-top: 1.8rem;
+  padding-top: 1rem;
+}
+
+.about-page .blog-article h2 {
+  margin: 1.35em 0 0.4em;
+  font-size: clamp(1.15rem, 1.8vw, 1.55rem);
+  line-height: 1.22;
+  letter-spacing: -0.025em;
+  font-weight: 640;
+}
+
+.about-page .blog-article h3 {
+  margin: 1.25em 0 0.35em;
+  font-size: 1.02rem;
+  line-height: 1.28;
+  letter-spacing: -0.01em;
+  font-weight: 620;
+}
+
+.about-page .blog-article p {
+  margin-bottom: 1.1em;
+}
+
+@media (max-width: 640px) {
+  .about-page .page-article-title {
+    margin-bottom: 0.85rem;
+    font-size: clamp(1.35rem, 5vw, 1.8rem);
+  }
+
+  .about-page .page-article-title::after {
+    margin-top: 0.7rem;
+  }
+
+  .about-page .blog-article > section + section {
+    margin-top: 1.5rem;
+    padding-top: 0.85rem;
+  }
+
+  .about-page .blog-article h2 {
+    font-size: 1.1rem;
+  }
+}

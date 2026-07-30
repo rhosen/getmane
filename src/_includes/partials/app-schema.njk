@@ -1,0 +1,47 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "{{ site.siteOrigin }}#organization",
+        "name": "{{ site.publisher }}",
+        "url": "{{ site.siteOrigin }}",
+        "email": "mailto:{{ site.supportEmail }}"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.siteOrigin }}#website",
+        "url": "{{ site.siteOrigin }}",
+        "name": "{{ site.name }}",
+        "description": "Official website for {{ site.name }}, an offline English-to-Bangla and Bangla-to-English dictionary app for Android."
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "{{ site.siteOrigin }}#app",
+        "name": "{{ site.name }}",
+        "alternateName": [
+          "{{ site.fullName }}",
+          "{{ site.productName }}"
+        ],
+        "description": "{{ site.schemaDescription }}",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Android",
+        "installUrl": "{{ site.playStoreUrl }}",
+        "url": "{{ site.siteOrigin }}",
+        "identifier": "{{ site.packageId }}",
+        "publisher": {
+          "@id": "{{ site.siteOrigin }}#organization"
+        },
+        "featureList": [{% for feature in site.featureList %}"{{ feature }}"{% if not loop.last %}, {% endif %}{% endfor %}],
+        "sameAs": [
+          "{{ site.playStoreUrl }}"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0"
+        }
+      }
+    ]
+  }
+</script>
