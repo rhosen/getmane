@@ -3,6 +3,13 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "{{ site.siteOrigin }}#organization",
+        "name": "{{ site.publisher }}",
+        "url": "{{ site.siteOrigin }}",
+        "email": "mailto:{{ site.supportEmail }}"
+      },
+      {
         "@type": "WebSite",
         "@id": "{{ site.siteOrigin }}#website",
         "url": "{{ site.siteOrigin }}",
@@ -23,6 +30,9 @@
         "installUrl": "{{ site.playStoreUrl }}",
         "url": "{{ site.siteOrigin }}",
         "identifier": "{{ site.packageId }}",
+        "publisher": {
+          "@id": "{{ site.siteOrigin }}#organization"
+        },
         "featureList": [{% for feature in site.featureList %}"{{ feature }}"{% if not loop.last %}, {% endif %}{% endfor %}],
         "sameAs": [
           "{{ site.playStoreUrl }}"
