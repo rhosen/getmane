@@ -1,4 +1,5 @@
 [
   { "label": "About", "url": "/about/" },
-  { "label": "Blog", "url": "/blog/" }
+  { "label": "Blog", "url": "/blog/" },
+  { "label": "Resources", "url": "/resources/" }
 ]

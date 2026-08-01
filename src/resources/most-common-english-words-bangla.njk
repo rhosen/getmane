@@ -1,0 +1,215 @@
+---
+layout: layouts/base.njk
+title: 4,000 Most Common English Words with Bangla Meanings | Mane
+description: Browse 4,000 high-frequency English words with Bangla readings, meanings, parts of speech, topic filters, and example sentences.
+ogType: article
+bodyClass: legal-page resources-page
+permalink: resources/most-common-english-words-bangla/index.html
+styles:
+  - /styles/resources.css
+scripts:
+  - /scripts/site-data.bundle.js
+  - /scripts/resources.js
+ctaContent: resources_vocab_nav
+faqItems:
+  - question: Who is this 4,000-word list for?
+    answer: This resource is designed for Bangla-speaking learners who want a broader 4,000-word high-frequency vocabulary reference with examples.
+  - question: What does Bangla reading mean?
+    answer: Bangla reading is an approximate Bangla-script guide to how an English word sounds. It is intended as a practical aid rather than a replacement for listening practice.
+  - question: How is this 4,000-word list organized?
+    answer: The list follows source sequence and broad learning topics so it stays useful for browsing and quick lookup.
+---
+{% set resource = resources.mostCommonVocabulary %}
+<div class="blog-shell resources-page">
+  <div class="page">
+    {% include 'partials/legal-header.njk' %}
+
+    <main data-resource-page data-resource-name="most-common-english-words-bangla" data-resource-loader="__loadManeMostCommonWords">
+      <article class="resource-shell">
+        <header class="resource-hero">
+          <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="{{ '/' | url }}">Home</a>
+            <span class="breadcrumbs__divider" aria-hidden="true">/</span>
+            <a href="{{ resource.hubPath | url }}">Resources</a>
+            <span class="breadcrumbs__divider" aria-hidden="true">/</span>
+            <span aria-current="page">{{ resource.shortTitle }}</span>
+          </nav>
+          <h1 class="resource-title">{{ resource.title }}<span class="resource-title__accent">.</span></h1>
+          <p class="resource-lead">Browse 4,000 high-frequency English words. Search by English word, Bangla reading, meaning, example, or topic.</p>
+          <p class="resource-meta-line">{{ resource.wordCountLabel }} words • {{ resource.topicCountLabel }} topics</p>
+        </header>
+
+        <section class="resource-toolbar" aria-label="Vocabulary search">
+          <div class="resource-toolbar__row resource-toolbar__row--search-only">
+            <label class="resource-search-wrap">
+              <span class="sr-only">Search the word list</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.7-3.7"></path></svg>
+              <input class="resource-search-input" id="word-search" type="search" autocomplete="off" placeholder="Search English, বাংলা উচ্চারণ, meaning, or example…">
+            </label>
+            <button class="resource-reset-button" id="reset-filters" type="button">Reset</button>
+          </div>
+        </section>
+
+        <section class="resource-footer-cta" aria-label="Download Mane app">
+          <img src="{{ site.icon | url }}" alt="" aria-hidden="true">
+          <div>
+            <h2>Practice words inside Mane.</h2>
+            <p>Use Mane for offline lookup, Banglish search, saved words, and vocabulary review after you finish this list.</p>
+          </div>
+          <a class="resource-footer-cta__button" href="{{ resource.ctaFooterContent | playUrl }}" target="_blank" rel="noopener" data-resource-play-store="footer">Get Mane on Google Play</a>
+        </section>
+
+        <section class="resource-search-results" id="resource-search-results" hidden aria-labelledby="resource-search-results-title">
+          <div class="resource-search-results__header">
+            <p class="resource-kicker">Search results</p>
+            <h2 id="resource-search-results-title">Matching words.</h2>
+            <p class="resource-search-results__count" id="resource-search-results-count" aria-live="polite"></p>
+          </div>
+          <div class="resource-search-results__grid" id="resource-search-results-grid"></div>
+        </section>
+
+        <section class="resource-content resource-content--split" id="resource-browse-section">
+          <aside class="resource-sidebar" aria-label="Vocabulary topics">
+            <div class="resource-sidebar__inner">
+              <div class="resource-sidebar__block">
+                <p class="resource-sidebar__label">Browse topics</p>
+                <nav class="resource-topic-list" aria-label="Filter by topic">
+                  <a class="resource-topic-link is-active" href="#resource-topics" data-topic-filter="all" data-topic-label="all topics" aria-current="true">
+                    <span>All topics</span>
+                    <strong>{{ resource.wordCountLabel }}</strong>
+                  </a>
+                  {% for topic in resource.topics %}
+                    <a class="resource-topic-link" href="#{{ topic.id }}" data-topic-filter="{{ topic.slug }}" data-topic-label="{{ topic.title }}" aria-current="false">
+                      <span>{{ topic.title }}</span>
+                      <strong>{{ topic.countLabel }}</strong>
+                    </a>
+                  {% endfor %}
+                </nav>
+              </div>
+            </div>
+          </aside>
+
+          <div class="resource-main">
+            <div class="resource-topic-grid" id="resource-topics">
+            {% for topic in resource.topics %}
+              <details class="resource-topic-card" id="{{ topic.id }}" data-topic="{{ topic.slug }}" {% if loop.index0 < 2 %}open{% endif %}>
+                <summary>
+                  <span class="resource-topic-number">{{ topic.number }}</span>
+                  <span class="resource-topic-heading">
+                    <strong><a href="#{{ topic.id }}">{{ topic.title }}</a></strong>
+                    {% if topic.titleBn %}<small lang="bn">{{ topic.titleBn }}</small>{% endif %}
+                  </span>
+                  <span class="resource-topic-count"><span class="resource-topic-visible-count">{{ topic.countLabel }}</span> / {{ topic.countLabel }}</span>
+                  <span class="resource-summary-chevron" aria-hidden="true"></span>
+                </summary>
+                <div class="resource-word-table" role="table" aria-label="{{ topic.title }} vocabulary">
+                  <div class="resource-word-head" role="row">
+                    <div role="columnheader" aria-label="Serial number" title="Serial number">#</div>
+                    <div role="columnheader">English</div>
+                    <div role="columnheader">বাংলা উচ্চারণ</div>
+                    <div role="columnheader">POS</div>
+                    <div role="columnheader">বাংলা অর্থ</div>
+                  </div>
+                  {% for word in topic.words %}
+                    <article class="resource-word-row" id="{{ word.id }}" role="row" data-level="{{ word.level }}">
+                      <div class="resource-word-cell resource-word-cell--sequence" role="cell">{{ word.sequence }}</div>
+                      <div class="resource-word-cell resource-word-cell--english" role="cell"><a href="#{{ word.id }}">{{ word.word }}</a></div>
+                      <div class="resource-word-cell resource-word-cell--reading" role="cell" lang="bn">{{ word.pronunciation_bn }}</div>
+                      <div class="resource-word-cell resource-word-cell--pos" role="cell" title="{{ word.part_of_speech }}">{{ word.posShort }}</div>
+                      <div class="resource-word-cell resource-word-cell--meaning" role="cell" lang="bn">{{ word.bangla_meaning }}</div>
+                    </article>
+                  {% endfor %}
+                </div>
+              </details>
+            {% endfor %}
+            </div>
+
+            <div class="resource-empty-state" id="resource-empty-state" hidden>
+              <strong>No words matched.</strong>
+              <span>Try another keyword, topic, or example phrase.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="resource-faq" aria-labelledby="resource-faq-title">
+          <p class="resource-kicker">Helpful notes</p>
+          <h2 id="resource-faq-title">Before you study.</h2>
+          <div class="resource-faq-grid">
+            {% for item in faqItems %}
+              <article class="resource-faq-card">
+                <h3>{{ item.question }}</h3>
+                <p>{{ item.answer }}</p>
+              </article>
+            {% endfor %}
+          </div>
+        </section>
+      </article>
+
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": {{ ('/' | url) | absoluteUrl | dump | safe }}
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Resources",
+                  "item": {{ (resource.hubPath | url) | absoluteUrl | dump | safe }}
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": {{ resource.title | dump | safe }},
+                  "item": {{ page.url | absoluteUrl | dump | safe }}
+                }
+              ]
+            },
+            {
+              "@type": "LearningResource",
+              "name": {{ resource.title | dump | safe }},
+              "description": {{ description | dump | safe }},
+              "url": {{ page.url | absoluteUrl | dump | safe }},
+              "isPartOf": {{ (resource.hubPath | url) | absoluteUrl | dump | safe }},
+              "inLanguage": ["en", "bn"],
+              "learningResourceType": "Vocabulary list",
+              "educationalLevel": ["Beginner", "Elementary", "Intermediate"],
+              "numberOfItems": {{ resource.wordCount }},
+              "isAccessibleForFree": true,
+              "provider": {
+                "@type": "Organization",
+                "name": {{ site.name | dump | safe }},
+                "url": {{ site.siteOrigin | dump | safe }}
+              }
+            },
+            {
+              "@type": "ItemList",
+              "name": "Vocabulary topics",
+              "numberOfItems": {{ resource.topicCount }},
+              "itemListElement": [
+                {% for topic in resource.topics %}
+                {
+                  "@type": "ListItem",
+                  "position": {{ loop.index }},
+                  "name": {{ topic.title | dump | safe }},
+                  "url": {{ ((page.url | absoluteUrl) ~ '#' ~ topic.id) | dump | safe }},
+                  "numberOfItems": {{ topic.count }}
+                }{% if not loop.last %},{% endif %}
+                {% endfor %}
+              ]
+            }
+          ]
+        }
+      </script>
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>

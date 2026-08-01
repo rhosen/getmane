@@ -118,7 +118,7 @@
   width: 18px;
   height: 2px;
   border-radius: 999px;
-  background: #2b2d31;
+  background: var(--primary);
   transform: translate(-50%, -50%);
   transition: transform 180ms ease, opacity 180ms ease;
 }
@@ -161,7 +161,7 @@
   width: 80px;
   height: 3px;
   margin-top: 20px;
-  background: linear-gradient(90deg, #000 0%, #666 100%);
+  background: linear-gradient(90deg, var(--primary) 0%, rgba(24, 95, 165, 0.4) 100%);
 }
 
 .home-faq-showcase .faq-filter-bar {
@@ -201,8 +201,8 @@
 }
 
 .home-faq-showcase .faq-filter-pill.is-active {
-  background: #000;
-  border-color: #000;
+  background: var(--primary);
+  border-color: var(--primary);
   color: #fff;
   box-shadow: none;
 }
@@ -257,7 +257,7 @@
 .home-faq-showcase .faq-item-plus::after {
   width: 12px;
   height: 2px;
-  background: #000;
+  background: var(--primary);
 }
 
 .home-faq-showcase .faq-item-plus::after {
@@ -267,7 +267,7 @@
 }
 
 .home-faq-showcase .faq-item[open] .faq-item-plus {
-  background: #000;
+  background: var(--primary);
   transform: rotate(180deg);
 }
 

@@ -1,0 +1,99 @@
+---
+layout: layouts/base.njk
+title: Free English Learning Resources | Mane
+description: Browse free English learning resources from Mane, including practical vocabulary lists with Bangla readings and meanings.
+bodyClass: legal-page resources-hub-page
+permalink: resources/index.html
+styles:
+  - /styles/resources.css
+ctaContent: resources_hub_nav
+---
+<div class="blog-shell resources-hub-page">
+  <div class="page">
+    {% include 'partials/legal-header.njk' %}
+
+    <main>
+      <section class="resources-hub-section">
+        <p class="resources-hub-kicker">Free English learning resources</p>
+        <h1 class="resources-hub-title">Useful learning resources from Mane.</h1>
+        <p class="resources-hub-lead">Browse live resources published on the Mane website. Each one is designed to stay readable on mobile and useful for Bangla-speaking learners.</p>
+
+        <article class="resources-hub-featured">
+          <div>
+            <span class="resources-hub-card__meta">{{ resources.hub.featured.badge }}</span>
+            <h2><a href="{{ resources.hub.featured.url | url }}">{{ resources.hub.featured.title }}</a></h2>
+            <p>{{ resources.hub.featured.description }}</p>
+            <div class="resources-hub-featured__meta">{{ resources.hub.featured.meta }}</div>
+          </div>
+          <div>
+            <a class="resources-hub-card__link" href="{{ resources.hub.featured.url | url }}">Explore resource</a>
+          </div>
+        </article>
+
+        {% if resources.hub.items.length %}
+          <div class="resources-hub-grid">
+            {% for item in resources.hub.items %}
+              <article class="resources-hub-card">
+                <div>
+                  <span class="resources-hub-card__meta">{{ item.badge }}</span>
+                  <h2><a href="{{ item.url | url }}">{{ item.title }}</a></h2>
+                  <p>{{ item.description }}</p>
+                  <div class="resources-hub-featured__meta">{{ item.meta }}</div>
+                </div>
+                <div>
+                  <a class="resources-hub-card__link" href="{{ item.url | url }}">Explore resource</a>
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </section>
+
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": {{ ('/' | url) | absoluteUrl | dump | safe }}
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Resources",
+                  "item": {{ page.url | absoluteUrl | dump | safe }}
+                }
+              ]
+            },
+            {
+              "@type": "ItemList",
+              "name": "Mane resources",
+              "numberOfItems": {{ 1 + resources.hub.items.length }},
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": {{ resources.hub.featured.title | dump | safe }},
+                  "url": {{ (resources.hub.featured.url | url) | absoluteUrl | dump | safe }}
+                }{% for item in resources.hub.items %},
+                {
+                  "@type": "ListItem",
+                  "position": {{ loop.index + 1 }},
+                  "name": {{ item.title | dump | safe }},
+                  "url": {{ (item.url | url) | absoluteUrl | dump | safe }}
+                }{% endfor %}
+              ]
+            }
+          ]
+        }
+      </script>
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>
