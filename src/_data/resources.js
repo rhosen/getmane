@@ -121,6 +121,88 @@ function createVocabularyResource({
   };
 }
 
+function createSentenceResource({
+  sourceRelativePath,
+  title,
+  shortTitle,
+  description,
+  pathName,
+  ctaFooterContent
+}) {
+  const sourcePath = path.resolve(__dirname, sourceRelativePath);
+  const source = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+  const topicMap = new Map();
+
+  const sentences = source.sentences.map((entry) => {
+    const categoryTitle = String(entry.category || '').trim();
+    const normalizedEntry = {
+      ...entry,
+      sequence: entry.id,
+      category: categoryTitle,
+      topicSlug: slugify(categoryTitle)
+    };
+
+    if (!topicMap.has(normalizedEntry.topicSlug)) {
+      topicMap.set(normalizedEntry.topicSlug, {
+        slug: normalizedEntry.topicSlug,
+        title: normalizedEntry.category,
+        titleBn: '',
+        sentences: []
+      });
+    }
+
+    const sentence = {
+      ...normalizedEntry,
+      id: `sentence-${normalizedEntry.sequence}`
+    };
+
+    topicMap.get(normalizedEntry.topicSlug).sentences.push(sentence);
+    return sentence;
+  });
+
+  const topicSource = Array.isArray(source.categories) && source.categories.length
+    ? source.categories
+    : [...topicMap.values()].map((topic) => ({
+      name: topic.title,
+      count: topic.sentences.length
+    }));
+
+  const topics = topicSource.map((topic, index) => {
+    const topicSlug = slugify(topic.name);
+    const topicEntry = topicMap.get(topicSlug);
+    const sentenceCount = topicEntry ? topicEntry.sentences.length : 0;
+
+    return {
+      slug: topicSlug,
+      title: topic.name,
+      titleBn: '',
+      sentences: topicEntry ? topicEntry.sentences : [],
+      number: String(index + 1).padStart(2, '0'),
+      id: `topic-${topicSlug}`,
+      count: sentenceCount,
+      countLabel: formatNumber(sentenceCount)
+    };
+  });
+
+  const sentenceCount = sentences.length;
+
+  return {
+    title,
+    shortTitle,
+    description,
+    path: pathName,
+    hubPath: '/resources/',
+    wordCount: sentenceCount,
+    wordCountLabel: formatNumber(sentenceCount),
+    topicCount: topics.length,
+    topicCountLabel: formatNumber(topics.length),
+    levelsLabel: '',
+    topics,
+    sentences,
+    ctaFooterContent
+  };
+}
+
 const vocabulary = createVocabularyResource({
   bundleRelativePath: '../scripts/mane-resource.bundle.js',
   loaderName: '__loadMane1000Words',
@@ -141,6 +223,15 @@ const mostCommonVocabulary = createVocabularyResource({
   ctaFooterContent: 'resource_most_common_words_footer'
 });
 
+const dailyUseSentences = createSentenceResource({
+  sourceRelativePath: '../_data/500-daily-use-english-sentences-with-bangla-meaning.json',
+  title: '500 Daily-Use English Sentences with Bangla Meaning',
+  shortTitle: '500 daily-use English sentences',
+  description: 'A practical collection of 500 everyday English sentences with natural Bangla translations, organized into 20 useful categories.',
+  pathName: '/resources/500-daily-use-english-sentences-bangla/',
+  ctaFooterContent: 'resource_daily_sentences_footer'
+});
+
 module.exports = {
   hub: {
     title: 'Free English learning resources',
@@ -159,9 +250,17 @@ module.exports = {
         url: mostCommonVocabulary.path,
         badge: 'New',
         meta: `${formatNumber(mostCommonVocabulary.wordCount)} words • ${formatNumber(mostCommonVocabulary.topicCount)} topics`
+      },
+      {
+        title: dailyUseSentences.title,
+        description: 'Practice 500 daily-use English sentences with Bangla translations across 20 practical categories.',
+        url: dailyUseSentences.path,
+        badge: 'New',
+        meta: `${formatNumber(dailyUseSentences.wordCount)} sentences • ${formatNumber(dailyUseSentences.topicCount)} topics`
       }
     ]
   },
   vocabulary,
-  mostCommonVocabulary
+  mostCommonVocabulary,
+  dailyUseSentences
 };
