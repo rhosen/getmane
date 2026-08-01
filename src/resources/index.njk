@@ -14,28 +14,21 @@ ctaContent: resources_hub_nav
 
     <main>
       <section class="resources-hub-section">
-        <nav class="breadcrumbs" aria-label="Breadcrumb">
-          <a href="{{ '/' | url }}">Home</a>
-          <span class="breadcrumbs__divider" aria-hidden="true">/</span>
-          <span aria-current="page">Resources</span>
-        </nav>
-
         <p class="resources-hub-kicker">Free English learning resources</p>
-        <h1 class="resources-hub-title">Useful word lists and study guides.</h1>
-        <p class="resources-hub-lead">Browse practical vocabulary resources from Mane. Each resource is designed to stay readable on mobile, searchable in Bangla or English, and helpful before you open the app.</p>
+        <h1 class="resources-hub-title">Useful learning resources from Mane.</h1>
+        <p class="resources-hub-lead">Browse live resources published on the Mane website. Each one is designed to stay readable on mobile and useful for Bangla-speaking learners.</p>
 
-        <div class="resources-hub-grid" aria-label="Available resources">
-          {% for item in resources.hub.items %}
-            <article class="resources-hub-card">
-              <span class="resources-hub-card__meta">{{ item.badge }}</span>
-              <h2><a href="{{ item.url | url }}">{{ item.title }}</a></h2>
-              <p>{{ item.description }}</p>
-              <a class="resources-hub-card__link" href="{{ item.url | url }}">Explore resource</a>
-            </article>
-          {% endfor %}
-        </div>
-
-        <p class="resources-hub-coming-soon">More resources coming soon.</p>
+        <article class="resources-hub-featured">
+          <div>
+            <span class="resources-hub-card__meta">{{ resources.hub.featured.badge }}</span>
+            <h2><a href="{{ resources.hub.featured.url | url }}">{{ resources.hub.featured.title }}</a></h2>
+            <p>{{ resources.hub.featured.description }}</p>
+            <div class="resources-hub-featured__meta">{{ resources.hub.featured.meta }}</div>
+          </div>
+          <div>
+            <a class="resources-hub-card__link" href="{{ resources.hub.featured.url | url }}">Explore resource</a>
+          </div>
+        </article>
       </section>
 
       <script type="application/ld+json">
@@ -62,16 +55,14 @@ ctaContent: resources_hub_nav
             {
               "@type": "ItemList",
               "name": "Mane resources",
-              "numberOfItems": {{ resources.hub.items | length }},
+              "numberOfItems": 1,
               "itemListElement": [
-                {% for item in resources.hub.items %}
                 {
                   "@type": "ListItem",
-                  "position": {{ loop.index }},
-                  "name": {{ item.title | dump | safe }},
-                  "url": {{ (item.url | url) | absoluteUrl | dump | safe }}
-                }{% if not loop.last %},{% endif %}
-                {% endfor %}
+                  "position": 1,
+                  "name": {{ resources.hub.featured.title | dump | safe }},
+                  "url": {{ (resources.hub.featured.url | url) | absoluteUrl | dump | safe }}
+                }
               ]
             }
           ]

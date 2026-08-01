@@ -8,6 +8,7 @@ permalink: resources/1000-common-english-words-bangla/index.html
 styles:
   - /styles/resources.css
 scripts:
+  - /scripts/mane-resource.bundle.js
   - /scripts/resources.js
 ctaContent: resources_vocab_nav
 faqItems:
@@ -57,35 +58,7 @@ faqItems:
             <h2 id="resource-search-results-title">Matching words.</h2>
             <p class="resource-search-results__count" id="resource-search-results-count" aria-live="polite"></p>
           </div>
-          <div class="resource-search-results__grid">
-            {% for word in resource.words %}
-              {% set topic = resource.topics | selectattr('slug', 'equalto', word.topicSlug) | first %}
-              <article class="resource-search-card" data-search-card data-search="{{ word.searchText }}">
-                <div class="resource-search-card__top">
-                  <span class="resource-search-card__sequence">#{{ word.sequence }}</span>
-                </div>
-                <h3>{{ word.word }}</h3>
-                <p class="resource-search-card__reading" lang="bn">{{ word.pronunciation_bn }}</p>
-                <p class="resource-search-card__meaning" lang="bn">{{ word.bangla_meaning }}</p>
-                <dl class="resource-search-card__meta">
-                  <div>
-                    <dt>Part of speech</dt>
-                    <dd>{{ word.part_of_speech }}</dd>
-                  </div>
-                  <div>
-                    <dt>Topic</dt>
-                    <dd>{{ topic.title if topic else word.topicSlug }}</dd>
-                  </div>
-                </dl>
-                {% if word.example_en or word.example_bn %}
-                  <div class="resource-search-card__example">
-                    {% if word.example_en %}<p>{{ word.example_en }}</p>{% endif %}
-                    {% if word.example_bn %}<p lang="bn">{{ word.example_bn }}</p>{% endif %}
-                  </div>
-                {% endif %}
-              </article>
-            {% endfor %}
-          </div>
+          <div class="resource-search-results__grid" id="resource-search-results-grid"></div>
         </section>
 
         <section class="resource-content resource-content--split" id="resource-browse-section">

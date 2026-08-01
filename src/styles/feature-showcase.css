@@ -30,7 +30,7 @@
   height: 3px;
   margin: 20px auto 0;
   border-radius: 999px;
-  background: linear-gradient(90deg, #000 0%, #666 100%);
+  background: linear-gradient(90deg, var(--primary) 0%, rgba(24, 95, 165, 0.4) 100%);
 }
 
 .feature-card-grid {
@@ -77,24 +77,24 @@
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: rgba(17, 17, 17, 0.06);
-  color: #111;
+  background: linear-gradient(180deg, #1d67b7 0%, var(--primary) 100%);
+  color: #fff;
   flex: 0 0 auto;
 }
 
 .feature-card-icon.is-search {
-  background: rgba(17, 17, 17, 0.06);
-  color: #111;
+  background: linear-gradient(180deg, #1d67b7 0%, var(--primary) 100%);
+  color: #fff;
 }
 
 .feature-card-icon.is-study {
-  background: rgba(17, 17, 17, 0.06);
-  color: #111;
+  background: linear-gradient(180deg, #1d67b7 0%, var(--primary) 100%);
+  color: #fff;
 }
 
 .feature-card-icon.is-practice {
-  background: rgba(17, 17, 17, 0.06);
-  color: #111;
+  background: linear-gradient(180deg, #1d67b7 0%, var(--primary) 100%);
+  color: #fff;
 }
 
 .feature-card-icon svg {

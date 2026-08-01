@@ -13,14 +13,15 @@
   content: "";
   display: block;
   width: 100%;
-  height: 1px;
+  height: 2px;
   margin-top: 0.85rem;
-  background: rgba(17, 17, 15, 0.18);
+  background: linear-gradient(90deg, var(--primary) 0%, rgba(24, 95, 165, 0.18) 100%);
 }
 
 .about-page .blog-article > section + section {
   margin-top: 1.8rem;
   padding-top: 1rem;
+  border-top: 1px solid rgba(24, 95, 165, 0.12);
 }
 
 .about-page .blog-article h2 {
@@ -29,6 +30,7 @@
   line-height: 1.22;
   letter-spacing: -0.025em;
   font-weight: 640;
+  color: var(--primary-dark);
 }
 
 .about-page .blog-article h3 {
@@ -37,6 +39,7 @@
   line-height: 1.28;
   letter-spacing: -0.01em;
   font-weight: 620;
+  color: var(--primary);
 }
 
 .about-page .blog-article p {

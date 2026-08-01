@@ -11,11 +11,12 @@
   const rows = [...document.querySelectorAll('.resource-word-row')];
   const searchResultsSection = document.getElementById('resource-search-results');
   const searchResultsCount = document.getElementById('resource-search-results-count');
-  const searchCards = [...document.querySelectorAll('[data-search-card]')];
+  const searchResultsGrid = document.getElementById('resource-search-results-grid');
   const browseSection = document.getElementById('resource-browse-section');
   const emptyState = document.getElementById('resource-empty-state');
   const playStoreLinks = [...document.querySelectorAll('[data-resource-play-store]')];
   const pdfLink = document.querySelector('[data-resource-pdf]');
+  const searchDataset = typeof window.__loadMane1000Words === 'function' ? window.__loadMane1000Words() : [];
 
   let activeTopic = 'all';
   let lastTrackedSearch = '';
@@ -45,16 +46,46 @@
     });
   }
 
+  function renderSearchResults(query) {
+    if (!searchResultsGrid) return 0;
+
+    const matches = searchDataset.filter((entry) => normalize([
+      entry.word,
+      entry.pronunciation_bn,
+      entry.bangla_meaning,
+      entry.part_of_speech,
+      entry.category
+    ].join(' ')).includes(query));
+
+    searchResultsGrid.innerHTML = matches.map((entry) => `
+      <article class="resource-search-card">
+        <div class="resource-search-card__top">
+          <span class="resource-search-card__sequence">#${entry.sequence}</span>
+        </div>
+        <h3>${entry.word}</h3>
+        <p class="resource-search-card__reading" lang="bn">${entry.pronunciation_bn}</p>
+        <p class="resource-search-card__meaning" lang="bn">${entry.bangla_meaning}</p>
+        <dl class="resource-search-card__meta">
+          <div>
+            <dt>Part of speech</dt>
+            <dd>${entry.part_of_speech}</dd>
+          </div>
+          <div>
+            <dt>Topic</dt>
+            <dd>${entry.category}</dd>
+          </div>
+        </dl>
+      </article>
+    `).join('');
+
+    return matches.length;
+  }
+
   function updateFilters() {
     const query = normalize(searchInput.value);
-    if (query) {
-      let totalVisible = 0;
 
-      searchCards.forEach((card) => {
-        const visible = normalize(card.dataset.search).includes(query);
-        card.hidden = !visible;
-        if (visible) totalVisible += 1;
-      });
+    if (query) {
+      const totalVisible = renderSearchResults(query);
 
       if (searchResultsSection) searchResultsSection.hidden = false;
       if (browseSection) browseSection.hidden = true;
@@ -67,8 +98,6 @@
 
     if (searchResultsSection) searchResultsSection.hidden = true;
     if (browseSection) browseSection.hidden = false;
-
-    let totalVisible = 0;
 
     cards.forEach((card) => {
       const topicMatches = activeTopic === 'all' || card.dataset.topic === activeTopic;
@@ -83,16 +112,7 @@
       const cardVisible = topicMatches && visibleRows > 0;
       card.hidden = !cardVisible;
       card.querySelector('.resource-topic-visible-count').textContent = visibleRows.toLocaleString('en-US');
-
-      if (cardVisible) {
-        totalVisible += visibleRows;
-      }
-
-      if (activeTopic === 'all') {
-        card.open = false;
-      } else {
-        card.open = cardVisible;
-      }
+      card.open = activeTopic !== 'all' && cardVisible;
     });
 
     emptyState.hidden = true;
@@ -104,10 +124,17 @@
       const query = normalize(searchInput.value);
       if (query.length < 2 || query === lastTrackedSearch) return;
       lastTrackedSearch = query;
+      const results = searchDataset.filter((entry) => normalize([
+        entry.word,
+        entry.pronunciation_bn,
+        entry.bangla_meaning,
+        entry.part_of_speech,
+        entry.category
+      ].join(' ')).includes(query)).length;
       trackEvent('resource_search', {
         resource_name: resourceRoot.dataset.resourceName,
         query,
-        results: rows.filter((row) => !row.hidden).length
+        results
       });
     }, 700);
   }
@@ -135,6 +162,7 @@
   resetButton.addEventListener('click', () => {
     searchInput.value = '';
     lastTrackedSearch = '';
+    if (searchResultsGrid) searchResultsGrid.innerHTML = '';
     setActiveTopic(defaultTopic);
     updateFilters();
     searchInput.focus();

@@ -66,8 +66,8 @@
   height: 100%;
   transform-origin: left center;
   transform: scaleX(0);
-  background: #111111;
-  box-shadow: 0 0 0 1px rgba(17, 17, 15, 0.06);
+  background: var(--primary);
+  box-shadow: 0 0 0 1px rgba(24, 95, 165, 0.12);
 }
 
 .blog-page .page,
@@ -101,8 +101,8 @@
 
 .blog-index-hero .blog-title {
   max-width: 720px;
-  font-size: clamp(1.6rem, 3.2vw, 2.55rem);
-  line-height: 1;
+  font-size: clamp(1.5rem, 2.8vw, 2.1rem);
+  line-height: 1.02;
 }
 
 .blog-index-hero .blog-dek {
@@ -112,7 +112,7 @@
 
 .blog-index-meta-line {
   margin-top: 18px;
-  color: var(--section-subtitle-color);
+  color: var(--primary);
   font-family: var(--font-sans);
   font-size: 12px;
   letter-spacing: 0.08em;
@@ -121,7 +121,7 @@
 
 .blog-kicker {
   margin: 0;
-  color: var(--section-subtitle-color);
+  color: var(--primary);
   font-family: var(--font-sans);
   font-size: 12px;
   font-weight: 650;
@@ -133,11 +133,11 @@
   margin: 22px 0 0;
   max-width: 980px;
   font-family: var(--font-display);
-  font-size: clamp(1.9rem, 4.2vw, 3.15rem);
-  line-height: 0.96;
-  letter-spacing: -0.062em;
+  font-size: clamp(1.5rem, 2.8vw, 2.1rem);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
   color: var(--heading-color);
-  font-weight: 520;
+  font-weight: 620;
   text-wrap: balance;
 }
 
@@ -354,7 +354,7 @@
 
 .blog-toc-links a:hover,
 .blog-toc-links a.is-active {
-  color: var(--heading-color);
+  color: var(--primary);
 }
 
 .blog-article {
@@ -371,7 +371,7 @@
 .blog-article > section + section {
   margin-top: 2.5rem;
   padding-top: 1.75rem;
-  border-top: 1px solid rgba(17, 17, 15, 0.08);
+  border-top: 1px solid rgba(24, 95, 165, 0.14);
 }
 
 .blog-article > section > h2:first-child {
@@ -384,6 +384,10 @@
   color: var(--heading-color);
   letter-spacing: -0.04em;
   line-height: 1.08;
+}
+
+.blog-article h2 {
+  color: var(--primary-dark);
 }
 
 .blog-article h2 {
@@ -575,11 +579,11 @@
   }
 
   .blog-index-hero .blog-title {
-    font-size: clamp(1.55rem, 7vw, 2.15rem);
+    font-size: clamp(1.35rem, 5vw, 1.8rem);
   }
 
   .blog-title {
-    font-size: clamp(1.75rem, 9vw, 2.55rem);
+    font-size: clamp(1.35rem, 5vw, 1.8rem);
   }
 
   .blog-dek {

@@ -8,7 +8,6 @@ function toAbsoluteUrl(path = "") {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "styles.css": "styles.css" });
-  eleventyConfig.addPassthroughCopy({ "mane-search.bundle.js": "mane-search.bundle.js" });
   eleventyConfig.addPassthroughCopy({ "social-preview.svg": "social-preview.svg" });
   eleventyConfig.addPassthroughCopy({ "app-ads.txt": "app-ads.txt" });
   eleventyConfig.addPassthroughCopy({ "src/scripts": "scripts" });
