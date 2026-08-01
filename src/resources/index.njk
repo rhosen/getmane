@@ -1,0 +1,84 @@
+---
+layout: layouts/base.njk
+title: Free English Learning Resources | Mane
+description: Browse free English learning resources from Mane, including practical vocabulary lists with Bangla readings and meanings.
+bodyClass: legal-page resources-hub-page
+permalink: resources/index.html
+styles:
+  - /styles/resources.css
+ctaContent: resources_hub_nav
+---
+<div class="blog-shell resources-hub-page">
+  <div class="page">
+    {% include 'partials/legal-header.njk' %}
+
+    <main>
+      <section class="resources-hub-section">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="{{ '/' | url }}">Home</a>
+          <span class="breadcrumbs__divider" aria-hidden="true">/</span>
+          <span aria-current="page">Resources</span>
+        </nav>
+
+        <p class="resources-hub-kicker">Free English learning resources</p>
+        <h1 class="resources-hub-title">Useful word lists and study guides.</h1>
+        <p class="resources-hub-lead">Browse practical vocabulary resources from Mane. Each resource is designed to stay readable on mobile, searchable in Bangla or English, and helpful before you open the app.</p>
+
+        <div class="resources-hub-grid" aria-label="Available resources">
+          {% for item in resources.hub.items %}
+            <article class="resources-hub-card">
+              <span class="resources-hub-card__meta">{{ item.badge }}</span>
+              <h2><a href="{{ item.url | url }}">{{ item.title }}</a></h2>
+              <p>{{ item.description }}</p>
+              <a class="resources-hub-card__link" href="{{ item.url | url }}">Explore resource</a>
+            </article>
+          {% endfor %}
+        </div>
+
+        <p class="resources-hub-coming-soon">More resources coming soon.</p>
+      </section>
+
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": {{ ('/' | url) | absoluteUrl | dump | safe }}
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Resources",
+                  "item": {{ page.url | absoluteUrl | dump | safe }}
+                }
+              ]
+            },
+            {
+              "@type": "ItemList",
+              "name": "Mane resources",
+              "numberOfItems": {{ resources.hub.items | length }},
+              "itemListElement": [
+                {% for item in resources.hub.items %}
+                {
+                  "@type": "ListItem",
+                  "position": {{ loop.index }},
+                  "name": {{ item.title | dump | safe }},
+                  "url": {{ (item.url | url) | absoluteUrl | dump | safe }}
+                }{% if not loop.last %},{% endif %}
+                {% endfor %}
+              ]
+            }
+          ]
+        }
+      </script>
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>
