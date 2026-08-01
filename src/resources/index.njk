@@ -29,6 +29,24 @@ ctaContent: resources_hub_nav
             <a class="resources-hub-card__link" href="{{ resources.hub.featured.url | url }}">Explore resource</a>
           </div>
         </article>
+
+        {% if resources.hub.items.length %}
+          <div class="resources-hub-grid">
+            {% for item in resources.hub.items %}
+              <article class="resources-hub-card">
+                <div>
+                  <span class="resources-hub-card__meta">{{ item.badge }}</span>
+                  <h2><a href="{{ item.url | url }}">{{ item.title }}</a></h2>
+                  <p>{{ item.description }}</p>
+                  <div class="resources-hub-featured__meta">{{ item.meta }}</div>
+                </div>
+                <div>
+                  <a class="resources-hub-card__link" href="{{ item.url | url }}">Explore resource</a>
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        {% endif %}
       </section>
 
       <script type="application/ld+json">
@@ -55,14 +73,20 @@ ctaContent: resources_hub_nav
             {
               "@type": "ItemList",
               "name": "Mane resources",
-              "numberOfItems": 1,
+              "numberOfItems": {{ 1 + resources.hub.items.length }},
               "itemListElement": [
                 {
                   "@type": "ListItem",
                   "position": 1,
                   "name": {{ resources.hub.featured.title | dump | safe }},
                   "url": {{ (resources.hub.featured.url | url) | absoluteUrl | dump | safe }}
-                }
+                }{% for item in resources.hub.items %},
+                {
+                  "@type": "ListItem",
+                  "position": {{ loop.index + 1 }},
+                  "name": {{ item.title | dump | safe }},
+                  "url": {{ (item.url | url) | absoluteUrl | dump | safe }}
+                }{% endfor %}
               ]
             }
           ]

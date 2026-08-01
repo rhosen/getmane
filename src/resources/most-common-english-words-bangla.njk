@@ -1,30 +1,30 @@
 ---
 layout: layouts/base.njk
-title: 1,000 Common English Words with Bangla Meanings | Mane
-description: Learn 1,000 useful English words with Bangla readings, meanings, parts of speech, topic filters, and free vocabulary practice.
+title: 4,000 Most Common English Words with Bangla Meanings | Mane
+description: Browse 4,000 high-frequency English words with Bangla readings, meanings, parts of speech, topic filters, and example sentences.
 ogType: article
 bodyClass: legal-page resources-page
-permalink: resources/1000-common-english-words-bangla/index.html
+permalink: resources/most-common-english-words-bangla/index.html
 styles:
   - /styles/resources.css
 scripts:
-  - /scripts/mane-resource.bundle.js
+  - /scripts/site-data.bundle.js
   - /scripts/resources.js
 ctaContent: resources_vocab_nav
 faqItems:
-  - question: Who is this 1,000-word list for?
-    answer: This resource is designed for Bangla-speaking students and everyday learners who want a compact English vocabulary reference.
+  - question: Who is this 4,000-word list for?
+    answer: This resource is designed for Bangla-speaking learners who want a broader 4,000-word high-frequency vocabulary reference with examples.
   - question: What does Bangla reading mean?
     answer: Bangla reading is an approximate Bangla-script guide to how an English word sounds. It is intended as a practical aid rather than a replacement for listening practice.
-  - question: Are the words arranged by frequency?
-    answer: The list is organized for practical learning by topic and source sequence, not presented as a strict linguistic frequency ranking.
+  - question: How is this 4,000-word list organized?
+    answer: The list follows source sequence and broad learning topics so it stays useful for browsing and quick lookup.
 ---
-{% set resource = resources.vocabulary %}
+{% set resource = resources.mostCommonVocabulary %}
 <div class="blog-shell resources-page">
   <div class="page">
     {% include 'partials/legal-header.njk' %}
 
-    <main data-resource-page data-resource-name="1000-common-english-words-bangla" data-resource-loader="__loadMane1000Words">
+    <main data-resource-page data-resource-name="most-common-english-words-bangla" data-resource-loader="__loadManeMostCommonWords">
       <article class="resource-shell">
         <header class="resource-hero">
           <nav class="breadcrumbs" aria-label="Breadcrumb">
@@ -35,7 +35,7 @@ faqItems:
             <span aria-current="page">{{ resource.shortTitle }}</span>
           </nav>
           <h1 class="resource-title">{{ resource.title }}<span class="resource-title__accent">.</span></h1>
-          <p class="resource-lead">Search by English word, Bangla reading, meaning, or topic.</p>
+          <p class="resource-lead">Browse 4,000 high-frequency English words. Search by English word, Bangla reading, meaning, example, or topic.</p>
           <p class="resource-meta-line">{{ resource.wordCountLabel }} words • {{ resource.topicCountLabel }} topics</p>
         </header>
 
@@ -44,7 +44,7 @@ faqItems:
             <label class="resource-search-wrap">
               <span class="sr-only">Search the word list</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.7-3.7"></path></svg>
-              <input class="resource-search-input" id="word-search" type="search" autocomplete="off" placeholder="Search English, বাংলা উচ্চারণ, or meaning…">
+              <input class="resource-search-input" id="word-search" type="search" autocomplete="off" placeholder="Search English, বাংলা উচ্চারণ, meaning, or example…">
             </label>
             <button class="resource-reset-button" id="reset-filters" type="button">Reset</button>
           </div>
@@ -126,7 +126,7 @@ faqItems:
 
             <div class="resource-empty-state" id="resource-empty-state" hidden>
               <strong>No words matched.</strong>
-              <span>Try another keyword or topic.</span>
+              <span>Try another keyword, topic, or example phrase.</span>
             </div>
           </div>
         </section>

@@ -6,8 +6,9 @@
   const resetButton = document.getElementById('reset-filters');
   const topicLinks = [...document.querySelectorAll('[data-topic-filter]')];
   const allTopicsLink = topicLinks.find((link) => link.dataset.topicFilter === 'all');
-  const defaultTopic = topicLinks.find((link) => link.dataset.topicFilter !== 'all')?.dataset.topicFilter || 'all';
+  const defaultTopic = 'all';
   const cards = [...document.querySelectorAll('.resource-topic-card')];
+  const defaultOpenCardIds = new Set(cards.filter((card) => card.open).map((card) => card.id));
   const rows = [...document.querySelectorAll('.resource-word-row')];
   const searchResultsSection = document.getElementById('resource-search-results');
   const searchResultsCount = document.getElementById('resource-search-results-count');
@@ -16,14 +17,22 @@
   const emptyState = document.getElementById('resource-empty-state');
   const playStoreLinks = [...document.querySelectorAll('[data-resource-play-store]')];
   const pdfLink = document.querySelector('[data-resource-pdf]');
-  const searchDataset = typeof window.__loadMane1000Words === 'function' ? window.__loadMane1000Words() : [];
+  const loaderName = resourceRoot.dataset.resourceLoader;
+  const searchDataset = typeof window[loaderName] === 'function' ? window[loaderName]() : [];
 
   let activeTopic = 'all';
   let lastTrackedSearch = '';
   let searchTimer;
+  let lastRenderedQuery = '';
+  let lastRenderedMatches = [];
 
   const normalize = (value) => String(value || '').toLocaleLowerCase('bn-BD').trim();
-
+  const escapeHtml = (value) => String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
   function trackEvent(name, params = {}) {
     const payload = { event_category: 'resources', ...params };
 
@@ -46,35 +55,66 @@
     });
   }
 
+  function entrySearchText(entry) {
+    if (!entry.__searchText) {
+      entry.__searchText = normalize([
+        entry.word,
+        entry.pronunciation_bn,
+        entry.bangla_meaning,
+        entry.part_of_speech,
+        entry.category,
+        entry.example_en,
+        entry.example_bn
+      ].filter(Boolean).join(' '));
+    }
+
+    return entry.__searchText;
+  }
+
+  function findMatches(query) {
+    if (!query) return [];
+    if (query === lastRenderedQuery) return lastRenderedMatches;
+
+    const matches = searchDataset.filter((entry) => entrySearchText(entry).includes(query));
+    lastRenderedQuery = query;
+    lastRenderedMatches = matches;
+    return matches;
+  }
+
+  function renderExamples(entry) {
+    if (!entry.example_en && !entry.example_bn) return '';
+
+    return `
+      <div class="resource-search-card__examples">
+        ${entry.example_en ? `<p><strong>Example</strong> ${escapeHtml(entry.example_en)}</p>` : ''}
+        ${entry.example_bn ? `<p lang="bn"><strong>বাংলা</strong> ${escapeHtml(entry.example_bn)}</p>` : ''}
+      </div>
+    `;
+  }
+
   function renderSearchResults(query) {
     if (!searchResultsGrid) return 0;
 
-    const matches = searchDataset.filter((entry) => normalize([
-      entry.word,
-      entry.pronunciation_bn,
-      entry.bangla_meaning,
-      entry.part_of_speech,
-      entry.category
-    ].join(' ')).includes(query));
+    const matches = findMatches(query);
 
     searchResultsGrid.innerHTML = matches.map((entry) => `
       <article class="resource-search-card">
         <div class="resource-search-card__top">
-          <span class="resource-search-card__sequence">#${entry.sequence}</span>
+          <span class="resource-search-card__sequence">#${escapeHtml(entry.sequence)}</span>
         </div>
-        <h3>${entry.word}</h3>
-        <p class="resource-search-card__reading" lang="bn">${entry.pronunciation_bn}</p>
-        <p class="resource-search-card__meaning" lang="bn">${entry.bangla_meaning}</p>
+        <h3>${escapeHtml(entry.word)}</h3>
+        <p class="resource-search-card__reading" lang="bn">${escapeHtml(entry.pronunciation_bn)}</p>
+        <p class="resource-search-card__meaning" lang="bn">${escapeHtml(entry.bangla_meaning)}</p>
         <dl class="resource-search-card__meta">
           <div>
             <dt>Part of speech</dt>
-            <dd>${entry.part_of_speech}</dd>
+            <dd>${escapeHtml(entry.part_of_speech)}</dd>
           </div>
           <div>
             <dt>Topic</dt>
-            <dd>${entry.category}</dd>
-          </div>
+            <dd>${escapeHtml(entry.category)}</dd>          </div>
         </dl>
+        ${renderExamples(entry)}
       </article>
     `).join('');
 
@@ -83,6 +123,11 @@
 
   function updateFilters() {
     const query = normalize(searchInput.value);
+
+    if (!query) {
+      lastRenderedQuery = '';
+      lastRenderedMatches = [];
+    }
 
     if (query) {
       const totalVisible = renderSearchResults(query);
@@ -112,7 +157,7 @@
       const cardVisible = topicMatches && visibleRows > 0;
       card.hidden = !cardVisible;
       card.querySelector('.resource-topic-visible-count').textContent = visibleRows.toLocaleString('en-US');
-      card.open = activeTopic !== 'all' && cardVisible;
+      card.open = activeTopic === 'all' ? defaultOpenCardIds.has(card.id) : cardVisible;
     });
 
     emptyState.hidden = true;
@@ -124,13 +169,7 @@
       const query = normalize(searchInput.value);
       if (query.length < 2 || query === lastTrackedSearch) return;
       lastTrackedSearch = query;
-      const results = searchDataset.filter((entry) => normalize([
-        entry.word,
-        entry.pronunciation_bn,
-        entry.bangla_meaning,
-        entry.part_of_speech,
-        entry.category
-      ].join(' ')).includes(query)).length;
+      const results = lastRenderedQuery === query ? lastRenderedMatches.length : findMatches(query).length;
       trackEvent('resource_search', {
         resource_name: resourceRoot.dataset.resourceName,
         query,
@@ -163,6 +202,8 @@
     searchInput.value = '';
     lastTrackedSearch = '';
     if (searchResultsGrid) searchResultsGrid.innerHTML = '';
+    lastRenderedQuery = '';
+    lastRenderedMatches = [];
     setActiveTopic(defaultTopic);
     updateFilters();
     searchInput.focus();
@@ -189,8 +230,8 @@
   });
 
   if (allTopicsLink) {
-    allTopicsLink.setAttribute('aria-current', 'false');
-    allTopicsLink.classList.remove('is-active');
+    allTopicsLink.setAttribute('aria-current', 'page');
+    allTopicsLink.classList.add('is-active');
   }
 
   setActiveTopic(defaultTopic);
