@@ -44,31 +44,11 @@ jobs:
         run: npm run build
 
       - name: Upload Pages artifact
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         id: pages_artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-
-  cleanup-pr-artifact:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Delete Pages artifact after PR validation
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const artifactId = Number('${{ needs.build.outputs.artifact_id }}');
-            if (!artifactId) {
-              core.setFailed('Missing Pages artifact ID for PR cleanup.');
-              return;
-            }
-
-            await github.rest.actions.deleteArtifact({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              artifact_id: artifactId,
-            });
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
