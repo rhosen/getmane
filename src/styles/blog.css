@@ -276,8 +276,8 @@
   width: min(100%, 1040px);
   margin: 0 auto 88px;
   display: grid;
-  grid-template-columns: 180px minmax(0, 660px);
-  gap: 62px;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 42px;
   align-items: start;
 }
 
@@ -379,7 +379,8 @@
 }
 
 .blog-article h2,
-.blog-article h3 {
+.blog-article h3,
+.blog-article h4 {
   font-family: var(--font-display);
   color: var(--heading-color);
   letter-spacing: -0.04em;
@@ -400,6 +401,23 @@
   font-size: 1.5rem;
 }
 
+.blog-article h4 {
+  margin: 1.1em 0 0;
+  padding-top: 1.05em;
+  border-top: 1px solid rgba(17, 17, 15, 0.1);
+  font-size: 1.05rem;
+}
+
+.blog-article h3 + h4 {
+  margin-top: 0.85em;
+  padding-top: 0.85em;
+}
+
+.blog-article h4 + p {
+  margin-top: 0.35em;
+  margin-bottom: 1.05em;
+}
+
 .blog-article ul,
 .blog-article ol {
   margin: 0 0 1.5em;
@@ -415,6 +433,40 @@
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+}
+
+.blog-article table {
+  width: 100%;
+  margin: 1.8em 0;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  border-top: 1px solid rgba(17, 17, 15, 0.12);
+  border-bottom: 1px solid rgba(17, 17, 15, 0.12);
+}
+
+.blog-article thead th {
+  padding: 12px 12px 13px;
+  color: var(--heading-color);
+  font-weight: 650;
+  border-bottom: 1px solid rgba(17, 17, 15, 0.12);
+}
+
+.blog-article td {
+  padding: 12px 12px 13px;
+  border-bottom: 1px solid rgba(17, 17, 15, 0.08);
+  text-align: left;
+  vertical-align: top;
+}
+
+.blog-article tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.blog-article th:first-child,
+.blog-article td:first-child {
+  min-width: 180px;
 }
 
 .blog-article-footer {
@@ -621,6 +673,19 @@
 
   .blog-article h2 {
     font-size: clamp(1.08rem, 5vw, 1.4rem);
+  }
+
+  .blog-article table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+
+  .blog-article table th,
+  .blog-article table td {
+    white-space: normal;
   }
 
   .blog-article blockquote {

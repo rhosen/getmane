@@ -1,5 +1,5 @@
-{% set metaTitle = title or site.defaultTitle %}
-{% set metaDescription = description or site.defaultDescription %}
+{% set metaTitle = meta_title or title or site.defaultTitle %}
+{% set metaDescription = meta_description or description or site.defaultDescription %}
 {% set canonicalUrl = canonical or (page.url | absoluteUrl) %}
 {% set socialImageUrl = (socialImage or site.socialImage) | absoluteUrl %}
 <title>{{ metaTitle }}</title>
