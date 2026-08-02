@@ -234,6 +234,70 @@ function createSentenceResource({
   };
 }
 
+function createIdiomResource({
+  sourceRelativePath,
+  title,
+  shortTitle,
+  description,
+  pathName,
+  ctaFooterContent
+}) {
+  const sourcePath = path.resolve(__dirname, sourceRelativePath);
+  const idiomsSource = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+  const topicMap = new Map();
+
+  const idioms = idiomsSource.map((entry, index) => {
+    const categoryTitle = String(entry.category || '').trim();
+    const topicSlug = slugify(categoryTitle);
+
+    if (!topicMap.has(topicSlug)) {
+      topicMap.set(topicSlug, {
+        slug: topicSlug,
+        title: categoryTitle,
+        titleBn: '',
+        idioms: []
+      });
+    }
+
+    const idiom = {
+      ...entry,
+      sequence: index + 1,
+      category: categoryTitle,
+      topicSlug,
+      id: `idiom-${index + 1}`
+    };
+
+    topicMap.get(topicSlug).idioms.push(idiom);
+    return idiom;
+  });
+
+  const topics = [...topicMap.values()].map((topic, index) => ({
+    ...topic,
+    number: String(index + 1).padStart(2, '0'),
+    id: `topic-${topic.slug}`,
+    count: topic.idioms.length,
+    countLabel: formatNumber(topic.idioms.length)
+  }));
+
+  const idiomCount = idioms.length;
+
+  return {
+    title,
+    shortTitle,
+    description,
+    path: pathName,
+    hubPath: '/resources/',
+    wordCount: idiomCount,
+    wordCountLabel: formatNumber(idiomCount),
+    topicCount: topics.length,
+    topicCountLabel: formatNumber(topics.length),
+    levelsLabel: '',
+    topics,
+    idioms,
+    ctaFooterContent
+  };
+}
+
 const spokenEnglishSentences = createSentenceResource({
   sourceRelativePath: './spoken-english.json',
   title: '1200+ Spoken English Sentences with Bangla Meaning',
@@ -241,6 +305,15 @@ const spokenEnglishSentences = createSentenceResource({
   description: 'Practical spoken English sentences with Bangla meanings, organized into everyday speaking situations and topic-based lessons.',
   pathName: '/resources/1200-spoken-english-sentences-bangla/',
   ctaFooterContent: 'resource_spoken_english_footer'
+});
+
+const commonEnglishIdioms = createIdiomResource({
+  sourceRelativePath: './200-common-english-idioms-bangla.json',
+  title: '200 Common English Idioms with Bangla Meaning',
+  shortTitle: '200 common English idioms',
+  description: 'Learn 200 common English idioms with Bangla meanings, literal meanings, examples, and topic filters for practical use.',
+  pathName: '/resources/200-common-english-idioms-bangla/',
+  ctaFooterContent: 'resource_idioms_footer'
 });
 
 const vocabulary = createVocabularyResource({
@@ -280,7 +353,6 @@ module.exports = {
       title: vocabulary.title,
       description: 'Build your vocabulary with Bangla readings, parts of speech, simple meanings, and topic filters.',
       url: vocabulary.path,
-      badge: 'Available now',
       meta: `${formatNumber(vocabulary.wordCount)} words • ${formatNumber(vocabulary.topicCount)} topics`
     },
     items: [
@@ -288,27 +360,31 @@ module.exports = {
         title: mostCommonVocabulary.title,
         description: 'Explore 4,000 high-frequency English words with Bangla readings, meanings, examples, and topic browse.',
         url: mostCommonVocabulary.path,
-        badge: 'New',
         meta: `${formatNumber(mostCommonVocabulary.wordCount)} words • ${formatNumber(mostCommonVocabulary.topicCount)} topics`
       },
       {
         title: dailyUseSentences.title,
         description: 'Practice 500 daily-use English sentences with Bangla translations across 20 practical categories.',
         url: dailyUseSentences.path,
-        badge: 'New',
         meta: `${formatNumber(dailyUseSentences.wordCount)} sentences • ${formatNumber(dailyUseSentences.topicCount)} topics`
       },
       {
         title: spokenEnglishSentences.title,
         description: 'Browse 1,200+ spoken English sentences with Bangla meanings for everyday communication and conversation practice.',
         url: spokenEnglishSentences.path,
-        badge: 'New',
         meta: `${formatNumber(spokenEnglishSentences.wordCount)} sentences • ${formatNumber(spokenEnglishSentences.topicCount)} topics`
+      },
+      {
+        title: commonEnglishIdioms.title,
+        description: 'Study 200 common English idioms with Bangla meanings, literal meanings, and examples.',
+        url: commonEnglishIdioms.path,
+        meta: `${formatNumber(commonEnglishIdioms.wordCount)} idioms • ${formatNumber(commonEnglishIdioms.topicCount)} topics`
       }
     ]
   },
   vocabulary,
   mostCommonVocabulary,
   dailyUseSentences,
-  spokenEnglishSentences
+  spokenEnglishSentences,
+  commonEnglishIdioms
 };

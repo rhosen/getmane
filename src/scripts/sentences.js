@@ -9,7 +9,8 @@
   const defaultTopic = 'all';
   const cards = [...document.querySelectorAll('.resource-topic-card')];
   const defaultOpenCardIds = new Set(cards.filter((card) => card.open).map((card) => card.id));
-  const rows = [...document.querySelectorAll('.resource-sentence-row')];
+  const rowSelector = '.resource-sentence-row, .resource-idiom-row';
+  const rows = [...document.querySelectorAll(rowSelector)];
   const searchResultsSection = document.getElementById('resource-search-results');
   const searchResultsCount = document.getElementById('resource-search-results-count');
   const searchResultsGrid = document.getElementById('resource-search-results-grid');
@@ -19,6 +20,7 @@
   const pdfLink = document.querySelector('[data-resource-pdf]');
   const loaderName = resourceRoot.dataset.resourceLoader;
   const searchDataset = typeof window[loaderName] === 'function' ? window[loaderName]() : [];
+  const isIdiomResource = Boolean(searchDataset[0] && searchDataset[0].idiom);
 
   let activeTopic = 'all';
   let lastTrackedSearch = '';
@@ -60,9 +62,14 @@
     if (!entry.__searchText) {
       entry.__searchText = normalize([
         entry.english,
+        entry.idiom,
+        entry.literalMeaning,
         entry.bangla,
+        entry.banglaMeaning,
         entry.category,
-        entry.group
+        entry.group,
+        entry.example,
+        entry.exampleBangla
       ].filter(Boolean).join(' '));
     }
 
@@ -79,32 +86,69 @@
     return matches;
   }
 
+  function renderExamples(entry) {
+    const exampleText = entry.example || entry.example_en || entry.exampleEn;
+    const exampleBanglaText = entry.exampleBangla || entry.example_bn || entry.exampleBn;
+
+    if (!exampleText && !exampleBanglaText) return '';
+
+    return `
+      <div class="resource-search-card__examples">
+        ${exampleText ? `<p><strong>Example</strong> ${escapeHtml(exampleText)}</p>` : ''}
+        ${exampleBanglaText ? `<p lang="bn"><strong>বাংলা</strong> ${escapeHtml(exampleBanglaText)}</p>` : ''}
+      </div>
+    `;
+  }
+
   function renderSearchResults(query) {
     if (!searchResultsGrid) return 0;
 
     const matches = findMatches(query);
 
-    searchResultsGrid.innerHTML = matches.map((entry) => `
-      <article class="resource-search-card">
-        <div class="resource-search-card__top">
-          <span class="resource-search-card__sequence">#${escapeHtml(entry.sequence)}</span>
-        </div>
-        <h3>${escapeHtml(entry.english)}</h3>
-        <p class="resource-search-card__meaning" lang="bn">${escapeHtml(entry.bangla)}</p>
-        <dl class="resource-search-card__meta">
-          <div>
-            <dt>Topic</dt>
-            <dd>${escapeHtml(entry.category)}</dd>
+    searchResultsGrid.innerHTML = matches.map((entry) => {
+      if (isIdiomResource || entry.idiom) {
+        return `
+          <article class="resource-search-card">
+            <div class="resource-search-card__top">
+              <span class="resource-search-card__sequence">#${escapeHtml(entry.sequence)}</span>
+            </div>
+            <h3>${escapeHtml(entry.idiom)}</h3>
+            <p class="resource-search-card__reading" lang="bn">${escapeHtml(entry.literalMeaning)}</p>
+            <p class="resource-search-card__meaning" lang="bn">${escapeHtml(entry.banglaMeaning)}</p>
+            <dl class="resource-search-card__meta">
+              <div>
+                <dt>Topic</dt>
+                <dd>${escapeHtml(entry.category)}</dd>
+              </div>
+            </dl>
+            ${renderExamples(entry)}
+          </article>
+        `;
+      }
+
+      return `
+        <article class="resource-search-card">
+          <div class="resource-search-card__top">
+            <span class="resource-search-card__sequence">#${escapeHtml(entry.sequence)}</span>
           </div>
-          ${entry.group ? `
-          <div>
-            <dt>Group</dt>
-            <dd>${escapeHtml(entry.group)}</dd>
-          </div>
-          ` : ''}
-        </dl>
-      </article>
-    `).join('');
+          <h3>${escapeHtml(entry.english)}</h3>
+          <p class="resource-search-card__meaning" lang="bn">${escapeHtml(entry.bangla)}</p>
+          <dl class="resource-search-card__meta">
+            <div>
+              <dt>Topic</dt>
+              <dd>${escapeHtml(entry.category)}</dd>
+            </div>
+            ${entry.group ? `
+            <div>
+              <dt>Group</dt>
+              <dd>${escapeHtml(entry.group)}</dd>
+            </div>
+            ` : ''}
+          </dl>
+          ${renderExamples(entry)}
+        </article>
+      `;
+    }).join('');
 
     return matches.length;
   }
@@ -123,7 +167,7 @@
       if (searchResultsSection) searchResultsSection.hidden = false;
       if (browseSection) browseSection.hidden = true;
       if (searchResultsCount) {
-        searchResultsCount.textContent = `${totalVisible.toLocaleString('en-US')} matching sentence${totalVisible === 1 ? '' : 's'}.`;
+        searchResultsCount.textContent = `${totalVisible.toLocaleString('en-US')} matching ${isIdiomResource ? 'idiom' : 'sentence'}${totalVisible === 1 ? '' : 's'}.`;
       }
       emptyState.hidden = totalVisible !== 0;
       return;
@@ -136,7 +180,7 @@
       const topicMatches = activeTopic === 'all' || card.dataset.topic === activeTopic;
       let visibleRows = 0;
 
-      card.querySelectorAll('.resource-sentence-row').forEach((row) => {
+      card.querySelectorAll(rowSelector).forEach((row) => {
         const visible = topicMatches;
         row.hidden = !visible;
         if (visible) visibleRows += 1;
