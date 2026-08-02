@@ -298,6 +298,70 @@ function createIdiomResource({
   };
 }
 
+function createPhrasalVerbResource({
+  sourceRelativePath,
+  title,
+  shortTitle,
+  description,
+  pathName,
+  ctaFooterContent
+}) {
+  const sourcePath = path.resolve(__dirname, sourceRelativePath);
+  const phrasalVerbsSource = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+  const topicMap = new Map();
+
+  const phrasalVerbs = phrasalVerbsSource.map((entry, index) => {
+    const categoryTitle = String(entry.category || '').trim();
+    const topicSlug = slugify(categoryTitle);
+
+    if (!topicMap.has(topicSlug)) {
+      topicMap.set(topicSlug, {
+        slug: topicSlug,
+        title: categoryTitle,
+        titleBn: '',
+        phrasalVerbs: []
+      });
+    }
+
+    const phrasalVerb = {
+      ...entry,
+      sequence: index + 1,
+      category: categoryTitle,
+      topicSlug,
+      id: `phrasal-verb-${index + 1}`
+    };
+
+    topicMap.get(topicSlug).phrasalVerbs.push(phrasalVerb);
+    return phrasalVerb;
+  });
+
+  const topics = [...topicMap.values()].map((topic, index) => ({
+    ...topic,
+    number: String(index + 1).padStart(2, '0'),
+    id: `topic-${topic.slug}`,
+    count: topic.phrasalVerbs.length,
+    countLabel: formatNumber(topic.phrasalVerbs.length)
+  }));
+
+  const phrasalVerbCount = phrasalVerbs.length;
+
+  return {
+    title,
+    shortTitle,
+    description,
+    path: pathName,
+    hubPath: '/resources/',
+    wordCount: phrasalVerbCount,
+    wordCountLabel: formatNumber(phrasalVerbCount),
+    topicCount: topics.length,
+    topicCountLabel: formatNumber(topics.length),
+    levelsLabel: '',
+    topics,
+    phrasalVerbs,
+    ctaFooterContent
+  };
+}
+
 const spokenEnglishSentences = createSentenceResource({
   sourceRelativePath: './spoken-english.json',
   title: '1200+ Spoken English Sentences with Bangla Meaning',
@@ -314,6 +378,15 @@ const commonEnglishIdioms = createIdiomResource({
   description: 'Learn 200 common English idioms with Bangla meanings, literal meanings, examples, and topic filters for practical use.',
   pathName: '/resources/200-common-english-idioms-bangla/',
   ctaFooterContent: 'resource_idioms_footer'
+});
+
+const commonEnglishPhrasalVerbs = createPhrasalVerbResource({
+  sourceRelativePath: './200-common-english-phrasal-verbs-bangla.json',
+  title: '200 Common English Phrasal Verbs with Bangla Meaning',
+  shortTitle: '200 common English phrasal verbs',
+  description: 'Learn 200 common English phrasal verbs with Bangla meanings, English meanings, examples, and topic filters for practical use.',
+  pathName: '/resources/200-common-english-phrasal-verbs-bangla/',
+  ctaFooterContent: 'resource_phrasal_verbs_footer'
 });
 
 const vocabulary = createVocabularyResource({
@@ -379,6 +452,12 @@ module.exports = {
         description: 'Study 200 common English idioms with Bangla meanings, literal meanings, and examples.',
         url: commonEnglishIdioms.path,
         meta: `${formatNumber(commonEnglishIdioms.wordCount)} idioms • ${formatNumber(commonEnglishIdioms.topicCount)} topics`
+      },
+      {
+        title: commonEnglishPhrasalVerbs.title,
+        description: 'Practice 200 common English phrasal verbs with Bangla meanings, English meanings, and examples.',
+        url: commonEnglishPhrasalVerbs.path,
+        meta: `${formatNumber(commonEnglishPhrasalVerbs.wordCount)} phrasal verbs • ${formatNumber(commonEnglishPhrasalVerbs.topicCount)} topics`
       }
     ]
   },
@@ -386,5 +465,6 @@ module.exports = {
   mostCommonVocabulary,
   dailyUseSentences,
   spokenEnglishSentences,
-  commonEnglishIdioms
+  commonEnglishIdioms,
+  commonEnglishPhrasalVerbs
 };

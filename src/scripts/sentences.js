@@ -9,7 +9,7 @@
   const defaultTopic = 'all';
   const cards = [...document.querySelectorAll('.resource-topic-card')];
   const defaultOpenCardIds = new Set(cards.filter((card) => card.open).map((card) => card.id));
-  const rowSelector = '.resource-sentence-row, .resource-idiom-row';
+  const rowSelector = '.resource-sentence-row, .resource-idiom-row, .resource-phrasal-row';
   const rows = [...document.querySelectorAll(rowSelector)];
   const searchResultsSection = document.getElementById('resource-search-results');
   const searchResultsCount = document.getElementById('resource-search-results-count');
@@ -21,6 +21,8 @@
   const loaderName = resourceRoot.dataset.resourceLoader;
   const searchDataset = typeof window[loaderName] === 'function' ? window[loaderName]() : [];
   const isIdiomResource = Boolean(searchDataset[0] && searchDataset[0].idiom);
+  const isPhrasalVerbResource = Boolean(searchDataset[0] && searchDataset[0].phrasalVerb);
+  const resourceLabel = isIdiomResource ? 'idiom' : isPhrasalVerbResource ? 'phrasal verb' : 'sentence';
 
   let activeTopic = 'all';
   let lastTrackedSearch = '';
@@ -63,7 +65,9 @@
       entry.__searchText = normalize([
         entry.english,
         entry.idiom,
+        entry.phrasalVerb,
         entry.literalMeaning,
+        entry.englishMeaning,
         entry.bangla,
         entry.banglaMeaning,
         entry.category,
@@ -126,6 +130,25 @@
         `;
       }
 
+      if (isPhrasalVerbResource || entry.phrasalVerb) {
+        return `
+          <article class="resource-search-card">
+            <div class="resource-search-card__top">
+              <span class="resource-search-card__sequence">#${escapeHtml(entry.sequence)}</span>
+            </div>
+            <h3>${escapeHtml(entry.phrasalVerb)}</h3>
+            <p class="resource-search-card__meaning" lang="bn">${escapeHtml(entry.banglaMeaning)}</p>
+            <dl class="resource-search-card__meta">
+              <div>
+                <dt>Topic</dt>
+                <dd>${escapeHtml(entry.category)}</dd>
+              </div>
+            </dl>
+            ${renderExamples(entry)}
+          </article>
+        `;
+      }
+
       return `
         <article class="resource-search-card">
           <div class="resource-search-card__top">
@@ -167,7 +190,7 @@
       if (searchResultsSection) searchResultsSection.hidden = false;
       if (browseSection) browseSection.hidden = true;
       if (searchResultsCount) {
-        searchResultsCount.textContent = `${totalVisible.toLocaleString('en-US')} matching ${isIdiomResource ? 'idiom' : 'sentence'}${totalVisible === 1 ? '' : 's'}.`;
+        searchResultsCount.textContent = `${totalVisible.toLocaleString('en-US')} matching ${resourceLabel}${totalVisible === 1 ? '' : 's'}.`;
       }
       emptyState.hidden = totalVisible !== 0;
       return;
