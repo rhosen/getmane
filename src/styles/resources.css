@@ -606,7 +606,14 @@
   transform: rotate(225deg) translate(-1px, -1px);
 }
 
-.resource-word-table {
+.resource-word-table,
+.resource-sentence-table,
+.resource-idiom-table,
+.resource-phrasal-table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border-top: 2px solid var(--primary);
 }
 
@@ -618,7 +625,34 @@
   align-items: start;
 }
 
-.resource-word-head {
+.resource-sentence-head,
+.resource-sentence-row {
+  display: grid;
+  grid-template-columns: 42px minmax(120px, 1.2fr) minmax(160px, 1.55fr);
+  column-gap: 11px;
+  align-items: start;
+}
+
+.resource-idiom-head,
+.resource-idiom-row {
+  display: grid;
+  grid-template-columns: 42px minmax(120px, 1.35fr) minmax(140px, 1.15fr) minmax(220px, 1.6fr);
+  column-gap: 11px;
+  align-items: start;
+}
+
+.resource-phrasal-head,
+.resource-phrasal-row {
+  display: grid;
+  grid-template-columns: 42px minmax(120px, 1.4fr) minmax(140px, 1.1fr) minmax(220px, 1.55fr);
+  column-gap: 11px;
+  align-items: start;
+}
+
+.resource-word-head,
+.resource-sentence-head,
+.resource-idiom-head,
+.resource-phrasal-head {
   padding: 9px 16px;
   color: var(--primary);
   background: #f7fbff;
@@ -630,7 +664,10 @@
   text-transform: uppercase;
 }
 
-.resource-word-row {
+.resource-word-row,
+.resource-sentence-row,
+.resource-idiom-row,
+.resource-phrasal-row {
   min-height: 44px;
   padding: 7px 16px;
   border-bottom: 1px dotted rgba(4, 44, 83, 0.18);
@@ -639,11 +676,17 @@
   line-height: 1.45;
 }
 
-.resource-word-row:last-child {
+.resource-word-row:last-child,
+.resource-sentence-row:last-child,
+.resource-idiom-row:last-child,
+.resource-phrasal-row:last-child {
   border-bottom: 0;
 }
 
-.resource-word-row:hover {
+.resource-word-row:hover,
+.resource-sentence-row:hover,
+.resource-idiom-row:hover,
+.resource-phrasal-row:hover {
   background: rgba(24, 95, 165, 0.03);
 }
 
@@ -691,6 +734,47 @@
 
 .resource-word-cell--meaning {
   color: #213756;
+}
+
+.resource-word-cell--idiom a,
+.resource-word-cell--phrasal a {
+  color: var(--heading-color);
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resource-word-cell--idiom a:hover,
+.resource-word-cell--phrasal a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.resource-word-cell--phrasal-meaning {
+  color: #314d72;
+  font-family: var(--font-sans);
+  line-height: 1.55;
+}
+
+.resource-word-cell--example {
+  color: #213756;
+  line-height: 1.55;
+}
+
+.resource-word-cell--example small {
+  display: block;
+  margin-top: 6px;
+  color: #314d72;
+  font-family: "Noto Sans Bengali", var(--font-sans);
+}
+
+.resource-word-cell--topic {
+  color: var(--primary);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 700;
+  white-space: normal;
 }
 
 .resource-empty-state {
@@ -1031,6 +1115,18 @@
     border-radius: 20px;
   }
 
+  .resources-hub-featured,
+  .resources-hub-card,
+  .resource-footer-cta {
+    grid-template-columns: 1fr;
+  }
+
+  .resources-hub-card__link,
+  .resource-footer-cta__button {
+    justify-self: start;
+    width: 100%;
+  }
+
   .resource-title,
   .resources-hub-title {
     font-size: clamp(1.35rem, 5vw, 1.8rem);
@@ -1050,18 +1146,44 @@
     column-gap: 6px;
   }
 
-  .resource-word-head {
+  .resource-sentence-head,
+  .resource-sentence-row {
+    grid-template-columns: 32px minmax(88px, .95fr) minmax(112px, 1.15fr);
+    column-gap: 6px;
+  }
+
+  .resource-idiom-head,
+  .resource-idiom-row {
+    grid-template-columns: 32px minmax(88px, 1.05fr) minmax(110px, .95fr) minmax(140px, 1.15fr);
+    column-gap: 6px;
+  }
+
+  .resource-phrasal-head,
+  .resource-phrasal-row {
+    grid-template-columns: 32px minmax(88px, 1.1fr) minmax(110px, 1fr) minmax(140px, 1.2fr);
+    column-gap: 6px;
+  }
+
+  .resource-word-head,
+  .resource-sentence-head,
+  .resource-idiom-head,
+  .resource-phrasal-head {
     padding: 8px 10px;
     font-size: 8px;
     letter-spacing: 0;
   }
 
-  .resource-word-row {
+  .resource-word-row,
+  .resource-sentence-row,
+  .resource-idiom-row,
+  .resource-phrasal-row {
     padding: 7px 10px;
     font-size: 11px;
   }
 
-  .resource-word-cell--english a {
+  .resource-word-cell--english a,
+  .resource-word-cell--idiom a,
+  .resource-word-cell--phrasal a {
     font-size: 13px;
   }
 

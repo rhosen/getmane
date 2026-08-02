@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "idiom": "A piece of cake",
+    "literalMeaning": "এক টুকরো কেক",
+    "banglaMeaning": "খুব সহজ কাজ",
+    "example": "The test was a piece of cake.",
+    "exampleBangla": "পরীক্ষাটি খুব সহজ ছিল।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 2,
+    "idiom": "Under the weather",
+    "literalMeaning": "আবহাওয়ার নিচে",
+    "banglaMeaning": "অসুস্থ বা শরীর খারাপ অনুভব করা",
+    "example": "I am feeling under the weather today.",
+    "exampleBangla": "আজ আমার শরীরটা ভালো লাগছে না।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 3,
+    "idiom": "Call it a day",
+    "literalMeaning": "এটিকে একটি দিন বলা",
+    "banglaMeaning": "আজকের মতো কাজ শেষ করা",
+    "example": "We have done enough, so let's call it a day.",
+    "exampleBangla": "আমরা যথেষ্ট কাজ করেছি, তাই আজকের মতো শেষ করি।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 4,
+    "idiom": "Hit the sack",
+    "literalMeaning": "বস্তায় আঘাত করা",
+    "banglaMeaning": "ঘুমাতে যাওয়া",
+    "example": "I am tired, so I am going to hit the sack.",
+    "exampleBangla": "আমি ক্লান্ত, তাই ঘুমাতে যাচ্ছি।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 5,
+    "idiom": "Once in a blue moon",
+    "literalMeaning": "নীল চাঁদ উঠলে একবার",
+    "banglaMeaning": "খুবই কদাচিৎ",
+    "example": "We eat at that restaurant once in a blue moon.",
+    "exampleBangla": "আমরা খুবই কদাচিৎ ওই রেস্তোরাঁয় খাই।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 6,
+    "idiom": "On the go",
+    "literalMeaning": "চলতে থাকা অবস্থায়",
+    "banglaMeaning": "সবসময় ব্যস্ত বা চলাফেরার মধ্যে থাকা",
+    "example": "She is always on the go during the week.",
+    "exampleBangla": "সপ্তাহজুড়ে সে সবসময় ব্যস্ত থাকে।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 7,
+    "idiom": "In hot water",
+    "literalMeaning": "গরম পানিতে",
+    "banglaMeaning": "সমস্যা বা বিপদে পড়া",
+    "example": "He is in hot water for missing the deadline.",
+    "exampleBangla": "সময়সীমা মিস করায় সে সমস্যায় পড়েছে।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 8,
+    "idiom": "Out of the blue",
+    "literalMeaning": "নীল আকাশের বাইরে থেকে",
+    "banglaMeaning": "সম্পূর্ণ অপ্রত্যাশিতভাবে",
+    "example": "She called me out of the blue.",
+    "exampleBangla": "সে আমাকে একেবারে অপ্রত্যাশিতভাবে ফোন করেছিল।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 9,
+    "idiom": "A blessing in disguise",
+    "literalMeaning": "ছদ্মবেশে আশীর্বাদ",
+    "banglaMeaning": "প্রথমে খারাপ মনে হলেও পরে ভালো ফল দেওয়া ঘটনা",
+    "example": "Losing that job was a blessing in disguise.",
+    "exampleBangla": "চাকরিটি হারানো শেষ পর্যন্ত আমার জন্য ভালোই হয়েছিল।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 10,
+    "idiom": "The last straw",
+    "literalMeaning": "শেষ খড়কুটো",
+    "banglaMeaning": "সহ্যের সীমা শেষ করে দেওয়া ঘটনা",
+    "example": "His rude comment was the last straw.",
+    "exampleBangla": "তার অভদ্র মন্তব্যটি আমার সহ্যের সীমা শেষ করে দিয়েছিল।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 11,
+    "idiom": "Break the ice",
+    "literalMeaning": "বরফ ভাঙা",
+    "banglaMeaning": "কথা শুরু করে অস্বস্তিকর পরিবেশ সহজ করা",
+    "example": "He told a joke to break the ice.",
+    "exampleBangla": "পরিবেশ সহজ করতে সে একটি কৌতুক বলল।",
+    "category": "Communication"
+  },
+  {
+    "id": 12,
+    "idiom": "Get to the point",
+    "literalMeaning": "মূল বিন্দুতে পৌঁছানো",
+    "banglaMeaning": "সরাসরি মূল কথায় আসা",
+    "example": "Please get to the point and tell me what happened.",
+    "exampleBangla": "দয়া করে সরাসরি মূল কথায় এসে বলো কী হয়েছে।",
+    "category": "Communication"
+  },
+  {
+    "id": 13,
+    "idiom": "Speak of the devil",
+    "literalMeaning": "শয়তানের কথা বলা",
+    "banglaMeaning": "যার কথা বলা হচ্ছে, সে হঠাৎ উপস্থিত হওয়া",
+    "example": "Speak of the devil—Rahim just walked in.",
+    "exampleBangla": "রহিমের কথাই বলছিলাম—সে এখনই ঢুকল।",
+    "category": "Communication"
+  },
+  {
+    "id": 14,
+    "idiom": "Hear it through the grapevine",
+    "literalMeaning": "আঙুরলতার মাধ্যমে শোনা",
+    "banglaMeaning": "লোকমুখে বা অনানুষ্ঠানিক সূত্রে শোনা",
+    "example": "I heard through the grapevine that she got promoted.",
+    "exampleBangla": "লোকমুখে শুনেছি যে তার পদোন্নতি হয়েছে।",
+    "category": "Communication"
+  },
+  {
+    "id": 15,
+    "idiom": "Read between the lines",
+    "literalMeaning": "লাইনের মাঝখানে পড়া",
+    "banglaMeaning": "কথার আড়ালের অর্থ বুঝতে পারা",
+    "example": "If you read between the lines, you can see that he is worried.",
+    "exampleBangla": "কথার আড়ালের অর্থ বুঝলে বোঝা যায় যে সে চিন্তিত।",
+    "category": "Communication"
+  },
+  {
+    "id": 16,
+    "idiom": "Keep someone posted",
+    "literalMeaning": "কাউকে জানিয়ে রাখা",
+    "banglaMeaning": "নিয়মিত নতুন তথ্য জানানো",
+    "example": "Keep me posted about the project.",
+    "exampleBangla": "প্রকল্পের নতুন খবর আমাকে জানাতে থাকো।",
+    "category": "Communication"
+  },
+  {
+    "id": 17,
+    "idiom": "Word of mouth",
+    "literalMeaning": "মুখের কথা",
+    "banglaMeaning": "মানুষের মুখে মুখে ছড়িয়ে পড়া তথ্য বা প্রচার",
+    "example": "The café became popular through word of mouth.",
+    "exampleBangla": "মানুষের মুখে মুখে প্রচারের মাধ্যমে ক্যাফেটি জনপ্রিয় হয়ে ওঠে।",
+    "category": "Communication"
+  },
+  {
+    "id": 18,
+    "idiom": "On the same page",
+    "literalMeaning": "একই পাতায়",
+    "banglaMeaning": "একই বিষয়ে একই বোঝাপড়া বা মত থাকা",
+    "example": "Let's make sure we are all on the same page.",
+    "exampleBangla": "চলুন নিশ্চিত হই যে বিষয়টি নিয়ে আমরা সবাই একইভাবে বুঝেছি।",
+    "category": "Communication"
+  },
+  {
+    "id": 19,
+    "idiom": "Beat around the bush",
+    "literalMeaning": "ঝোপের চারপাশে আঘাত করা",
+    "banglaMeaning": "মূল কথা এড়িয়ে ঘুরিয়ে কথা বলা",
+    "example": "Stop beating around the bush and answer the question.",
+    "exampleBangla": "ঘুরিয়ে কথা বলা বন্ধ করে প্রশ্নের উত্তর দাও।",
+    "category": "Communication"
+  },
+  {
+    "id": 20,
+    "idiom": "Let the cat out of the bag",
+    "literalMeaning": "ব্যাগ থেকে বিড়াল বের করে দেওয়া",
+    "banglaMeaning": "গোপন কথা ফাঁস করে দেওয়া",
+    "example": "Mina let the cat out of the bag about the surprise party.",
+    "exampleBangla": "মিনা সারপ্রাইজ পার্টির গোপন কথাটি ফাঁস করে দিয়েছিল।",
+    "category": "Communication"
+  },
+  {
+    "id": 21,
+    "idiom": "Over the moon",
+    "literalMeaning": "চাঁদের ওপরে",
+    "banglaMeaning": "অত্যন্ত আনন্দিত",
+    "example": "She was over the moon about her exam result.",
+    "exampleBangla": "পরীক্ষার ফল নিয়ে সে অত্যন্ত আনন্দিত ছিল।",
+    "category": "Feelings"
+  },
+  {
+    "id": 22,
+    "idiom": "Down in the dumps",
+    "literalMeaning": "আবর্জনার স্তূপে নিচে",
+    "banglaMeaning": "খুব মন খারাপ থাকা",
+    "example": "He has been down in the dumps since the match.",
+    "exampleBangla": "ম্যাচটির পর থেকে তার খুব মন খারাপ।",
+    "category": "Feelings"
+  },
+  {
+    "id": 23,
+    "idiom": "Have butterflies in your stomach",
+    "literalMeaning": "পেটে প্রজাপতি থাকা",
+    "banglaMeaning": "উদ্বেগ বা উত্তেজনায় পেটে অস্বস্তি অনুভব করা",
+    "example": "I had butterflies in my stomach before the interview.",
+    "exampleBangla": "সাক্ষাৎকারের আগে আমি খুব নার্ভাস ছিলাম।",
+    "category": "Feelings"
+  },
+  {
+    "id": 24,
+    "idiom": "Lose your cool",
+    "literalMeaning": "নিজের ঠান্ডা ভাব হারানো",
+    "banglaMeaning": "মেজাজ হারানো",
+    "example": "Try not to lose your cool during the discussion.",
+    "exampleBangla": "আলোচনার সময় মেজাজ না হারানোর চেষ্টা করো।",
+    "category": "Feelings"
+  },
+  {
+    "id": 25,
+    "idiom": "Green with envy",
+    "literalMeaning": "ঈর্ষায় সবুজ",
+    "banglaMeaning": "খুব ঈর্ষান্বিত",
+    "example": "He was green with envy when he saw my new laptop.",
+    "exampleBangla": "আমার নতুন ল্যাপটপ দেখে সে খুব ঈর্ষান্বিত হয়েছিল।",
+    "category": "Feelings"
+  },
+  {
+    "id": 26,
+    "idiom": "On edge",
+    "literalMeaning": "ধারের ওপর",
+    "banglaMeaning": "উদ্বিগ্ন বা অস্থির থাকা",
+    "example": "Everyone was on edge before the announcement.",
+    "exampleBangla": "ঘোষণার আগে সবাই উদ্বিগ্ন ছিল।",
+    "category": "Feelings"
+  },
+  {
+    "id": 27,
+    "idiom": "Fed up",
+    "literalMeaning": "পুরোপুরি ভরে যাওয়া",
+    "banglaMeaning": "বিরক্ত হয়ে অতিষ্ঠ",
+    "example": "I am fed up with these delays.",
+    "exampleBangla": "এই দেরিগুলোতে আমি অতিষ্ঠ হয়ে গেছি।",
+    "category": "Feelings"
+  },
+  {
+    "id": 28,
+    "idiom": "Scared stiff",
+    "literalMeaning": "ভয়ে শক্ত হয়ে যাওয়া",
+    "banglaMeaning": "ভীষণ ভয় পাওয়া",
+    "example": "The sudden noise scared me stiff.",
+    "exampleBangla": "হঠাৎ শব্দটি আমাকে ভীষণ ভয় পাইয়ে দিয়েছিল।",
+    "category": "Feelings"
+  },
+  {
+    "id": 29,
+    "idiom": "Have a heart of gold",
+    "literalMeaning": "সোনার হৃদয় থাকা",
+    "banglaMeaning": "খুব দয়ালু ও উদার হওয়া",
+    "example": "Our teacher has a heart of gold.",
+    "exampleBangla": "আমাদের শিক্ষক খুব দয়ালু ও উদার।",
+    "category": "Feelings"
+  },
+  {
+    "id": 30,
+    "idiom": "Head over heels",
+    "literalMeaning": "মাথা গোড়ালির ওপর",
+    "banglaMeaning": "গভীরভাবে প্রেমে পড়া",
+    "example": "He is head over heels in love with her.",
+    "exampleBangla": "সে তার প্রেমে গভীরভাবে পড়েছে।",
+    "category": "Feelings"
+  },
+  {
+    "id": 31,
+    "idiom": "Burn the midnight oil",
+    "literalMeaning": "মধ্যরাতের তেল পোড়ানো",
+    "banglaMeaning": "রাত জেগে কাজ বা পড়াশোনা করা",
+    "example": "She burned the midnight oil to finish the report.",
+    "exampleBangla": "রিপোর্ট শেষ করতে সে রাত জেগে কাজ করেছে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 32,
+    "idiom": "Learn the ropes",
+    "literalMeaning": "দড়িগুলোর ব্যবহার শেখা",
+    "banglaMeaning": "কোনো কাজের নিয়মকানুন শেখা",
+    "example": "It took me a week to learn the ropes at my new job.",
+    "exampleBangla": "নতুন চাকরির নিয়মকানুন শিখতে আমার এক সপ্তাহ লেগেছিল।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 33,
+    "idiom": "Get the hang of it",
+    "literalMeaning": "এর ধরন বুঝে ফেলা",
+    "banglaMeaning": "কোনো কাজ কীভাবে করতে হয় তা আয়ত্ত করা",
+    "example": "You will get the hang of it after some practice.",
+    "exampleBangla": "কিছু অনুশীলনের পর তুমি কাজটি আয়ত্ত করে ফেলবে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 34,
+    "idiom": "Back to the drawing board",
+    "literalMeaning": "আবার নকশার বোর্ডে ফিরে যাওয়া",
+    "banglaMeaning": "পরিকল্পনা ব্যর্থ হলে নতুন করে শুরু করা",
+    "example": "The first design failed, so we went back to the drawing board.",
+    "exampleBangla": "প্রথম নকশাটি ব্যর্থ হওয়ায় আমরা নতুন করে পরিকল্পনা শুরু করলাম।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 35,
+    "idiom": "Go the extra mile",
+    "literalMeaning": "অতিরিক্ত এক মাইল যাওয়া",
+    "banglaMeaning": "প্রয়োজনের চেয়ে বেশি চেষ্টা করা",
+    "example": "She always goes the extra mile to help her students.",
+    "exampleBangla": "সে শিক্ষার্থীদের সাহায্য করতে সবসময় অতিরিক্ত চেষ্টা করে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 36,
+    "idiom": "Pull your weight",
+    "literalMeaning": "নিজের ওজন টানা",
+    "banglaMeaning": "নিজের দায়িত্বের অংশ ঠিকভাবে পালন করা",
+    "example": "Everyone must pull their weight on this project.",
+    "exampleBangla": "এই প্রকল্পে সবাইকে নিজের দায়িত্ব ঠিকভাবে পালন করতে হবে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 37,
+    "idiom": "By the book",
+    "literalMeaning": "বই অনুযায়ী",
+    "banglaMeaning": "নিয়ম পুরোপুরি মেনে",
+    "example": "The inspector does everything by the book.",
+    "exampleBangla": "পরিদর্শক সবকিছু নিয়ম মেনে করেন।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 38,
+    "idiom": "Cut corners",
+    "literalMeaning": "কোণা কেটে যাওয়া",
+    "banglaMeaning": "সময় বা খরচ বাঁচাতে কাজের মান কমিয়ে দেওয়া",
+    "example": "Do not cut corners when testing the software.",
+    "exampleBangla": "সফটওয়্যার পরীক্ষা করার সময় কাজের মান কমিয়ো না।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 39,
+    "idiom": "Think outside the box",
+    "literalMeaning": "বাক্সের বাইরে চিন্তা করা",
+    "banglaMeaning": "প্রচলিত ধারা থেকে আলাদা ও সৃজনশীলভাবে চিন্তা করা",
+    "example": "We need to think outside the box to solve this problem.",
+    "exampleBangla": "এই সমস্যা সমাধানে আমাদের নতুনভাবে ভাবতে হবে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 40,
+    "idiom": "A steep learning curve",
+    "literalMeaning": "খাড়া শেখার রেখা",
+    "banglaMeaning": "অল্প সময়ে অনেক কিছু শেখার কঠিন প্রক্রিয়া",
+    "example": "The new system has a steep learning curve.",
+    "exampleBangla": "নতুন সিস্টেমটি শিখতে শুরুতে বেশ কঠিন লাগে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 41,
+    "idiom": "Hit the jackpot",
+    "literalMeaning": "জ্যাকপট জেতা",
+    "banglaMeaning": "হঠাৎ বড় সাফল্য বা লাভ পাওয়া",
+    "example": "They hit the jackpot with their new product.",
+    "exampleBangla": "তাদের নতুন পণ্যটি বড় সাফল্য পেয়েছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 42,
+    "idiom": "Miss the boat",
+    "literalMeaning": "নৌকা মিস করা",
+    "banglaMeaning": "সুযোগ হারানো",
+    "example": "Apply now, or you may miss the boat.",
+    "exampleBangla": "এখনই আবেদন করো, নইলে সুযোগটি হারাতে পারো।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 43,
+    "idiom": "Come out on top",
+    "literalMeaning": "সবার ওপরে বেরিয়ে আসা",
+    "banglaMeaning": "শেষ পর্যন্ত জয়ী বা সফল হওয়া",
+    "example": "Despite the competition, our team came out on top.",
+    "exampleBangla": "প্রতিযোগিতা সত্ত্বেও আমাদের দল শেষ পর্যন্ত জয়ী হয়েছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 44,
+    "idiom": "Go down in flames",
+    "literalMeaning": "আগুনে পুড়ে নিচে নামা",
+    "banglaMeaning": "খুব খারাপভাবে ব্যর্থ হওয়া",
+    "example": "Their plan went down in flames.",
+    "exampleBangla": "তাদের পরিকল্পনাটি পুরোপুরি ব্যর্থ হয়েছিল।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 45,
+    "idiom": "Turn the tables",
+    "literalMeaning": "টেবিল ঘুরিয়ে দেওয়া",
+    "banglaMeaning": "পরিস্থিতি নিজের পক্ষে ঘুরিয়ে দেওয়া",
+    "example": "The team turned the tables in the second half.",
+    "exampleBangla": "দ্বিতীয়ার্ধে দলটি পরিস্থিতি নিজেদের পক্ষে ঘুরিয়ে দেয়।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 46,
+    "idiom": "Make a comeback",
+    "literalMeaning": "ফিরে আসা",
+    "banglaMeaning": "ব্যর্থতা বা বিরতির পর আবার সফল হওয়া",
+    "example": "The player made a strong comeback after the injury.",
+    "exampleBangla": "চোটের পর খেলোয়াড়টি দারুণভাবে ফিরে এসেছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 47,
+    "idiom": "Rise to the occasion",
+    "literalMeaning": "পরিস্থিতির উচ্চতায় ওঠা",
+    "banglaMeaning": "কঠিন সময়ে প্রয়োজনমতো ভালো কাজ করা",
+    "example": "She rose to the occasion and led the team well.",
+    "exampleBangla": "কঠিন সময়ে সে দায়িত্ব নিয়ে দলকে ভালোভাবে নেতৃত্ব দিয়েছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 48,
+    "idiom": "Bite off more than you can chew",
+    "literalMeaning": "চিবাতে পারার চেয়ে বেশি কামড় নেওয়া",
+    "banglaMeaning": "সামর্থ্যের চেয়ে বেশি দায়িত্ব নেওয়া",
+    "example": "I bit off more than I could chew by taking three projects.",
+    "exampleBangla": "তিনটি প্রকল্প নিয়ে আমি সামর্থ্যের চেয়ে বেশি দায়িত্ব নিয়েছিলাম।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 49,
+    "idiom": "Throw in the towel",
+    "literalMeaning": "তোয়ালে ছুড়ে দেওয়া",
+    "banglaMeaning": "হাল ছেড়ে দেওয়া",
+    "example": "Do not throw in the towel after one mistake.",
+    "exampleBangla": "একটি ভুলের পরই হাল ছেড়ে দিয়ো না।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 50,
+    "idiom": "Beginner's luck",
+    "literalMeaning": "নতুনের ভাগ্য",
+    "banglaMeaning": "প্রথমবার চেষ্টা করেই অপ্রত্যাশিত সাফল্য পাওয়া",
+    "example": "I won my first game, but it was probably beginner's luck.",
+    "exampleBangla": "আমি প্রথম খেলাতেই জিতেছি, তবে সম্ভবত এটি নতুনের ভাগ্য ছিল।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 51,
+    "idiom": "Cost an arm and a leg",
+    "literalMeaning": "একটি হাত ও একটি পায়ের দাম",
+    "banglaMeaning": "অত্যন্ত ব্যয়বহুল হওয়া",
+    "example": "That phone costs an arm and a leg.",
+    "exampleBangla": "ফোনটির দাম অত্যন্ত বেশি।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 52,
+    "idiom": "Break even",
+    "literalMeaning": "সমান অবস্থায় ভাঙা",
+    "banglaMeaning": "লাভ বা ক্ষতি কোনোটিই না হওয়া",
+    "example": "The shop finally broke even this month.",
+    "exampleBangla": "দোকানটি এ মাসে অবশেষে লাভ-ক্ষতি সমান করতে পেরেছে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 53,
+    "idiom": "Tighten your belt",
+    "literalMeaning": "কোমরের বেল্ট শক্ত করা",
+    "banglaMeaning": "খরচ কমানো",
+    "example": "We need to tighten our belts until business improves.",
+    "exampleBangla": "ব্যবসার অবস্থা ভালো না হওয়া পর্যন্ত আমাদের খরচ কমাতে হবে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 54,
+    "idiom": "Make ends meet",
+    "literalMeaning": "দুই প্রান্ত মিলানো",
+    "banglaMeaning": "আয় দিয়ে প্রয়োজনীয় খরচ চালানো",
+    "example": "It is difficult to make ends meet on a small salary.",
+    "exampleBangla": "কম বেতনে প্রয়োজনীয় খরচ চালানো কঠিন।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 55,
+    "idiom": "Cash cow",
+    "literalMeaning": "টাকার গরু",
+    "banglaMeaning": "নিয়মিত বেশি লাভ দেয় এমন পণ্য বা ব্যবসা",
+    "example": "This service has become the company's cash cow.",
+    "exampleBangla": "এই সেবাটি কোম্পানির সবচেয়ে লাভজনক উৎস হয়ে উঠেছে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 56,
+    "idiom": "Time is money",
+    "literalMeaning": "সময়ই টাকা",
+    "banglaMeaning": "সময় মূল্যবান, তাই তা নষ্ট করা উচিত নয়",
+    "example": "Let's start the meeting—time is money.",
+    "exampleBangla": "চলুন সভা শুরু করি—সময় খুব মূল্যবান।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 57,
+    "idiom": "Foot the bill",
+    "literalMeaning": "বিলের নিচে পা রাখা",
+    "banglaMeaning": "বিল বা খরচ পরিশোধ করা",
+    "example": "The company will foot the bill for the trip.",
+    "exampleBangla": "ভ্রমণের খরচ কোম্পানি বহন করবে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 58,
+    "idiom": "Pay through the nose",
+    "literalMeaning": "নাক দিয়ে মূল্য দেওয়া",
+    "banglaMeaning": "অতিরিক্ত বেশি দাম দেওয়া",
+    "example": "We paid through the nose for a room during the festival.",
+    "exampleBangla": "উৎসবের সময় একটি কক্ষের জন্য আমরা অতিরিক্ত বেশি দাম দিয়েছি।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 59,
+    "idiom": "In the red",
+    "literalMeaning": "লাল রঙের মধ্যে",
+    "banglaMeaning": "ঋণ বা আর্থিক ক্ষতির মধ্যে থাকা",
+    "example": "The business has been in the red for three months.",
+    "exampleBangla": "ব্যবসাটি তিন মাস ধরে আর্থিক ক্ষতির মধ্যে আছে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 60,
+    "idiom": "Bring home the bacon",
+    "literalMeaning": "বাড়িতে বেকন নিয়ে আসা",
+    "banglaMeaning": "পরিবারের জন্য আয় করা",
+    "example": "Both parents work to bring home the bacon.",
+    "exampleBangla": "পরিবারের খরচ চালাতে বাবা-মা দুজনই কাজ করেন।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 61,
+    "idiom": "Better late than never",
+    "literalMeaning": "কখনো না হওয়ার চেয়ে দেরি ভালো",
+    "banglaMeaning": "না করার চেয়ে দেরিতে করাও ভালো",
+    "example": "You finally started exercising—better late than never.",
+    "exampleBangla": "তুমি অবশেষে ব্যায়াম শুরু করেছ—না করার চেয়ে দেরিতে করাও ভালো।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 62,
+    "idiom": "At the eleventh hour",
+    "literalMeaning": "এগারোতম ঘণ্টায়",
+    "banglaMeaning": "একেবারে শেষ মুহূর্তে",
+    "example": "They changed the plan at the eleventh hour.",
+    "exampleBangla": "তারা একেবারে শেষ মুহূর্তে পরিকল্পনা বদলেছে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 63,
+    "idiom": "In the nick of time",
+    "literalMeaning": "ঠিক সময়ের ক্ষুদ্র ফাঁকে",
+    "banglaMeaning": "একেবারে ঠিক সময়ে",
+    "example": "We reached the station in the nick of time.",
+    "exampleBangla": "আমরা একেবারে ঠিক সময়ে স্টেশনে পৌঁছেছিলাম।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 64,
+    "idiom": "Around the clock",
+    "literalMeaning": "ঘড়ির চারপাশে",
+    "banglaMeaning": "দিনরাত চব্বিশ ঘণ্টা",
+    "example": "The support team works around the clock.",
+    "exampleBangla": "সহায়তা দলটি দিনরাত চব্বিশ ঘণ্টা কাজ করে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 65,
+    "idiom": "Ahead of time",
+    "literalMeaning": "সময়ের আগে",
+    "banglaMeaning": "নির্ধারিত সময়ের আগে",
+    "example": "We finished the work ahead of time.",
+    "exampleBangla": "আমরা নির্ধারিত সময়ের আগেই কাজ শেষ করেছি।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 66,
+    "idiom": "Behind schedule",
+    "literalMeaning": "সময়সূচির পেছনে",
+    "banglaMeaning": "পরিকল্পিত সময়ের চেয়ে দেরিতে চলা",
+    "example": "The construction project is behind schedule.",
+    "exampleBangla": "নির্মাণ প্রকল্পটি পরিকল্পিত সময়ের চেয়ে পিছিয়ে আছে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 67,
+    "idiom": "Sooner or later",
+    "literalMeaning": "আগে অথবা পরে",
+    "banglaMeaning": "একসময় না একসময়",
+    "example": "Sooner or later, you will have to make a decision.",
+    "exampleBangla": "একসময় না একসময় তোমাকে সিদ্ধান্ত নিতেই হবে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 68,
+    "idiom": "Day in, day out",
+    "literalMeaning": "দিন আসে, দিন যায়",
+    "banglaMeaning": "প্রতিদিন একইভাবে",
+    "example": "He practises the piano day in, day out.",
+    "exampleBangla": "সে প্রতিদিন নিয়মিত পিয়ানো অনুশীলন করে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 69,
+    "idiom": "From time to time",
+    "literalMeaning": "সময় থেকে সময়ে",
+    "banglaMeaning": "মাঝে মাঝে",
+    "example": "We visit our old neighbourhood from time to time.",
+    "exampleBangla": "আমরা মাঝে মাঝে আমাদের পুরোনো এলাকায় যাই।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 70,
+    "idiom": "Time flies",
+    "literalMeaning": "সময় উড়ে যায়",
+    "banglaMeaning": "সময় খুব দ্রুত কেটে যায়",
+    "example": "Time flies when you are having fun.",
+    "exampleBangla": "আনন্দে থাকলে সময় খুব দ্রুত কেটে যায়।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 71,
+    "idiom": "Face the music",
+    "literalMeaning": "সঙ্গীতের মুখোমুখি হওয়া",
+    "banglaMeaning": "নিজের কাজের পরিণতি মেনে নেওয়া",
+    "example": "He must face the music after breaking the rules.",
+    "exampleBangla": "নিয়ম ভাঙার পর তাকে নিজের কাজের পরিণতি মেনে নিতে হবে।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 72,
+    "idiom": "Cross that bridge when you come to it",
+    "literalMeaning": "সেতুর কাছে গেলে সেটি পার হওয়া",
+    "banglaMeaning": "সমস্যা সামনে এলে তখন তা নিয়ে ভাবা",
+    "example": "We may need more money, but we will cross that bridge when we come to it.",
+    "exampleBangla": "আমাদের আরও টাকা লাগতে পারে, তবে সমস্যা সামনে এলে তখন ভাবব।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 73,
+    "idiom": "In a tight spot",
+    "literalMeaning": "সংকীর্ণ জায়গায়",
+    "banglaMeaning": "কঠিন বা বিব্রতকর পরিস্থিতিতে",
+    "example": "I was in a tight spot when my card stopped working.",
+    "exampleBangla": "আমার কার্ড কাজ না করায় আমি কঠিন পরিস্থিতিতে পড়েছিলাম।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 74,
+    "idiom": "Add fuel to the fire",
+    "literalMeaning": "আগুনে জ্বালানি যোগ করা",
+    "banglaMeaning": "খারাপ পরিস্থিতিকে আরও খারাপ করা",
+    "example": "His angry reply only added fuel to the fire.",
+    "exampleBangla": "তার রাগান্বিত উত্তর পরিস্থিতিকে আরও খারাপ করেছে।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 75,
+    "idiom": "A tough nut to crack",
+    "literalMeaning": "ভাঙার জন্য শক্ত বাদাম",
+    "banglaMeaning": "কঠিন সমস্যা বা বোঝা কঠিন ব্যক্তি",
+    "example": "This maths problem is a tough nut to crack.",
+    "exampleBangla": "এই গণিতের সমস্যাটি সমাধান করা বেশ কঠিন।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 76,
+    "idiom": "Take the bull by the horns",
+    "literalMeaning": "ষাঁড়ের শিং ধরে ফেলা",
+    "banglaMeaning": "সাহসের সঙ্গে সরাসরি সমস্যার মোকাবিলা করা",
+    "example": "She took the bull by the horns and spoke to her manager.",
+    "exampleBangla": "সে সাহস করে সরাসরি তার ব্যবস্থাপকের সঙ্গে কথা বলেছে।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 77,
+    "idiom": "Weigh the pros and cons",
+    "literalMeaning": "পক্ষে ও বিপক্ষের বিষয় ওজন করা",
+    "banglaMeaning": "সুবিধা ও অসুবিধা বিবেচনা করা",
+    "example": "We should weigh the pros and cons before buying the car.",
+    "exampleBangla": "গাড়িটি কেনার আগে আমাদের সুবিধা ও অসুবিধা বিবেচনা করা উচিত।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 78,
+    "idiom": "Sleep on it",
+    "literalMeaning": "এর ওপর ঘুমানো",
+    "banglaMeaning": "সিদ্ধান্ত নেওয়ার আগে কিছু সময় ভেবে দেখা",
+    "example": "I will sleep on it and give you an answer tomorrow.",
+    "exampleBangla": "আমি বিষয়টি নিয়ে ভেবে কাল তোমাকে উত্তর দেব।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 79,
+    "idiom": "Play it by ear",
+    "literalMeaning": "কানে শুনে বাজানো",
+    "banglaMeaning": "আগাম পরিকল্পনা না করে পরিস্থিতি অনুযায়ী সিদ্ধান্ত নেওয়া",
+    "example": "We do not have a fixed plan, so we will play it by ear.",
+    "exampleBangla": "আমাদের নির্দিষ্ট পরিকল্পনা নেই, তাই পরিস্থিতি অনুযায়ী সিদ্ধান্ত নেব।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 80,
+    "idiom": "Nip it in the bud",
+    "literalMeaning": "কুঁড়িতেই কেটে ফেলা",
+    "banglaMeaning": "সমস্যা বড় হওয়ার আগেই থামিয়ে দেওয়া",
+    "example": "We need to nip this problem in the bud.",
+    "exampleBangla": "সমস্যাটি বড় হওয়ার আগেই আমাদের থামাতে হবে।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 81,
+    "idiom": "See eye to eye",
+    "literalMeaning": "চোখে চোখ রাখা",
+    "banglaMeaning": "একই মত পোষণ করা",
+    "example": "We do not always see eye to eye on money.",
+    "exampleBangla": "টাকার বিষয়ে আমরা সবসময় একমত হই না।",
+    "category": "Relationships"
+  },
+  {
+    "id": 82,
+    "idiom": "Get along like a house on fire",
+    "literalMeaning": "আগুন লাগা বাড়ির মতো চলা",
+    "banglaMeaning": "খুব দ্রুত ঘনিষ্ঠ ও বন্ধুত্বপূর্ণ হয়ে ওঠা",
+    "example": "The two new students got along like a house on fire.",
+    "exampleBangla": "নতুন দুই শিক্ষার্থী খুব দ্রুত ঘনিষ্ঠ বন্ধু হয়ে গেল।",
+    "category": "Relationships"
+  },
+  {
+    "id": 83,
+    "idiom": "Through thick and thin",
+    "literalMeaning": "ঘন ও পাতলা সবকিছুর মধ্য দিয়ে",
+    "banglaMeaning": "ভালো-মন্দ সব পরিস্থিতিতে পাশে থাকা",
+    "example": "They supported each other through thick and thin.",
+    "exampleBangla": "তারা ভালো-মন্দ সব পরিস্থিতিতে একে অন্যের পাশে ছিল।",
+    "category": "Relationships"
+  },
+  {
+    "id": 84,
+    "idiom": "Have a soft spot for",
+    "literalMeaning": "কারও জন্য নরম জায়গা থাকা",
+    "banglaMeaning": "কারও প্রতি বিশেষ মমতা বা দুর্বলতা থাকা",
+    "example": "My grandfather has a soft spot for stray animals.",
+    "exampleBangla": "আমার দাদার পথের প্রাণীদের প্রতি বিশেষ মমতা আছে।",
+    "category": "Relationships"
+  },
+  {
+    "id": 85,
+    "idiom": "Bury the hatchet",
+    "literalMeaning": "কুঠার মাটিতে পুঁতে ফেলা",
+    "banglaMeaning": "ঝগড়া মিটিয়ে শান্তি স্থাপন করা",
+    "example": "After years of arguing, they finally buried the hatchet.",
+    "exampleBangla": "বছরের পর বছর ঝগড়ার পর তারা অবশেষে বিরোধ মিটিয়েছে।",
+    "category": "Relationships"
+  },
+  {
+    "id": 86,
+    "idiom": "Patch things up",
+    "literalMeaning": "জোড়া দিয়ে ঠিক করা",
+    "banglaMeaning": "সম্পর্কের ঝামেলা মিটিয়ে নেওয়া",
+    "example": "They talked and patched things up.",
+    "exampleBangla": "তারা কথা বলে সম্পর্কের ঝামেলা মিটিয়ে নিয়েছে।",
+    "category": "Relationships"
+  },
+  {
+    "id": 87,
+    "idiom": "Two peas in a pod",
+    "literalMeaning": "একই শুঁটির দুটি মটরশুঁটি",
+    "banglaMeaning": "দুজন মানুষের স্বভাব বা চেহারায় খুব মিল থাকা",
+    "example": "The twins are like two peas in a pod.",
+    "exampleBangla": "যমজ দুজন দেখতে ও স্বভাবে খুবই মিল।",
+    "category": "Relationships"
+  },
+  {
+    "id": 88,
+    "idiom": "A fair-weather friend",
+    "literalMeaning": "ভালো আবহাওয়ার বন্ধু",
+    "banglaMeaning": "শুধু ভালো সময়ে পাশে থাকে এমন বন্ধু",
+    "example": "He disappeared when I needed help, so he was a fair-weather friend.",
+    "exampleBangla": "আমার সাহায্য দরকার হলে সে চলে গিয়েছিল, তাই সে শুধু ভালো সময়ের বন্ধু ছিল।",
+    "category": "Relationships"
+  },
+  {
+    "id": 89,
+    "idiom": "Give someone the cold shoulder",
+    "literalMeaning": "কাউকে ঠান্ডা কাঁধ দেখানো",
+    "banglaMeaning": "ইচ্ছাকৃতভাবে উপেক্ষা করা",
+    "example": "She gave me the cold shoulder at the party.",
+    "exampleBangla": "পার্টিতে সে ইচ্ছাকৃতভাবে আমাকে উপেক্ষা করেছিল।",
+    "category": "Relationships"
+  },
+  {
+    "id": 90,
+    "idiom": "Build bridges",
+    "literalMeaning": "সেতু তৈরি করা",
+    "banglaMeaning": "মানুষ বা দলের মধ্যে ভালো সম্পর্ক তৈরি করা",
+    "example": "The event helped build bridges between the two communities.",
+    "exampleBangla": "অনুষ্ঠানটি দুই সম্প্রদায়ের মধ্যে ভালো সম্পর্ক তৈরি করতে সাহায্য করেছে।",
+    "category": "Relationships"
+  },
+  {
+    "id": 91,
+    "idiom": "Break a leg",
+    "literalMeaning": "একটি পা ভাঙো",
+    "banglaMeaning": "শুভকামনা জানানো",
+    "example": "Break a leg in your performance tonight!",
+    "exampleBangla": "আজ রাতের পরিবেশনার জন্য শুভকামনা!",
+    "category": "Social Situations"
+  },
+  {
+    "id": 92,
+    "idiom": "When in Rome, do as the Romans do",
+    "literalMeaning": "রোমে গেলে রোমানদের মতো করো",
+    "banglaMeaning": "যে জায়গায় থাকো, সেখানকার রীতি মেনে চলো",
+    "example": "I tried the local food because when in Rome, do as the Romans do.",
+    "exampleBangla": "আমি স্থানীয় খাবার খেয়েছি, কারণ যেখানে থাকি সেখানকার রীতি মানা উচিত।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 93,
+    "idiom": "The ball is in your court",
+    "literalMeaning": "বল এখন তোমার কোর্টে",
+    "banglaMeaning": "পরবর্তী সিদ্ধান্ত বা পদক্ষেপ এখন তোমার",
+    "example": "I have made my offer, so the ball is in your court.",
+    "exampleBangla": "আমি আমার প্রস্তাব দিয়েছি, এখন সিদ্ধান্ত তোমার।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 94,
+    "idiom": "Rain on someone's parade",
+    "literalMeaning": "কারও শোভাযাত্রায় বৃষ্টি নামানো",
+    "banglaMeaning": "কারও আনন্দ বা পরিকল্পনা নষ্ট করা",
+    "example": "I do not want to rain on your parade, but the plan may be too expensive.",
+    "exampleBangla": "তোমার আনন্দ নষ্ট করতে চাই না, তবে পরিকল্পনাটি হয়তো খুব ব্যয়বহুল।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 95,
+    "idiom": "Steal the show",
+    "literalMeaning": "অনুষ্ঠান চুরি করা",
+    "banglaMeaning": "সবচেয়ে বেশি মনোযোগ বা প্রশংসা পাওয়া",
+    "example": "The little boy stole the show with his dance.",
+    "exampleBangla": "ছোট ছেলেটি তার নাচ দিয়ে সবার মনোযোগ কেড়ে নিয়েছিল।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 96,
+    "idiom": "Make yourself at home",
+    "literalMeaning": "নিজেকে নিজের বাড়িতে মনে করো",
+    "banglaMeaning": "স্বচ্ছন্দে থাকার আমন্ত্রণ জানানো",
+    "example": "Come in and make yourself at home.",
+    "exampleBangla": "ভেতরে আসুন এবং নিজের বাড়ির মতো স্বচ্ছন্দে থাকুন।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 97,
+    "idiom": "Be my guest",
+    "literalMeaning": "আমার অতিথি হও",
+    "banglaMeaning": "অনুমতি দেওয়া বা কাউকে কিছু করতে বলা",
+    "example": "If you want to use my charger, be my guest.",
+    "exampleBangla": "তুমি আমার চার্জার ব্যবহার করতে চাইলে নিশ্চিন্তে করো।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 98,
+    "idiom": "Take a rain check",
+    "literalMeaning": "বৃষ্টির জন্য একটি চেক নেওয়া",
+    "banglaMeaning": "এখন না করে পরে করার প্রস্তাব দেওয়া",
+    "example": "I cannot join you today, but can I take a rain check?",
+    "exampleBangla": "আমি আজ তোমাদের সঙ্গে যেতে পারছি না, তবে অন্যদিন যেতে পারি কি?",
+    "category": "Social Situations"
+  },
+  {
+    "id": 99,
+    "idiom": "Go with the flow",
+    "literalMeaning": "স্রোতের সঙ্গে চলা",
+    "banglaMeaning": "পরিস্থিতির সঙ্গে সহজভাবে মানিয়ে চলা",
+    "example": "We have no fixed schedule, so let's go with the flow.",
+    "exampleBangla": "আমাদের নির্দিষ্ট সময়সূচি নেই, তাই পরিস্থিতি অনুযায়ী চলি।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 100,
+    "idiom": "Keep a low profile",
+    "literalMeaning": "নিচু পরিচিতি রাখা",
+    "banglaMeaning": "অতিরিক্ত মনোযোগ এড়িয়ে শান্তভাবে থাকা",
+    "example": "He kept a low profile after the argument.",
+    "exampleBangla": "তর্কের পর সে সবার মনোযোগ এড়িয়ে শান্তভাবে ছিল।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 101,
+    "idiom": "Hit the road",
+    "literalMeaning": "রাস্তায় আঘাত করা",
+    "banglaMeaning": "যাত্রা শুরু করা বা রওনা হওয়া",
+    "example": "We should hit the road before traffic gets heavy.",
+    "exampleBangla": "যানজট বাড়ার আগে আমাদের রওনা হওয়া উচিত।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 102,
+    "idiom": "Keep an eye on",
+    "literalMeaning": "কোনো কিছুর ওপর চোখ রাখা",
+    "banglaMeaning": "নজর রাখা বা দেখাশোনা করা",
+    "example": "Could you keep an eye on my bag for a minute?",
+    "exampleBangla": "তুমি কি এক মিনিট আমার ব্যাগটির দিকে নজর রাখবে?",
+    "category": "Daily Life"
+  },
+  {
+    "id": 103,
+    "idiom": "Lend a hand",
+    "literalMeaning": "একটি হাত ধার দেওয়া",
+    "banglaMeaning": "সাহায্য করা",
+    "example": "Can you lend me a hand with these boxes?",
+    "exampleBangla": "এই বাক্সগুলো নিয়ে তুমি কি আমাকে একটু সাহায্য করবে?",
+    "category": "Daily Life"
+  },
+  {
+    "id": 104,
+    "idiom": "Take it easy",
+    "literalMeaning": "এটিকে সহজভাবে নেওয়া",
+    "banglaMeaning": "শান্ত থাকা, বিশ্রাম নেওয়া বা বেশি চাপ না নেওয়া",
+    "example": "You have worked enough today, so take it easy.",
+    "exampleBangla": "আজ তুমি যথেষ্ট কাজ করেছ, তাই এখন একটু বিশ্রাম নাও।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 105,
+    "idiom": "Hang in there",
+    "literalMeaning": "সেখানে ঝুলে থাকো",
+    "banglaMeaning": "কঠিন অবস্থায় ধৈর্য ধরে টিকে থাকা",
+    "example": "Hang in there; things will get better soon.",
+    "exampleBangla": "ধৈর্য ধরো; শিগগিরই পরিস্থিতি ভালো হবে।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 106,
+    "idiom": "At the drop of a hat",
+    "literalMeaning": "টুপি পড়ার সঙ্গে সঙ্গে",
+    "banglaMeaning": "এক মুহূর্তের নোটিশে বা বিনা দ্বিধায়",
+    "example": "She is ready to travel at the drop of a hat.",
+    "exampleBangla": "সে এক মুহূর্তের নোটিশেই ভ্রমণে যেতে প্রস্তুত।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 107,
+    "idiom": "The best of both worlds",
+    "literalMeaning": "দুই জগতের সেরা অংশ",
+    "banglaMeaning": "দুটি ভিন্ন সুবিধা একসঙ্গে পাওয়া",
+    "example": "Working from home gives her the best of both worlds.",
+    "exampleBangla": "বাড়ি থেকে কাজ করে সে দুই দিকের সুবিধাই পাচ্ছে।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 108,
+    "idiom": "No big deal",
+    "literalMeaning": "বড় কোনো ব্যাপার নয়",
+    "banglaMeaning": "গুরুত্বপূর্ণ বা কঠিন কিছু নয়",
+    "example": "Do not worry about the mistake; it is no big deal.",
+    "exampleBangla": "ভুলটি নিয়ে চিন্তা করো না; এটি বড় কোনো ব্যাপার নয়।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 109,
+    "idiom": "In no time",
+    "literalMeaning": "কোনো সময়ের মধ্যেই নয়",
+    "banglaMeaning": "খুব অল্প সময়ের মধ্যে",
+    "example": "You will feel better in no time.",
+    "exampleBangla": "তুমি খুব শিগগিরই ভালো বোধ করবে।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 110,
+    "idiom": "So far, so good",
+    "literalMeaning": "এ পর্যন্ত সব ভালো",
+    "banglaMeaning": "এখন পর্যন্ত সবকিছু ঠিকঠাক চলছে",
+    "example": "The new system is working well—so far, so good.",
+    "exampleBangla": "নতুন সিস্টেমটি ভালো চলছে—এখন পর্যন্ত সবকিছু ঠিক আছে।",
+    "category": "Daily Life"
+  },
+  {
+    "id": 111,
+    "idiom": "Spill the beans",
+    "literalMeaning": "শিমের দানা ছড়িয়ে দেওয়া",
+    "banglaMeaning": "গোপন কথা ফাঁস করে দেওয়া",
+    "example": "Who spilled the beans about the surprise?",
+    "exampleBangla": "সারপ্রাইজের গোপন কথাটি কে ফাঁস করেছে?",
+    "category": "Communication"
+  },
+  {
+    "id": 112,
+    "idiom": "Get something off your chest",
+    "literalMeaning": "বুকের ওপর থেকে কিছু সরানো",
+    "banglaMeaning": "মনের চাপ কমাতে গোপন বা কষ্টের কথা বলে ফেলা",
+    "example": "I need to get something off my chest.",
+    "exampleBangla": "মনের চাপ কমাতে আমার একটি কথা বলা দরকার।",
+    "category": "Communication"
+  },
+  {
+    "id": 113,
+    "idiom": "Straight from the horse's mouth",
+    "literalMeaning": "সরাসরি ঘোড়ার মুখ থেকে",
+    "banglaMeaning": "সরাসরি নির্ভরযোগ্য বা মূল ব্যক্তির কাছ থেকে পাওয়া তথ্য",
+    "example": "I heard the news straight from the horse's mouth.",
+    "exampleBangla": "আমি খবরটি সরাসরি সংশ্লিষ্ট ব্যক্তির কাছ থেকে শুনেছি।",
+    "category": "Communication"
+  },
+  {
+    "id": 114,
+    "idiom": "Talk behind someone's back",
+    "literalMeaning": "কারও পেছনে কথা বলা",
+    "banglaMeaning": "কারও অনুপস্থিতিতে তাকে নিয়ে খারাপ কথা বলা",
+    "example": "It is unfair to talk behind someone's back.",
+    "exampleBangla": "কারও অনুপস্থিতিতে তাকে নিয়ে খারাপ কথা বলা অন্যায়।",
+    "category": "Communication"
+  },
+  {
+    "id": 115,
+    "idiom": "Put words in someone's mouth",
+    "literalMeaning": "কারও মুখে কথা বসিয়ে দেওয়া",
+    "banglaMeaning": "কেউ যা বলেনি, তা বলেছে বলে দাবি করা",
+    "example": "Do not put words in my mouth; that is not what I said.",
+    "exampleBangla": "আমি যা বলিনি তা আমার মুখে বসিয়ো না; আমি এমন কথা বলিনি।",
+    "category": "Communication"
+  },
+  {
+    "id": 116,
+    "idiom": "Bite your tongue",
+    "literalMeaning": "নিজের জিহ্বায় কামড় দেওয়া",
+    "banglaMeaning": "কিছু বলতে চাইলেও নিজেকে থামানো",
+    "example": "I had to bite my tongue during the meeting.",
+    "exampleBangla": "সভায় আমাকে অনেক কথা বলা থেকে নিজেকে থামাতে হয়েছিল।",
+    "category": "Communication"
+  },
+  {
+    "id": 117,
+    "idiom": "Keep in touch",
+    "literalMeaning": "স্পর্শের মধ্যে থাকা",
+    "banglaMeaning": "যোগাযোগ বজায় রাখা",
+    "example": "Let us keep in touch after you move.",
+    "exampleBangla": "তুমি চলে যাওয়ার পরও চল আমরা যোগাযোগ রাখি।",
+    "category": "Communication"
+  },
+  {
+    "id": 118,
+    "idiom": "Ring a bell",
+    "literalMeaning": "ঘণ্টা বাজানো",
+    "banglaMeaning": "পরিচিত মনে হওয়া বা স্মৃতি জাগানো",
+    "example": "Her name rings a bell, but I cannot remember where we met.",
+    "exampleBangla": "তার নামটি পরিচিত লাগছে, তবে কোথায় দেখা হয়েছিল মনে করতে পারছি না।",
+    "category": "Communication"
+  },
+  {
+    "id": 119,
+    "idiom": "Get your wires crossed",
+    "literalMeaning": "তারগুলো একে অন্যের সঙ্গে জড়িয়ে ফেলা",
+    "banglaMeaning": "ভুল বোঝাবুঝি হওয়া",
+    "example": "We got our wires crossed about the meeting time.",
+    "exampleBangla": "সভার সময় নিয়ে আমাদের ভুল বোঝাবুঝি হয়েছিল।",
+    "category": "Communication"
+  },
+  {
+    "id": 120,
+    "idiom": "Speak your mind",
+    "literalMeaning": "নিজের মনকে কথা বলতে দেওয়া",
+    "banglaMeaning": "নিজের মতামত খোলাখুলিভাবে বলা",
+    "example": "You should feel free to speak your mind.",
+    "exampleBangla": "তোমার নিজের মতামত খোলাখুলিভাবে বলতে দ্বিধা করা উচিত নয়।",
+    "category": "Communication"
+  },
+  {
+    "id": 121,
+    "idiom": "On cloud nine",
+    "literalMeaning": "নবম মেঘের ওপর",
+    "banglaMeaning": "অত্যন্ত আনন্দিত",
+    "example": "She was on cloud nine after getting the job.",
+    "exampleBangla": "চাকরিটি পাওয়ার পর সে অত্যন্ত আনন্দিত ছিল।",
+    "category": "Feelings"
+  },
+  {
+    "id": 122,
+    "idiom": "Feel blue",
+    "literalMeaning": "নীল অনুভব করা",
+    "banglaMeaning": "মন খারাপ বা বিষণ্ন বোধ করা",
+    "example": "I always feel blue on rainy days.",
+    "exampleBangla": "বৃষ্টির দিনে আমার প্রায়ই মন খারাপ লাগে।",
+    "category": "Feelings"
+  },
+  {
+    "id": 123,
+    "idiom": "Get cold feet",
+    "literalMeaning": "পা ঠান্ডা হয়ে যাওয়া",
+    "banglaMeaning": "শেষ মুহূর্তে ভয় পেয়ে পিছিয়ে যাওয়া",
+    "example": "He got cold feet before the presentation.",
+    "exampleBangla": "উপস্থাপনার আগে সে ভয় পেয়ে পিছিয়ে যেতে চেয়েছিল।",
+    "category": "Feelings"
+  },
+  {
+    "id": 124,
+    "idiom": "Have mixed feelings",
+    "literalMeaning": "মিশ্র অনুভূতি থাকা",
+    "banglaMeaning": "একই বিষয়ে ভালো ও খারাপ দুই ধরনের অনুভূতি থাকা",
+    "example": "I have mixed feelings about leaving this city.",
+    "exampleBangla": "এই শহর ছেড়ে যাওয়ার বিষয়ে আমার মিশ্র অনুভূতি আছে।",
+    "category": "Feelings"
+  },
+  {
+    "id": 125,
+    "idiom": "Be beside yourself",
+    "literalMeaning": "নিজের পাশেই থাকা",
+    "banglaMeaning": "অত্যন্ত আবেগপ্রবণ, উদ্বিগ্ন বা বিচলিত হওয়া",
+    "example": "She was beside herself with worry.",
+    "exampleBangla": "সে দুশ্চিন্তায় অত্যন্ত বিচলিত ছিল।",
+    "category": "Feelings"
+  },
+  {
+    "id": 126,
+    "idiom": "Jump for joy",
+    "literalMeaning": "আনন্দে লাফ দেওয়া",
+    "banglaMeaning": "খুব আনন্দিত হওয়া",
+    "example": "The children jumped for joy when they heard the news.",
+    "exampleBangla": "খবরটি শুনে শিশুরা আনন্দে লাফিয়ে উঠল।",
+    "category": "Feelings"
+  },
+  {
+    "id": 127,
+    "idiom": "Be on pins and needles",
+    "literalMeaning": "পিন ও সূঁচের ওপর থাকা",
+    "banglaMeaning": "উদ্বেগে বা অপেক্ষায় অস্থির থাকা",
+    "example": "We were on pins and needles waiting for the results.",
+    "exampleBangla": "ফলের অপেক্ষায় আমরা উদ্বেগে অস্থির ছিলাম।",
+    "category": "Feelings"
+  },
+  {
+    "id": 128,
+    "idiom": "Blow your top",
+    "literalMeaning": "নিজের ওপরের অংশ উড়িয়ে দেওয়া",
+    "banglaMeaning": "হঠাৎ প্রচণ্ড রেগে যাওয়া",
+    "example": "Dad will blow his top if he sees the broken window.",
+    "exampleBangla": "ভাঙা জানালাটি দেখলে বাবা প্রচণ্ড রেগে যাবেন।",
+    "category": "Feelings"
+  },
+  {
+    "id": 129,
+    "idiom": "Wear your heart on your sleeve",
+    "literalMeaning": "হাতার ওপর হৃদয় পরা",
+    "banglaMeaning": "নিজের অনুভূতি সহজেই প্রকাশ করা",
+    "example": "She wears her heart on her sleeve.",
+    "exampleBangla": "সে নিজের অনুভূতি সহজেই প্রকাশ করে।",
+    "category": "Feelings"
+  },
+  {
+    "id": 130,
+    "idiom": "Get on someone's nerves",
+    "literalMeaning": "কারও স্নায়ুর ওপর ওঠা",
+    "banglaMeaning": "কাউকে খুব বিরক্ত করা",
+    "example": "That constant noise is getting on my nerves.",
+    "exampleBangla": "ওই একটানা শব্দটি আমাকে খুব বিরক্ত করছে।",
+    "category": "Feelings"
+  },
+  {
+    "id": 131,
+    "idiom": "Hit the books",
+    "literalMeaning": "বইয়ে আঘাত করা",
+    "banglaMeaning": "মন দিয়ে পড়াশোনা শুরু করা",
+    "example": "I have an exam tomorrow, so I need to hit the books.",
+    "exampleBangla": "আগামীকাল আমার পরীক্ষা, তাই আমাকে মন দিয়ে পড়তে হবে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 132,
+    "idiom": "Learn by heart",
+    "literalMeaning": "হৃদয় দিয়ে শেখা",
+    "banglaMeaning": "মুখস্থ করা",
+    "example": "We had to learn the poem by heart.",
+    "exampleBangla": "আমাদের কবিতাটি মুখস্থ করতে হয়েছিল।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 133,
+    "idiom": "Pass with flying colours",
+    "literalMeaning": "উড়ন্ত রঙ নিয়ে পাস করা",
+    "banglaMeaning": "খুব ভালো ফল নিয়ে পাস করা",
+    "example": "She passed the final exam with flying colours.",
+    "exampleBangla": "সে চূড়ান্ত পরীক্ষায় খুব ভালো ফল করে পাস করেছে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 134,
+    "idiom": "Know something inside out",
+    "literalMeaning": "কোনো কিছুর ভেতর ও বাইরে জানা",
+    "banglaMeaning": "কোনো বিষয় খুব ভালোভাবে জানা",
+    "example": "He knows the software inside out.",
+    "exampleBangla": "সে সফটওয়্যারটি খুব ভালোভাবে জানে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 135,
+    "idiom": "Put your thinking cap on",
+    "literalMeaning": "চিন্তার টুপি পরা",
+    "banglaMeaning": "মনোযোগ দিয়ে সমাধান ভাবা",
+    "example": "Put your thinking cap on and solve this puzzle.",
+    "exampleBangla": "মনোযোগ দিয়ে ভাবো এবং ধাঁধাটি সমাধান করো।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 136,
+    "idiom": "Keep your nose to the grindstone",
+    "literalMeaning": "নাক ঘষার পাথরের কাছে রাখা",
+    "banglaMeaning": "একটানা মনোযোগ দিয়ে কঠোর পরিশ্রম করা",
+    "example": "Keep your nose to the grindstone, and you will finish on time.",
+    "exampleBangla": "একটানা মনোযোগ দিয়ে কাজ করলে তুমি সময়মতো শেষ করতে পারবে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 137,
+    "idiom": "Have a lot on your plate",
+    "literalMeaning": "থালায় অনেক কিছু থাকা",
+    "banglaMeaning": "অনেক কাজ বা দায়িত্ব থাকা",
+    "example": "I cannot take another task because I already have a lot on my plate.",
+    "exampleBangla": "আমার ইতিমধ্যে অনেক কাজ আছে, তাই আরেকটি দায়িত্ব নিতে পারছি না।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 138,
+    "idiom": "Get down to business",
+    "literalMeaning": "ব্যবসার কাজে নেমে পড়া",
+    "banglaMeaning": "গুরুত্বসহকারে মূল কাজ শুরু করা",
+    "example": "After a short introduction, we got down to business.",
+    "exampleBangla": "সংক্ষিপ্ত পরিচয়ের পর আমরা মূল কাজ শুরু করলাম।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 139,
+    "idiom": "Climb the career ladder",
+    "literalMeaning": "পেশাজীবনের সিঁড়ি বেয়ে ওঠা",
+    "banglaMeaning": "চাকরিতে ধাপে ধাপে উন্নতি করা",
+    "example": "She worked hard to climb the career ladder.",
+    "exampleBangla": "চাকরিতে উন্নতি করতে সে কঠোর পরিশ্রম করেছে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 140,
+    "idiom": "Work your fingers to the bone",
+    "literalMeaning": "আঙুলের মাংস ক্ষয় করে হাড় বের হওয়া পর্যন্ত কাজ করা",
+    "banglaMeaning": "অত্যন্ত কঠোর পরিশ্রম করা",
+    "example": "They worked their fingers to the bone to build the business.",
+    "exampleBangla": "ব্যবসাটি গড়ে তুলতে তারা অত্যন্ত কঠোর পরিশ্রম করেছে।",
+    "category": "Work and Study"
+  },
+  {
+    "id": 141,
+    "idiom": "Make the grade",
+    "literalMeaning": "প্রয়োজনীয় মান অর্জন করা",
+    "banglaMeaning": "প্রয়োজনীয় মানে পৌঁছানো বা সফল হওয়া",
+    "example": "Only the best candidates will make the grade.",
+    "exampleBangla": "শুধু সেরা প্রার্থীরাই প্রয়োজনীয় মানে পৌঁছাতে পারবে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 142,
+    "idiom": "Fall flat",
+    "literalMeaning": "সমতল হয়ে পড়ে যাওয়া",
+    "banglaMeaning": "প্রত্যাশিত প্রভাব ফেলতে ব্যর্থ হওয়া",
+    "example": "His joke fell flat because nobody understood it.",
+    "exampleBangla": "কেউ কৌতুকটি না বোঝায় সেটি কোনো প্রভাব ফেলতে পারেনি।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 143,
+    "idiom": "Go from strength to strength",
+    "literalMeaning": "এক শক্তি থেকে আরেক শক্তিতে যাওয়া",
+    "banglaMeaning": "ক্রমাগত আরও সফল বা শক্তিশালী হওয়া",
+    "example": "The company has gone from strength to strength.",
+    "exampleBangla": "কোম্পানিটি ক্রমাগত আরও সফল হয়েছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 144,
+    "idiom": "Get off to a flying start",
+    "literalMeaning": "উড়ন্তভাবে শুরু করা",
+    "banglaMeaning": "খুব ভালোভাবে শুরু করা",
+    "example": "The new shop got off to a flying start.",
+    "exampleBangla": "নতুন দোকানটি দারুণভাবে যাত্রা শুরু করেছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 145,
+    "idiom": "A long shot",
+    "literalMeaning": "দূরের একটি শট",
+    "banglaMeaning": "সফল হওয়ার সম্ভাবনা খুব কম এমন চেষ্টা",
+    "example": "Winning the contract is a long shot, but we should still try.",
+    "exampleBangla": "চুক্তিটি পাওয়ার সম্ভাবনা কম, তবুও আমাদের চেষ্টা করা উচিত।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 146,
+    "idiom": "Have the upper hand",
+    "literalMeaning": "উপরের হাত থাকা",
+    "banglaMeaning": "অন্যের তুলনায় সুবিধাজনক বা শক্তিশালী অবস্থানে থাকা",
+    "example": "Our team had the upper hand throughout the match.",
+    "exampleBangla": "পুরো ম্যাচজুড়ে আমাদের দল সুবিধাজনক অবস্থানে ছিল।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 147,
+    "idiom": "Save the day",
+    "literalMeaning": "দিনটি বাঁচানো",
+    "banglaMeaning": "শেষ মুহূর্তে সমস্যা সমাধান করে পরিস্থিতি রক্ষা করা",
+    "example": "Her quick decision saved the day.",
+    "exampleBangla": "তার দ্রুত সিদ্ধান্ত পরিস্থিতি রক্ষা করেছিল।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 148,
+    "idiom": "Back on track",
+    "literalMeaning": "আবার সঠিক পথে",
+    "banglaMeaning": "সমস্যার পর আবার সঠিকভাবে এগোতে শুরু করা",
+    "example": "The project is finally back on track.",
+    "exampleBangla": "প্রকল্পটি অবশেষে আবার সঠিক পথে ফিরেছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 149,
+    "idiom": "Strike gold",
+    "literalMeaning": "সোনায় আঘাত করা",
+    "banglaMeaning": "মূল্যবান বা অত্যন্ত সফল কিছু খুঁজে পাওয়া",
+    "example": "The developer struck gold with the new app.",
+    "exampleBangla": "নতুন অ্যাপটি দিয়ে ডেভেলপারটি বড় সাফল্য পেয়েছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 150,
+    "idiom": "Win hands down",
+    "literalMeaning": "হাত নিচে রেখেই জেতা",
+    "banglaMeaning": "খুব সহজে জয়ী হওয়া",
+    "example": "She won the competition hands down.",
+    "exampleBangla": "সে প্রতিযোগিতায় খুব সহজেই জয়ী হয়েছে।",
+    "category": "Success and Failure"
+  },
+  {
+    "id": 151,
+    "idiom": "On a shoestring",
+    "literalMeaning": "জুতার ফিতার ওপর",
+    "banglaMeaning": "খুব অল্প বাজেটে",
+    "example": "They started the business on a shoestring.",
+    "exampleBangla": "তারা খুব অল্প বাজেটে ব্যবসাটি শুরু করেছিল।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 152,
+    "idiom": "Dirt cheap",
+    "literalMeaning": "মাটির মতো সস্তা",
+    "banglaMeaning": "অত্যন্ত সস্তা",
+    "example": "I bought these books dirt cheap.",
+    "exampleBangla": "আমি বইগুলো অত্যন্ত কম দামে কিনেছি।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 153,
+    "idiom": "Worth every penny",
+    "literalMeaning": "প্রতিটি পয়সার মূল্য আছে",
+    "banglaMeaning": "যে দামে কেনা হয়েছে তার পুরো মূল্য পাওয়া",
+    "example": "The course was expensive, but it was worth every penny.",
+    "exampleBangla": "কোর্সটি ব্যয়বহুল ছিল, তবে খরচের পুরো মূল্য পাওয়া গেছে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 154,
+    "idiom": "Money does not grow on trees",
+    "literalMeaning": "গাছে টাকা জন্মায় না",
+    "banglaMeaning": "টাকা সহজে পাওয়া যায় না, তাই সাবধানে খরচ করা উচিত",
+    "example": "Do not waste your allowance; money does not grow on trees.",
+    "exampleBangla": "তোমার হাতখরচ নষ্ট করো না; টাকা সহজে পাওয়া যায় না।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 155,
+    "idiom": "Nest egg",
+    "literalMeaning": "বাসার ডিম",
+    "banglaMeaning": "ভবিষ্যতের জন্য জমিয়ে রাখা অর্থ",
+    "example": "They are building a nest egg for retirement.",
+    "exampleBangla": "তারা অবসরের জন্য অর্থ সঞ্চয় করছে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 156,
+    "idiom": "Bread and butter",
+    "literalMeaning": "রুটি ও মাখন",
+    "banglaMeaning": "আয়ের প্রধান উৎস",
+    "example": "Website development is his bread and butter.",
+    "exampleBangla": "ওয়েবসাইট তৈরি করাই তার আয়ের প্রধান উৎস।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 157,
+    "idiom": "Make a killing",
+    "literalMeaning": "একটি বড় হত্যা করা",
+    "banglaMeaning": "অল্প সময়ে প্রচুর লাভ করা",
+    "example": "The company made a killing during the holiday season.",
+    "exampleBangla": "ছুটির মৌসুমে কোম্পানিটি প্রচুর লাভ করেছে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 158,
+    "idiom": "Cost a fortune",
+    "literalMeaning": "একটি ভাগ্যের সমান দাম",
+    "banglaMeaning": "অত্যন্ত বেশি দাম হওয়া",
+    "example": "Repairing the car cost a fortune.",
+    "exampleBangla": "গাড়িটি মেরামত করতে অত্যন্ত বেশি খরচ হয়েছে।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 159,
+    "idiom": "Penny-pincher",
+    "literalMeaning": "পয়সা চেপে ধরা ব্যক্তি",
+    "banglaMeaning": "অতিরিক্ত কৃপণ ব্যক্তি",
+    "example": "He is such a penny-pincher that he never buys anything unnecessary.",
+    "exampleBangla": "সে এত কৃপণ যে কখনো অপ্রয়োজনীয় কিছু কেনে না।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 160,
+    "idiom": "Get your money's worth",
+    "literalMeaning": "নিজের টাকার সমান মূল্য পাওয়া",
+    "banglaMeaning": "খরচের বিনিময়ে যথেষ্ট উপকার বা মূল্য পাওয়া",
+    "example": "The meal was excellent, so we got our money's worth.",
+    "exampleBangla": "খাবারটি দারুণ ছিল, তাই আমরা খরচের যথেষ্ট মূল্য পেয়েছি।",
+    "category": "Money and Business"
+  },
+  {
+    "id": 161,
+    "idiom": "Time after time",
+    "literalMeaning": "সময়ের পর সময়",
+    "banglaMeaning": "বারবার",
+    "example": "He has made the same mistake time after time.",
+    "exampleBangla": "সে বারবার একই ভুল করেছে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 162,
+    "idiom": "For good",
+    "literalMeaning": "ভালোর জন্য",
+    "banglaMeaning": "চিরদিনের জন্য বা স্থায়ীভাবে",
+    "example": "She has left the city for good.",
+    "exampleBangla": "সে স্থায়ীভাবে শহরটি ছেড়ে গেছে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 163,
+    "idiom": "In the meantime",
+    "literalMeaning": "মধ্যবর্তী সময়ে",
+    "banglaMeaning": "এর মধ্যবর্তী সময়ে",
+    "example": "Dinner will be ready soon; in the meantime, have some tea.",
+    "exampleBangla": "রাতের খাবার শিগগিরই প্রস্তুত হবে; এর মধ্যে কিছু চা খাও।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 164,
+    "idiom": "At the last minute",
+    "literalMeaning": "শেষ মিনিটে",
+    "banglaMeaning": "একেবারে শেষ মুহূর্তে",
+    "example": "He cancelled the trip at the last minute.",
+    "exampleBangla": "সে একেবারে শেষ মুহূর্তে ভ্রমণটি বাতিল করেছে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 165,
+    "idiom": "From day one",
+    "literalMeaning": "প্রথম দিন থেকে",
+    "banglaMeaning": "একেবারে শুরু থেকেই",
+    "example": "She supported the idea from day one.",
+    "exampleBangla": "সে একেবারে শুরু থেকেই ধারণাটিকে সমর্থন করেছে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 166,
+    "idiom": "Sooner rather than later",
+    "literalMeaning": "পরে নয়, বরং আগে",
+    "banglaMeaning": "যত দ্রুত সম্ভব",
+    "example": "We should fix the problem sooner rather than later.",
+    "exampleBangla": "আমাদের সমস্যাটি যত দ্রুত সম্ভব ঠিক করা উচিত।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 167,
+    "idiom": "Once and for all",
+    "literalMeaning": "একবার এবং সবার জন্য",
+    "banglaMeaning": "চূড়ান্তভাবে, যাতে আর করতে না হয়",
+    "example": "Let us settle this issue once and for all.",
+    "exampleBangla": "চলুন সমস্যাটি চূড়ান্তভাবে মিটিয়ে ফেলি।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 168,
+    "idiom": "For the time being",
+    "literalMeaning": "বর্তমান সময়ের জন্য",
+    "banglaMeaning": "আপাতত",
+    "example": "You can use my desk for the time being.",
+    "exampleBangla": "আপাতত তুমি আমার ডেস্কটি ব্যবহার করতে পারো।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 169,
+    "idiom": "All in good time",
+    "literalMeaning": "সবকিছু ভালো সময়ে",
+    "banglaMeaning": "সঠিক সময় এলে সব হবে",
+    "example": "You will get your chance, all in good time.",
+    "exampleBangla": "সঠিক সময় এলে তুমিও সুযোগ পাবে।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 170,
+    "idiom": "Make up for lost time",
+    "literalMeaning": "হারানো সময়ের ঘাটতি পূরণ করা",
+    "banglaMeaning": "আগের দেরি পুষিয়ে নিতে দ্রুত বা বেশি কাজ করা",
+    "example": "We worked late to make up for lost time.",
+    "exampleBangla": "হারানো সময় পুষিয়ে নিতে আমরা দেরি পর্যন্ত কাজ করেছি।",
+    "category": "Time and Planning"
+  },
+  {
+    "id": 171,
+    "idiom": "Between a rock and a hard place",
+    "literalMeaning": "একটি পাথর ও কঠিন জায়গার মাঝখানে",
+    "banglaMeaning": "দুটি কঠিন বিকল্পের মধ্যে আটকে থাকা",
+    "example": "I was caught between a rock and a hard place.",
+    "exampleBangla": "আমি দুটি কঠিন বিকল্পের মধ্যে আটকে গিয়েছিলাম।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 172,
+    "idiom": "Get out of hand",
+    "literalMeaning": "হাতের বাইরে চলে যাওয়া",
+    "banglaMeaning": "নিয়ন্ত্রণের বাইরে চলে যাওয়া",
+    "example": "The argument quickly got out of hand.",
+    "exampleBangla": "তর্কটি দ্রুত নিয়ন্ত্রণের বাইরে চলে গিয়েছিল।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 173,
+    "idiom": "Sweep something under the rug",
+    "literalMeaning": "কোনো কিছু কার্পেটের নিচে ঝাড়ু দিয়ে রাখা",
+    "banglaMeaning": "সমস্যা লুকিয়ে রাখা বা এড়িয়ে যাওয়া",
+    "example": "We cannot sweep this issue under the rug.",
+    "exampleBangla": "আমরা এই সমস্যাটি লুকিয়ে রাখতে পারি না।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 174,
+    "idiom": "Make a mountain out of a molehill",
+    "literalMeaning": "ছোট মাটির ঢিবি থেকে পাহাড় বানানো",
+    "banglaMeaning": "ছোট সমস্যাকে অযথা বড় করে দেখা",
+    "example": "It was a small mistake, so do not make a mountain out of a molehill.",
+    "exampleBangla": "এটি ছোট একটি ভুল ছিল, তাই অযথা বড় করে দেখো না।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 175,
+    "idiom": "Have second thoughts",
+    "literalMeaning": "দ্বিতীয় চিন্তা থাকা",
+    "banglaMeaning": "আগের সিদ্ধান্ত নিয়ে নতুন করে সন্দেহ হওয়া",
+    "example": "I am having second thoughts about buying the house.",
+    "exampleBangla": "বাড়িটি কেনার সিদ্ধান্ত নিয়ে আমার নতুন করে সন্দেহ হচ্ছে।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 176,
+    "idiom": "Be in two minds",
+    "literalMeaning": "দুটি মনে থাকা",
+    "banglaMeaning": "সিদ্ধান্ত নিতে দ্বিধায় থাকা",
+    "example": "I am in two minds about accepting the offer.",
+    "exampleBangla": "প্রস্তাবটি গ্রহণ করব কি না, তা নিয়ে আমি দ্বিধায় আছি।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 177,
+    "idiom": "Go back to square one",
+    "literalMeaning": "প্রথম ঘরে ফিরে যাওয়া",
+    "banglaMeaning": "ব্যর্থতার পর আবার একেবারে শুরু থেকে শুরু করা",
+    "example": "The test failed, so we are back to square one.",
+    "exampleBangla": "পরীক্ষাটি ব্যর্থ হয়েছে, তাই আমাদের আবার শুরু থেকে শুরু করতে হবে।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 178,
+    "idiom": "Leave no stone unturned",
+    "literalMeaning": "কোনো পাথর উল্টানো বাকি না রাখা",
+    "banglaMeaning": "সমাধান খুঁজতে সম্ভাব্য সব চেষ্টা করা",
+    "example": "The team left no stone unturned to find the cause.",
+    "exampleBangla": "কারণ খুঁজে বের করতে দলটি সম্ভাব্য সব চেষ্টা করেছে।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 179,
+    "idiom": "Take something with a grain of salt",
+    "literalMeaning": "এক চিমটি লবণ দিয়ে কিছু নেওয়া",
+    "banglaMeaning": "কোনো কথা পুরোপুরি সত্য ধরে না নেওয়া",
+    "example": "Take online rumours with a grain of salt.",
+    "exampleBangla": "অনলাইনের গুজব পুরোপুরি সত্য ধরে নিয়ো না।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 180,
+    "idiom": "Stick to your guns",
+    "literalMeaning": "নিজের বন্দুক আঁকড়ে থাকা",
+    "banglaMeaning": "চাপের মধ্যেও নিজের সিদ্ধান্ত বা বিশ্বাসে অটল থাকা",
+    "example": "She stuck to her guns and refused to change the design.",
+    "exampleBangla": "সে নিজের সিদ্ধান্তে অটল ছিল এবং নকশাটি বদলাতে অস্বীকার করেছিল।",
+    "category": "Problems and Decisions"
+  },
+  {
+    "id": 181,
+    "idiom": "Hit it off",
+    "literalMeaning": "এটিকে ভালোভাবে আঘাত করা",
+    "banglaMeaning": "প্রথম দেখাতেই ভালো সম্পর্ক তৈরি হওয়া",
+    "example": "We hit it off as soon as we met.",
+    "exampleBangla": "দেখা হওয়ার সঙ্গে সঙ্গেই আমাদের ভালো সম্পর্ক তৈরি হয়েছিল।",
+    "category": "Relationships"
+  },
+  {
+    "id": 182,
+    "idiom": "Know someone inside out",
+    "literalMeaning": "কাউকে ভেতর ও বাইরে থেকে জানা",
+    "banglaMeaning": "কাউকে খুব ভালোভাবে চেনা",
+    "example": "After twenty years of friendship, I know him inside out.",
+    "exampleBangla": "বিশ বছরের বন্ধুত্বের পর আমি তাকে খুব ভালোভাবে চিনি।",
+    "category": "Relationships"
+  },
+  {
+    "id": 183,
+    "idiom": "Be there for someone",
+    "literalMeaning": "কারও জন্য সেখানে থাকা",
+    "banglaMeaning": "প্রয়োজনের সময় কাউকে সহায়তা ও সমর্থন করা",
+    "example": "Good friends are there for each other.",
+    "exampleBangla": "ভালো বন্ধুরা প্রয়োজনের সময় একে অন্যের পাশে থাকে।",
+    "category": "Relationships"
+  },
+  {
+    "id": 184,
+    "idiom": "Get on someone's good side",
+    "literalMeaning": "কারও ভালো পাশে যাওয়া",
+    "banglaMeaning": "কারও পছন্দ বা সমর্থন পাওয়ার চেষ্টা করা",
+    "example": "He brought coffee to get on his manager's good side.",
+    "exampleBangla": "ব্যবস্থাপকের পছন্দ পাওয়ার জন্য সে কফি এনেছিল।",
+    "category": "Relationships"
+  },
+  {
+    "id": 185,
+    "idiom": "Be on bad terms",
+    "literalMeaning": "খারাপ শর্তে থাকা",
+    "banglaMeaning": "কারও সঙ্গে সম্পর্ক খারাপ থাকা",
+    "example": "The two neighbours have been on bad terms for years.",
+    "exampleBangla": "দুই প্রতিবেশীর সম্পর্ক বহু বছর ধরে খারাপ।",
+    "category": "Relationships"
+  },
+  {
+    "id": 186,
+    "idiom": "Clear the air",
+    "literalMeaning": "বাতাস পরিষ্কার করা",
+    "banglaMeaning": "খোলামেলা কথা বলে ভুল বোঝাবুঝি দূর করা",
+    "example": "We met to clear the air after the argument.",
+    "exampleBangla": "তর্কের পর ভুল বোঝাবুঝি দূর করতে আমরা দেখা করেছি।",
+    "category": "Relationships"
+  },
+  {
+    "id": 187,
+    "idiom": "Fall out with someone",
+    "literalMeaning": "কারও সঙ্গে বাইরে পড়ে যাওয়া",
+    "banglaMeaning": "ঝগড়ার কারণে সম্পর্ক খারাপ হওয়া",
+    "example": "She fell out with her friend over a small misunderstanding.",
+    "exampleBangla": "ছোট একটি ভুল বোঝাবুঝি নিয়ে তার বন্ধুর সঙ্গে সম্পর্ক খারাপ হয়েছিল।",
+    "category": "Relationships"
+  },
+  {
+    "id": 188,
+    "idiom": "Make it up to someone",
+    "literalMeaning": "কারও কাছে তা পূরণ করে দেওয়া",
+    "banglaMeaning": "ভুলের ক্ষতিপূরণ করতে ভালো কিছু করা",
+    "example": "I am sorry I missed your birthday; I will make it up to you.",
+    "exampleBangla": "তোমার জন্মদিনে আসতে না পারায় দুঃখিত; আমি এর ক্ষতিপূরণ করব।",
+    "category": "Relationships"
+  },
+  {
+    "id": 189,
+    "idiom": "Give someone the benefit of the doubt",
+    "literalMeaning": "সন্দেহের সুবিধা কাউকে দেওয়া",
+    "banglaMeaning": "প্রমাণ না থাকলে কাউকে নির্দোষ বা সৎ ধরে নেওয়া",
+    "example": "I will give him the benefit of the doubt this time.",
+    "exampleBangla": "এবার প্রমাণ না থাকায় আমি তাকে সৎ ধরে নেব।",
+    "category": "Relationships"
+  },
+  {
+    "id": 190,
+    "idiom": "Blood is thicker than water",
+    "literalMeaning": "রক্ত পানির চেয়ে ঘন",
+    "banglaMeaning": "পারিবারিক সম্পর্ক সাধারণ সম্পর্কের চেয়ে শক্তিশালী",
+    "example": "They argued often, but blood is thicker than water.",
+    "exampleBangla": "তাদের প্রায়ই ঝগড়া হতো, তবু পারিবারিক সম্পর্কই শেষ পর্যন্ত বেশি শক্তিশালী।",
+    "category": "Relationships"
+  },
+  {
+    "id": 191,
+    "idiom": "The life of the party",
+    "literalMeaning": "পার্টির প্রাণ",
+    "banglaMeaning": "যে ব্যক্তি সামাজিক অনুষ্ঠানে সবাইকে আনন্দ দেয়",
+    "example": "Rafi is always the life of the party.",
+    "exampleBangla": "রাফি সবসময় পার্টির প্রাণ হয়ে থাকে।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 192,
+    "idiom": "Pull someone's leg",
+    "literalMeaning": "কারও পা টানা",
+    "banglaMeaning": "মজা করে কাউকে বোকা বানানো",
+    "example": "Do not worry; I was only pulling your leg.",
+    "exampleBangla": "চিন্তা করো না; আমি শুধু তোমার সঙ্গে মজা করছিলাম।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 193,
+    "idiom": "Have a whale of a time",
+    "literalMeaning": "তিমির মতো সময় কাটানো",
+    "banglaMeaning": "খুব আনন্দ করে সময় কাটানো",
+    "example": "We had a whale of a time at the picnic.",
+    "exampleBangla": "পিকনিকে আমরা দারুণ আনন্দ করে সময় কাটিয়েছি।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 194,
+    "idiom": "Paint the town red",
+    "literalMeaning": "শহরটিকে লাল রঙ করা",
+    "banglaMeaning": "বাইরে গিয়ে খুব আনন্দ ও উদ্‌যাপন করা",
+    "example": "They went out to paint the town red after the final exam.",
+    "exampleBangla": "চূড়ান্ত পরীক্ষার পর তারা বাইরে গিয়ে আনন্দ উদ্‌যাপন করেছে।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 195,
+    "idiom": "Roll out the red carpet",
+    "literalMeaning": "লাল কার্পেট বিছিয়ে দেওয়া",
+    "banglaMeaning": "কাউকে বিশেষ সম্মান ও আন্তরিকভাবে স্বাগত জানানো",
+    "example": "The school rolled out the red carpet for the guests.",
+    "exampleBangla": "বিদ্যালয়টি অতিথিদের বিশেষ সম্মানের সঙ্গে স্বাগত জানিয়েছিল।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 196,
+    "idiom": "Put your foot in your mouth",
+    "literalMeaning": "নিজের মুখে পা ঢোকানো",
+    "banglaMeaning": "এমন কথা বলা যা বিব্রতকর বা অপমানজনক হয়ে যায়",
+    "example": "I put my foot in my mouth by asking about her old job.",
+    "exampleBangla": "তার পুরোনো চাকরি নিয়ে প্রশ্ন করে আমি বিব্রতকর কথা বলে ফেলেছিলাম।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 197,
+    "idiom": "Stick out like a sore thumb",
+    "literalMeaning": "ব্যথাযুক্ত বৃদ্ধাঙ্গুলির মতো বেরিয়ে থাকা",
+    "banglaMeaning": "চারপাশের সবকিছু থেকে খুব আলাদা ও চোখে পড়ার মতো হওয়া",
+    "example": "His bright suit made him stick out like a sore thumb.",
+    "exampleBangla": "উজ্জ্বল স্যুটটির কারণে তাকে সবার থেকে খুব আলাদা দেখাচ্ছিল।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 198,
+    "idiom": "Rub shoulders with",
+    "literalMeaning": "কারও সঙ্গে কাঁধ ঘষা",
+    "banglaMeaning": "গুরুত্বপূর্ণ বা পরিচিত ব্যক্তিদের সঙ্গে মেলামেশা করা",
+    "example": "At the event, she rubbed shoulders with several famous writers.",
+    "exampleBangla": "অনুষ্ঠানে সে কয়েকজন বিখ্যাত লেখকের সঙ্গে মেলামেশা করেছে।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 199,
+    "idiom": "Join the club",
+    "literalMeaning": "ক্লাবে যোগ দাও",
+    "banglaMeaning": "অন্যরাও একই সমস্যা বা অভিজ্ঞতার মধ্যে আছে বোঝানো",
+    "example": "You are tired after the long week? Join the club.",
+    "exampleBangla": "দীর্ঘ সপ্তাহের পর তুমি ক্লান্ত? আমরা সবাই একই অবস্থায় আছি।",
+    "category": "Social Situations"
+  },
+  {
+    "id": 200,
+    "idiom": "Make a scene",
+    "literalMeaning": "একটি দৃশ্য তৈরি করা",
+    "banglaMeaning": "জনসমক্ষে উচ্চস্বরে বা নাটকীয়ভাবে ঝামেলা করা",
+    "example": "Please do not make a scene in the restaurant.",
+    "exampleBangla": "দয়া করে রেস্তোরাঁয় জনসমক্ষে ঝামেলা করো না।",
+    "category": "Social Situations"
+  }
+]

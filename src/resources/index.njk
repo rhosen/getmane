@@ -20,7 +20,6 @@ ctaContent: resources_hub_nav
 
         <article class="resources-hub-featured">
           <div>
-            <span class="resources-hub-card__meta">{{ resources.hub.featured.badge }}</span>
             <h2><a href="{{ resources.hub.featured.url | url }}">{{ resources.hub.featured.title }}</a></h2>
             <p>{{ resources.hub.featured.description }}</p>
             <div class="resources-hub-featured__meta">{{ resources.hub.featured.meta }}</div>
@@ -35,7 +34,6 @@ ctaContent: resources_hub_nav
             {% for item in resources.hub.items %}
               <article class="resources-hub-card">
                 <div>
-                  <span class="resources-hub-card__meta">{{ item.badge }}</span>
                   <h2><a href="{{ item.url | url }}">{{ item.title }}</a></h2>
                   <p>{{ item.description }}</p>
                   <div class="resources-hub-featured__meta">{{ item.meta }}</div>

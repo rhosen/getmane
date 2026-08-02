@@ -1,0 +1,211 @@
+---
+layout: layouts/base.njk
+title: 500 Daily-Use English Sentences with Bangla Meaning | Mane
+description: A practical collection of 500 everyday English sentences with natural Bangla translations, organized into 20 useful categories.
+ogType: article
+bodyClass: legal-page resources-page
+permalink: resources/500-daily-use-english-sentences-bangla/index.html
+styles:
+  - /styles/resources.css
+scripts:
+  - /scripts/daily-use-english-sentences.bundle.js
+  - /scripts/sentences.js
+ctaContent: resources_vocab_nav
+faqItems:
+  - question: Who is this 500-sentence list for?
+    answer: This resource is designed for Bangla-speaking learners who want ready-to-use English sentences for daily conversation, study, work, and travel.
+  - question: What does Bangla meaning mean here?
+    answer: Each sentence includes a natural Bangla translation so you can understand the message quickly and compare it with the English original.
+  - question: How is this list organized?
+    answer: The sentences are grouped into 20 practical topics, making it easier to browse by situation and learn in small sections.
+---
+{% set resource = resources.dailyUseSentences %}
+<div class="blog-shell resources-page">
+  <div class="page">
+    {% include 'partials/legal-header.njk' %}
+
+    <main data-resource-page data-resource-name="500-daily-use-english-sentences-bangla" data-resource-loader="__loadManeDailySentences">
+      <article class="resource-shell">
+        <header class="resource-hero">
+          <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="{{ '/' | url }}">Home</a>
+            <span class="breadcrumbs__divider" aria-hidden="true">/</span>
+            <a href="{{ resource.hubPath | url }}">Resources</a>
+            <span class="breadcrumbs__divider" aria-hidden="true">/</span>
+            <span aria-current="page">{{ resource.shortTitle }}</span>
+          </nav>
+          <h1 class="resource-title">{{ resource.title }}<span class="resource-title__accent">.</span></h1>
+          <p class="resource-lead">Search by English sentence, Bangla meaning, or topic.</p>
+          <p class="resource-meta-line">{{ resource.wordCountLabel }} sentences • {{ resource.topicCountLabel }} topics</p>
+        </header>
+
+        <section class="resource-toolbar" aria-label="Sentence search">
+          <div class="resource-toolbar__row resource-toolbar__row--search-only">
+            <label class="resource-search-wrap">
+              <span class="sr-only">Search the sentence list</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.7-3.7"></path></svg>
+              <input class="resource-search-input" id="word-search" type="search" autocomplete="off" placeholder="Search English, বাংলা অর্থ, or topic…">
+            </label>
+            <button class="resource-reset-button" id="reset-filters" type="button">Reset</button>
+          </div>
+        </section>
+
+        <section class="resource-footer-cta" aria-label="Download Mane app">
+          <img src="{{ site.icon | url }}" alt="" aria-hidden="true">
+          <div>
+            <h2>Practice sentences inside Mane.</h2>
+            <p>Use Mane for offline lookup, Banglish search, saved items, and conversation review after you finish this list.</p>
+          </div>
+          <a class="resource-footer-cta__button" href="{{ resource.ctaFooterContent | playUrl }}" target="_blank" rel="noopener" data-resource-play-store="footer">Get Mane on Google Play</a>
+        </section>
+
+        <section class="resource-search-results" id="resource-search-results" hidden aria-labelledby="resource-search-results-title">
+          <div class="resource-search-results__header">
+            <p class="resource-kicker">Search results</p>
+            <h2 id="resource-search-results-title">Matching sentences.</h2>
+            <p class="resource-search-results__count" id="resource-search-results-count" aria-live="polite"></p>
+          </div>
+          <div class="resource-search-results__grid" id="resource-search-results-grid"></div>
+          <div class="resource-empty-state" id="resource-empty-state" hidden>
+            <strong>No sentences matched.</strong>
+            <span>Try another keyword or topic.</span>
+          </div>
+        </section>
+
+        <section class="resource-content resource-content--split" id="resource-browse-section">
+          <aside class="resource-sidebar" aria-label="Sentence topics">
+            <div class="resource-sidebar__inner">
+              <div class="resource-sidebar__block">
+                <p class="resource-sidebar__label">Browse topics</p>
+                <nav class="resource-topic-list" aria-label="Filter by topic">
+                  <a class="resource-topic-link is-active" href="#resource-topics" data-topic-filter="all" data-topic-label="all topics" aria-current="true">
+                    <span>All topics</span>
+                    <strong>{{ resource.wordCountLabel }}</strong>
+                  </a>
+                  {% for topic in resource.topics %}
+                    <a class="resource-topic-link" href="#{{ topic.id }}" data-topic-filter="{{ topic.slug }}" data-topic-label="{{ topic.title }}" aria-current="false">
+                      <span>{{ topic.title }}</span>
+                      <strong>{{ topic.countLabel }}</strong>
+                    </a>
+                  {% endfor %}
+                </nav>
+              </div>
+            </div>
+          </aside>
+
+          <div class="resource-main">
+            <div class="resource-topic-grid" id="resource-topics">
+            {% for topic in resource.topics %}
+              <details class="resource-topic-card" id="{{ topic.id }}" data-topic="{{ topic.slug }}" {% if loop.index0 < 2 %}open{% endif %}>
+                <summary>
+                  <span class="resource-topic-number">{{ topic.number }}</span>
+                  <span class="resource-topic-heading">
+                    <strong><a href="#{{ topic.id }}">{{ topic.title }}</a></strong>
+                    {% if topic.titleBn %}<small lang="bn">{{ topic.titleBn }}</small>{% endif %}
+                  </span>
+                  <span class="resource-topic-count"><span class="resource-topic-visible-count">{{ topic.countLabel }}</span> / {{ topic.countLabel }}</span>
+                  <span class="resource-summary-chevron" aria-hidden="true"></span>
+                </summary>
+                <div class="resource-sentence-table" role="table" aria-label="{{ topic.title }} sentences">
+                  <div class="resource-sentence-head" role="row">
+                    <div role="columnheader" aria-label="Serial number" title="Serial number">#</div>
+                    <div role="columnheader">English</div>
+                    <div role="columnheader">বাংলা অর্থ</div>
+                  </div>
+                  {% for sentence in topic.sentences %}
+                    <article class="resource-sentence-row" id="{{ sentence.id }}" role="row">
+                      <div class="resource-word-cell resource-word-cell--sequence" role="cell">{{ sentence.sequence }}</div>
+                      <div class="resource-word-cell resource-word-cell--english" role="cell"><a href="#{{ sentence.id }}">{{ sentence.english }}</a></div>
+                      <div class="resource-word-cell resource-word-cell--meaning" role="cell" lang="bn">{{ sentence.bangla }}</div>
+                    </article>
+                  {% endfor %}
+                </div>
+              </details>
+            {% endfor %}
+            </div>
+
+          </div>
+        </section>
+
+        <section class="resource-faq" aria-labelledby="resource-faq-title">
+          <p class="resource-kicker">Helpful notes</p>
+          <h2 id="resource-faq-title">Before you study.</h2>
+          <div class="resource-faq-grid">
+            {% for item in faqItems %}
+              <article class="resource-faq-card">
+                <h3>{{ item.question }}</h3>
+                <p>{{ item.answer }}</p>
+              </article>
+            {% endfor %}
+          </div>
+        </section>
+      </article>
+
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": {{ ('/' | url) | absoluteUrl | dump | safe }}
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Resources",
+                  "item": {{ (resource.hubPath | url) | absoluteUrl | dump | safe }}
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": {{ resource.title | dump | safe }},
+                  "item": {{ page.url | absoluteUrl | dump | safe }}
+                }
+              ]
+            },
+            {
+              "@type": "LearningResource",
+              "name": {{ resource.title | dump | safe }},
+              "description": {{ description | dump | safe }},
+              "url": {{ page.url | absoluteUrl | dump | safe }},
+              "isPartOf": {{ (resource.hubPath | url) | absoluteUrl | dump | safe }},
+              "inLanguage": ["en", "bn"],
+              "learningResourceType": "Sentence list",
+              "educationalLevel": ["Beginner", "Elementary", "Intermediate"],
+              "numberOfItems": {{ resource.wordCount }},
+              "isAccessibleForFree": true,
+              "provider": {
+                "@type": "Organization",
+                "name": {{ site.name | dump | safe }},
+                "url": {{ site.siteOrigin | dump | safe }}
+              }
+            },
+            {
+              "@type": "ItemList",
+              "name": "Sentence topics",
+              "numberOfItems": {{ resource.topicCount }},
+              "itemListElement": [
+                {% for topic in resource.topics %}
+                {
+                  "@type": "ListItem",
+                  "position": {{ loop.index }},
+                  "name": {{ topic.title | dump | safe }},
+                  "url": {{ ((page.url | absoluteUrl) ~ '#' ~ topic.id) | dump | safe }},
+                  "numberOfItems": {{ topic.count }}
+                }{% if not loop.last %},{% endif %}
+                {% endfor %}
+              ]
+            }
+          ]
+        }
+      </script>
+    </main>
+
+    {% include 'partials/legal-footer.njk' %}
+  </div>
+</div>

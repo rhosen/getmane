@@ -1,0 +1,3092 @@
+{
+  "title": "500 Daily-Use English Sentences with Bangla Meaning",
+  "description": "A practical collection of 500 everyday English sentences with natural Bangla translations, organized into 20 useful categories.",
+  "sourceLanguage": "English",
+  "targetLanguage": "Bangla",
+  "totalSentences": 500,
+  "totalCategories": 20,
+  "categories": [
+    {
+      "name": "Greetings & Politeness",
+      "count": 25
+    },
+    {
+      "name": "Introductions & Personal Information",
+      "count": 25
+    },
+    {
+      "name": "Home & Family",
+      "count": 25
+    },
+    {
+      "name": "Daily Routine",
+      "count": 25
+    },
+    {
+      "name": "Food & Drink",
+      "count": 25
+    },
+    {
+      "name": "Shopping & Money",
+      "count": 25
+    },
+    {
+      "name": "Travel & Transport",
+      "count": 25
+    },
+    {
+      "name": "Directions & Places",
+      "count": 25
+    },
+    {
+      "name": "School & Learning",
+      "count": 25
+    },
+    {
+      "name": "Work & Office",
+      "count": 25
+    },
+    {
+      "name": "Phone & Internet",
+      "count": 25
+    },
+    {
+      "name": "Time & Schedules",
+      "count": 25
+    },
+    {
+      "name": "Health & Wellbeing",
+      "count": 25
+    },
+    {
+      "name": "Weather & Environment",
+      "count": 25
+    },
+    {
+      "name": "Friends & Social Life",
+      "count": 25
+    },
+    {
+      "name": "Requests & Permission",
+      "count": 25
+    },
+    {
+      "name": "Problems & Emergencies",
+      "count": 25
+    },
+    {
+      "name": "Feelings & Opinions",
+      "count": 25
+    },
+    {
+      "name": "Plans & Decisions",
+      "count": 25
+    },
+    {
+      "name": "Common Conversation",
+      "count": 25
+    }
+  ],
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Good morning.",
+      "bangla": "সুপ্রভাত।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 2,
+      "english": "Good afternoon.",
+      "bangla": "শুভ অপরাহ্ন।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 3,
+      "english": "Good evening.",
+      "bangla": "শুভ সন্ধ্যা।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 4,
+      "english": "How are you?",
+      "bangla": "আপনি কেমন আছেন?",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 5,
+      "english": "I'm fine, thank you.",
+      "bangla": "আমি ভালো আছি, ধন্যবাদ।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 6,
+      "english": "And you?",
+      "bangla": "আর আপনি?",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 7,
+      "english": "Nice to meet you.",
+      "bangla": "আপনার সঙ্গে পরিচিত হয়ে ভালো লাগল।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 8,
+      "english": "Welcome!",
+      "bangla": "স্বাগতম!",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 9,
+      "english": "Please come in.",
+      "bangla": "দয়া করে ভেতরে আসুন।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 10,
+      "english": "Please have a seat.",
+      "bangla": "দয়া করে বসুন।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 11,
+      "english": "Excuse me.",
+      "bangla": "মাফ করবেন।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 12,
+      "english": "I'm sorry.",
+      "bangla": "আমি দুঃখিত।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 13,
+      "english": "No problem.",
+      "bangla": "কোনো সমস্যা নেই।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 14,
+      "english": "Thank you very much.",
+      "bangla": "আপনাকে অনেক ধন্যবাদ।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 15,
+      "english": "You're welcome.",
+      "bangla": "কোনো কথা নয়।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 16,
+      "english": "Take care.",
+      "bangla": "নিজের যত্ন নেবেন।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 17,
+      "english": "See you soon.",
+      "bangla": "শিগগিরই দেখা হবে।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 18,
+      "english": "See you tomorrow.",
+      "bangla": "আগামীকাল দেখা হবে।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 19,
+      "english": "Have a good day.",
+      "bangla": "আপনার দিনটি ভালো কাটুক।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 20,
+      "english": "Good night.",
+      "bangla": "শুভরাত্রি।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 21,
+      "english": "Congratulations!",
+      "bangla": "অভিনন্দন!",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 22,
+      "english": "Best wishes.",
+      "bangla": "শুভকামনা রইল।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 23,
+      "english": "Bless you.",
+      "bangla": "সুস্থ থাকুন।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 24,
+      "english": "It's okay.",
+      "bangla": "ঠিক আছে।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 25,
+      "english": "Please wait a moment.",
+      "bangla": "দয়া করে একটু অপেক্ষা করুন।",
+      "category": "Greetings & Politeness"
+    },
+    {
+      "id": 26,
+      "english": "What is your name?",
+      "bangla": "আপনার নাম কী?",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 27,
+      "english": "My name is Rahim.",
+      "bangla": "আমার নাম রহিম।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 28,
+      "english": "Where are you from?",
+      "bangla": "আপনি কোথা থেকে এসেছেন?",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 29,
+      "english": "I'm from Bangladesh.",
+      "bangla": "আমি বাংলাদেশ থেকে এসেছি।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 30,
+      "english": "Where do you live?",
+      "bangla": "আপনি কোথায় থাকেন?",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 31,
+      "english": "I live in Dhaka.",
+      "bangla": "আমি ঢাকায় থাকি।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 32,
+      "english": "How old are you?",
+      "bangla": "আপনার বয়স কত?",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 33,
+      "english": "I'm twenty-five years old.",
+      "bangla": "আমার বয়স পঁচিশ বছর।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 34,
+      "english": "What do you do?",
+      "bangla": "আপনি কী করেন?",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 35,
+      "english": "I'm a software engineer.",
+      "bangla": "আমি একজন সফটওয়্যার প্রকৌশলী।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 36,
+      "english": "This is my friend.",
+      "bangla": "এ আমার বন্ধু।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 37,
+      "english": "Let me introduce myself.",
+      "bangla": "আমাকে নিজের পরিচয় দিতে দিন।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 38,
+      "english": "I don't think we've met before.",
+      "bangla": "আমার মনে হয় আমাদের আগে দেখা হয়নি।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 39,
+      "english": "What is your phone number?",
+      "bangla": "আপনার ফোন নম্বর কত?",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 40,
+      "english": "Here is my phone number.",
+      "bangla": "এই নিন আমার ফোন নম্বর।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 41,
+      "english": "What is your email address?",
+      "bangla": "আপনার ইমেইল ঠিকানা কী?",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 42,
+      "english": "I speak Bangla and English.",
+      "bangla": "আমি বাংলা ও ইংরেজি বলি।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 43,
+      "english": "I'm learning English.",
+      "bangla": "আমি ইংরেজি শিখছি।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 44,
+      "english": "I'm married.",
+      "bangla": "আমি বিবাহিত।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 45,
+      "english": "I'm not married.",
+      "bangla": "আমি অবিবাহিত।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 46,
+      "english": "I have two brothers.",
+      "bangla": "আমার দুই ভাই আছে।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 47,
+      "english": "I have one sister.",
+      "bangla": "আমার এক বোন আছে।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 48,
+      "english": "What are your hobbies?",
+      "bangla": "আপনার শখ কী কী?",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 49,
+      "english": "I like reading books.",
+      "bangla": "আমি বই পড়তে পছন্দ করি।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 50,
+      "english": "It was nice talking to you.",
+      "bangla": "আপনার সঙ্গে কথা বলে ভালো লাগল।",
+      "category": "Introductions & Personal Information"
+    },
+    {
+      "id": 51,
+      "english": "I'm at home.",
+      "bangla": "আমি বাড়িতে আছি।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 52,
+      "english": "Is anyone home?",
+      "bangla": "বাড়িতে কেউ আছেন?",
+      "category": "Home & Family"
+    },
+    {
+      "id": 53,
+      "english": "Please close the door.",
+      "bangla": "দয়া করে দরজাটি বন্ধ করুন।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 54,
+      "english": "Please open the window.",
+      "bangla": "দয়া করে জানালাটি খুলুন।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 55,
+      "english": "Turn on the light.",
+      "bangla": "বাতিটি জ্বালাও।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 56,
+      "english": "Turn off the fan.",
+      "bangla": "পাখাটি বন্ধ করো।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 57,
+      "english": "The room is very clean.",
+      "bangla": "ঘরটি খুব পরিষ্কার।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 58,
+      "english": "The kitchen is downstairs.",
+      "bangla": "রান্নাঘরটি নিচতলায়।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 59,
+      "english": "Dinner is ready.",
+      "bangla": "রাতের খাবার তৈরি।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 60,
+      "english": "Where is my key?",
+      "bangla": "আমার চাবি কোথায়?",
+      "category": "Home & Family"
+    },
+    {
+      "id": 61,
+      "english": "I can't find my phone.",
+      "bangla": "আমি আমার ফোনটি খুঁজে পাচ্ছি না।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 62,
+      "english": "The baby is sleeping.",
+      "bangla": "বাচ্চাটি ঘুমাচ্ছে।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 63,
+      "english": "My parents are at home.",
+      "bangla": "আমার বাবা-মা বাড়িতে আছেন।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 64,
+      "english": "My father is watching TV.",
+      "bangla": "আমার বাবা টিভি দেখছেন।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 65,
+      "english": "My mother is cooking.",
+      "bangla": "আমার মা রান্না করছেন।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 66,
+      "english": "My brother is studying.",
+      "bangla": "আমার ভাই পড়াশোনা করছে।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 67,
+      "english": "My sister is at work.",
+      "bangla": "আমার বোন কর্মস্থলে আছে।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 68,
+      "english": "We live together.",
+      "bangla": "আমরা একসঙ্গে থাকি।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 69,
+      "english": "Please clean your room.",
+      "bangla": "দয়া করে তোমার ঘর পরিষ্কার করো।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 70,
+      "english": "Put your shoes outside.",
+      "bangla": "তোমার জুতাগুলো বাইরে রাখো।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 71,
+      "english": "The water tank is empty.",
+      "bangla": "পানির ট্যাংক খালি।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 72,
+      "english": "The electricity is back.",
+      "bangla": "বিদ্যুৎ ফিরে এসেছে।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 73,
+      "english": "Someone is at the door.",
+      "bangla": "দরজায় কেউ এসেছে।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 74,
+      "english": "Make yourself at home.",
+      "bangla": "নিজের বাড়ির মতো স্বচ্ছন্দ থাকুন।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 75,
+      "english": "I'll be home soon.",
+      "bangla": "আমি শিগগিরই বাড়ি ফিরব।",
+      "category": "Home & Family"
+    },
+    {
+      "id": 76,
+      "english": "I wake up early.",
+      "bangla": "আমি ভোরে ঘুম থেকে উঠি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 77,
+      "english": "I get up at six.",
+      "bangla": "আমি ছয়টায় বিছানা থেকে উঠি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 78,
+      "english": "I brush my teeth.",
+      "bangla": "আমি দাঁত ব্রাশ করি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 79,
+      "english": "I wash my face.",
+      "bangla": "আমি মুখ ধুই।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 80,
+      "english": "I take a shower every morning.",
+      "bangla": "আমি প্রতিদিন সকালে গোসল করি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 81,
+      "english": "I'm getting dressed.",
+      "bangla": "আমি পোশাক পরছি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 82,
+      "english": "I need to comb my hair.",
+      "bangla": "আমার চুল আঁচড়ানো দরকার।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 83,
+      "english": "I make my bed every day.",
+      "bangla": "আমি প্রতিদিন বিছানা গুছাই।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 84,
+      "english": "I usually eat breakfast at home.",
+      "bangla": "আমি সাধারণত বাড়িতে নাশতা করি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 85,
+      "english": "I'm leaving for work.",
+      "bangla": "আমি কাজে যাওয়ার জন্য বের হচ্ছি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 86,
+      "english": "I go to work by bus.",
+      "bangla": "আমি বাসে করে কাজে যাই।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 87,
+      "english": "I start work at nine.",
+      "bangla": "আমি নয়টায় কাজ শুরু করি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 88,
+      "english": "I have lunch at one.",
+      "bangla": "আমি একটায় দুপুরের খাবার খাই।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 89,
+      "english": "I finish work at five.",
+      "bangla": "আমি পাঁচটায় কাজ শেষ করি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 90,
+      "english": "I come home in the evening.",
+      "bangla": "আমি সন্ধ্যায় বাড়ি ফিরি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 91,
+      "english": "I need some rest.",
+      "bangla": "আমার একটু বিশ্রাম দরকার।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 92,
+      "english": "I exercise after work.",
+      "bangla": "আমি কাজের পর ব্যায়াম করি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 93,
+      "english": "I take a walk every evening.",
+      "bangla": "আমি প্রতিদিন সন্ধ্যায় হাঁটতে যাই।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 94,
+      "english": "I watch TV for a while.",
+      "bangla": "আমি কিছুক্ষণ টিভি দেখি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 95,
+      "english": "I check my messages.",
+      "bangla": "আমি আমার বার্তাগুলো দেখি।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 96,
+      "english": "I have dinner with my family.",
+      "bangla": "আমি পরিবারের সঙ্গে রাতের খাবার খাই।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 97,
+      "english": "I prepare for tomorrow.",
+      "bangla": "আমি আগামী দিনের জন্য প্রস্তুতি নিই।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 98,
+      "english": "I go to bed at eleven.",
+      "bangla": "আমি এগারোটায় ঘুমাতে যাই।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 99,
+      "english": "I'm feeling sleepy.",
+      "bangla": "আমার ঘুম পাচ্ছে।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 100,
+      "english": "Today was a busy day.",
+      "bangla": "আজ খুব ব্যস্ত দিন ছিল।",
+      "category": "Daily Routine"
+    },
+    {
+      "id": 101,
+      "english": "I'm hungry.",
+      "bangla": "আমার ক্ষুধা লেগেছে।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 102,
+      "english": "I'm thirsty.",
+      "bangla": "আমার তৃষ্ণা পেয়েছে।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 103,
+      "english": "What would you like to eat?",
+      "bangla": "আপনি কী খেতে চান?",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 104,
+      "english": "I'd like some rice.",
+      "bangla": "আমি কিছু ভাত চাই।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 105,
+      "english": "Please give me a glass of water.",
+      "bangla": "দয়া করে আমাকে এক গ্লাস পানি দিন।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 106,
+      "english": "The food is delicious.",
+      "bangla": "খাবারটি খুব সুস্বাদু।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 107,
+      "english": "This curry is too spicy.",
+      "bangla": "এই তরকারিটি খুব ঝাল।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 108,
+      "english": "I don't eat much sugar.",
+      "bangla": "আমি বেশি চিনি খাই না।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 109,
+      "english": "Would you like some tea?",
+      "bangla": "আপনি কি চা খাবেন?",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 110,
+      "english": "Yes, please.",
+      "bangla": "জি, দিন।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 111,
+      "english": "No, thank you.",
+      "bangla": "না, ধন্যবাদ।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 112,
+      "english": "I prefer coffee.",
+      "bangla": "আমি কফি বেশি পছন্দ করি।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 113,
+      "english": "The tea is too hot.",
+      "bangla": "চা খুব গরম।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 114,
+      "english": "Please pass the salt.",
+      "bangla": "দয়া করে লবণটা দিন।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 115,
+      "english": "Can I have the menu?",
+      "bangla": "আমি কি মেনুটি পেতে পারি?",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 116,
+      "english": "What do you recommend?",
+      "bangla": "আপনি কোন খাবারটি খেতে পরামর্শ দেবেন?",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 117,
+      "english": "I'll have the chicken.",
+      "bangla": "আমি মুরগির পদটি নেব।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 118,
+      "english": "Is this dish vegetarian?",
+      "bangla": "এই খাবারটি কি নিরামিষ?",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 119,
+      "english": "Please make it less spicy.",
+      "bangla": "দয়া করে কম ঝাল করে দিন।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 120,
+      "english": "Can I get the bill, please?",
+      "bangla": "দয়া করে বিলটি দেবেন?",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 121,
+      "english": "The bill is not correct.",
+      "bangla": "বিলটি ঠিক নয়।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 122,
+      "english": "Let's eat together.",
+      "bangla": "চলুন একসঙ্গে খাই।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 123,
+      "english": "I cooked this myself.",
+      "bangla": "এটি আমি নিজেই রান্না করেছি।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 124,
+      "english": "Save some food for me.",
+      "bangla": "আমার জন্য কিছু খাবার রেখে দিও।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 125,
+      "english": "I'm full.",
+      "bangla": "আমার পেট ভরে গেছে।",
+      "category": "Food & Drink"
+    },
+    {
+      "id": 126,
+      "english": "How much is this?",
+      "bangla": "এটির দাম কত?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 127,
+      "english": "This is too expensive.",
+      "bangla": "এটি খুব দামি।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 128,
+      "english": "Do you have a cheaper one?",
+      "bangla": "আপনার কাছে কি এর চেয়ে সস্তা কিছু আছে?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 129,
+      "english": "Can you lower the price?",
+      "bangla": "দামটা কি একটু কমাতে পারবেন?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 130,
+      "english": "The price is fixed.",
+      "bangla": "দাম নির্ধারিত।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 131,
+      "english": "I'd like to buy this.",
+      "bangla": "আমি এটি কিনতে চাই।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 132,
+      "english": "I'm just looking, thank you.",
+      "bangla": "আমি শুধু দেখছি, ধন্যবাদ।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 133,
+      "english": "Do you have this in another color?",
+      "bangla": "এটি কি অন্য রঙে আছে?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 134,
+      "english": "Do you have a larger size?",
+      "bangla": "এর চেয়ে বড় মাপ আছে?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 135,
+      "english": "Can I try this on?",
+      "bangla": "আমি কি এটি পরে দেখতে পারি?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 136,
+      "english": "Where is the fitting room?",
+      "bangla": "পোশাক পরে দেখার ঘরটি কোথায়?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 137,
+      "english": "This size fits me.",
+      "bangla": "এই মাপটি আমার ঠিক হয়েছে।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 138,
+      "english": "I'll take it.",
+      "bangla": "আমি এটি নেব।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 139,
+      "english": "Can I pay by card?",
+      "bangla": "আমি কি কার্ডে টাকা দিতে পারি?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 140,
+      "english": "I'll pay in cash.",
+      "bangla": "আমি নগদ টাকা দেব।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 141,
+      "english": "Do you have change?",
+      "bangla": "আপনার কাছে কি খুচরা আছে?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 142,
+      "english": "Please give me a receipt.",
+      "bangla": "দয়া করে আমাকে একটি রসিদ দিন।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 143,
+      "english": "I need to withdraw some money.",
+      "bangla": "আমার কিছু টাকা তুলতে হবে।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 144,
+      "english": "Where is the nearest ATM?",
+      "bangla": "কাছের এটিএমটি কোথায়?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 145,
+      "english": "My card isn't working.",
+      "bangla": "আমার কার্ডটি কাজ করছে না।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 146,
+      "english": "I don't have enough money.",
+      "bangla": "আমার কাছে যথেষ্ট টাকা নেই।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 147,
+      "english": "I need to save money.",
+      "bangla": "আমার টাকা সঞ্চয় করা দরকার।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 148,
+      "english": "The shop is closed.",
+      "bangla": "দোকানটি বন্ধ।",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 149,
+      "english": "When does the shop open?",
+      "bangla": "দোকানটি কখন খোলে?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 150,
+      "english": "Can I return this item?",
+      "bangla": "আমি কি এই পণ্যটি ফেরত দিতে পারি?",
+      "category": "Shopping & Money"
+    },
+    {
+      "id": 151,
+      "english": "Where are you going?",
+      "bangla": "আপনি কোথায় যাচ্ছেন?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 152,
+      "english": "I'm going to the station.",
+      "bangla": "আমি স্টেশনে যাচ্ছি।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 153,
+      "english": "How will you get there?",
+      "bangla": "আপনি সেখানে কীভাবে যাবেন?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 154,
+      "english": "I'll take a bus.",
+      "bangla": "আমি বাসে যাব।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 155,
+      "english": "The bus is crowded.",
+      "bangla": "বাসে অনেক ভিড়।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 156,
+      "english": "Is this seat taken?",
+      "bangla": "এই আসনে কি কেউ বসবে?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 157,
+      "english": "Please sit here.",
+      "bangla": "দয়া করে এখানে বসুন।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 158,
+      "english": "Where should I get off?",
+      "bangla": "আমার কোথায় নামতে হবে?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 159,
+      "english": "Please tell me when we arrive.",
+      "bangla": "আমরা পৌঁছালে দয়া করে আমাকে বলবেন।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 160,
+      "english": "How much is the fare?",
+      "bangla": "ভাড়া কত?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 161,
+      "english": "I missed the bus.",
+      "bangla": "আমি বাসটি ধরতে পারিনি।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 162,
+      "english": "The train is late.",
+      "bangla": "ট্রেনটি দেরি করছে।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 163,
+      "english": "What time does the train leave?",
+      "bangla": "ট্রেনটি কখন ছাড়ে?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 164,
+      "english": "Which platform should I go to?",
+      "bangla": "আমার কোন প্ল্যাটফর্মে যেতে হবে?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 165,
+      "english": "I need a ticket to Chattogram.",
+      "bangla": "আমার চট্টগ্রামের একটি টিকিট দরকার।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 166,
+      "english": "One-way or round trip?",
+      "bangla": "একমুখী নাকি যাওয়া-আসার টিকিট?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 167,
+      "english": "I'd like a window seat.",
+      "bangla": "আমি জানালার পাশের একটি আসন চাই।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 168,
+      "english": "Please fasten your seat belt.",
+      "bangla": "দয়া করে সিটবেল্ট বাঁধুন।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 169,
+      "english": "The road is blocked.",
+      "bangla": "রাস্তাটি বন্ধ।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 170,
+      "english": "We're stuck in traffic.",
+      "bangla": "আমরা যানজটে আটকে আছি।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 171,
+      "english": "Please drive slowly.",
+      "bangla": "দয়া করে ধীরে গাড়ি চালান।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 172,
+      "english": "Stop here, please.",
+      "bangla": "দয়া করে এখানে থামান।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 173,
+      "english": "How long will it take?",
+      "bangla": "কতক্ষণ লাগবে?",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 174,
+      "english": "We have arrived.",
+      "bangla": "আমরা পৌঁছে গেছি।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 175,
+      "english": "Have a safe journey.",
+      "bangla": "আপনার যাত্রা শুভ হোক।",
+      "category": "Travel & Transport"
+    },
+    {
+      "id": 176,
+      "english": "Where is the bathroom?",
+      "bangla": "বাথরুম কোথায়?",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 177,
+      "english": "How do I get to the market?",
+      "bangla": "আমি বাজারে কীভাবে যাব?",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 178,
+      "english": "Go straight ahead.",
+      "bangla": "সোজা সামনে যান।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 179,
+      "english": "Turn left.",
+      "bangla": "বাঁ দিকে ঘুরুন।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 180,
+      "english": "Turn right.",
+      "bangla": "ডান দিকে ঘুরুন।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 181,
+      "english": "It's on your left.",
+      "bangla": "এটি আপনার বাঁ পাশে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 182,
+      "english": "It's on your right.",
+      "bangla": "এটি আপনার ডান পাশে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 183,
+      "english": "It's next to the bank.",
+      "bangla": "এটি ব্যাংকের পাশে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 184,
+      "english": "It's opposite the hospital.",
+      "bangla": "এটি হাসপাতালের বিপরীতে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 185,
+      "english": "It's behind the school.",
+      "bangla": "এটি স্কুলের পেছনে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 186,
+      "english": "It's in front of the mosque.",
+      "bangla": "এটি মসজিদের সামনে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 187,
+      "english": "It's between the two buildings.",
+      "bangla": "এটি দুই ভবনের মাঝখানে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 188,
+      "english": "Is it far from here?",
+      "bangla": "এটি কি এখান থেকে অনেক দূরে?",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 189,
+      "english": "It's within walking distance.",
+      "bangla": "এটি হেঁটে যাওয়ার মতো কাছেই।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 190,
+      "english": "It takes about ten minutes.",
+      "bangla": "প্রায় দশ মিনিট লাগে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 191,
+      "english": "I think we're lost.",
+      "bangla": "আমার মনে হয় আমরা পথ হারিয়েছি।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 192,
+      "english": "Can you show me on the map?",
+      "bangla": "আপনি কি মানচিত্রে আমাকে দেখাতে পারবেন?",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 193,
+      "english": "What is this place called?",
+      "bangla": "এই জায়গাটির নাম কী?",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 194,
+      "english": "I'm looking for this address.",
+      "bangla": "আমি এই ঠিকানাটি খুঁজছি।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 195,
+      "english": "Which way is the city center?",
+      "bangla": "শহরের কেন্দ্র কোন দিকে?",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 196,
+      "english": "Cross the road carefully.",
+      "bangla": "সাবধানে রাস্তা পার হোন।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 197,
+      "english": "Take the first left.",
+      "bangla": "প্রথম বাঁ দিকের রাস্তায় ঢুকুন।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 198,
+      "english": "Take the second right.",
+      "bangla": "দ্বিতীয় ডান দিকের রাস্তায় ঢুকুন।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 199,
+      "english": "You can't miss it.",
+      "bangla": "জায়গাটি সহজেই চোখে পড়বে।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 200,
+      "english": "Thank you for the directions.",
+      "bangla": "পথ দেখানোর জন্য ধন্যবাদ।",
+      "category": "Directions & Places"
+    },
+    {
+      "id": 201,
+      "english": "What are you studying?",
+      "bangla": "তুমি কী পড়ছ?",
+      "category": "School & Learning"
+    },
+    {
+      "id": 202,
+      "english": "I'm studying English.",
+      "bangla": "আমি ইংরেজি পড়ছি।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 203,
+      "english": "Which class are you in?",
+      "bangla": "তুমি কোন শ্রেণিতে পড়ো?",
+      "category": "School & Learning"
+    },
+    {
+      "id": 204,
+      "english": "I'm in class ten.",
+      "bangla": "আমি দশম শ্রেণিতে পড়ি।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 205,
+      "english": "The class starts at nine.",
+      "bangla": "ক্লাস নয়টায় শুরু হয়।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 206,
+      "english": "The teacher is absent today.",
+      "bangla": "শিক্ষক আজ অনুপস্থিত।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 207,
+      "english": "Please open your book.",
+      "bangla": "দয়া করে তোমার বই খোলো।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 208,
+      "english": "Turn to page twenty.",
+      "bangla": "বিশ নম্বর পৃষ্ঠা খোলো।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 209,
+      "english": "Read the sentence aloud.",
+      "bangla": "বাক্যটি জোরে পড়ো।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 210,
+      "english": "Please write it down.",
+      "bangla": "দয়া করে এটি লিখে রাখো।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 211,
+      "english": "I don't understand this lesson.",
+      "bangla": "আমি এই পাঠটি বুঝতে পারছি না।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 212,
+      "english": "Could you explain it again?",
+      "bangla": "আপনি কি এটি আবার বুঝিয়ে বলতে পারেন?",
+      "category": "School & Learning"
+    },
+    {
+      "id": 213,
+      "english": "What does this word mean?",
+      "bangla": "এই শব্দের অর্থ কী?",
+      "category": "School & Learning"
+    },
+    {
+      "id": 214,
+      "english": "How do you spell it?",
+      "bangla": "শব্দটির বানান কীভাবে করতে হয়?",
+      "category": "School & Learning"
+    },
+    {
+      "id": 215,
+      "english": "How do you pronounce this word?",
+      "bangla": "এই শব্দটি কীভাবে উচ্চারণ করতে হয়?",
+      "category": "School & Learning"
+    },
+    {
+      "id": 216,
+      "english": "Can you give me an example?",
+      "bangla": "আপনি কি আমাকে একটি উদাহরণ দিতে পারেন?",
+      "category": "School & Learning"
+    },
+    {
+      "id": 217,
+      "english": "I forgot my homework.",
+      "bangla": "আমি আমার বাড়ির কাজ আনতে ভুলে গেছি।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 218,
+      "english": "Have you finished your assignment?",
+      "bangla": "তুমি কি তোমার অ্যাসাইনমেন্ট শেষ করেছ?",
+      "category": "School & Learning"
+    },
+    {
+      "id": 219,
+      "english": "The exam was difficult.",
+      "bangla": "পরীক্ষাটি কঠিন ছিল।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 220,
+      "english": "I need to study harder.",
+      "bangla": "আমার আরও মন দিয়ে পড়াশোনা করা দরকার।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 221,
+      "english": "Let's study together.",
+      "bangla": "চলো একসঙ্গে পড়ি।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 222,
+      "english": "I made a mistake.",
+      "bangla": "আমি একটি ভুল করেছি।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 223,
+      "english": "Please correct my sentence.",
+      "bangla": "দয়া করে আমার বাক্যটি ঠিক করে দিন।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 224,
+      "english": "Practice makes perfect.",
+      "bangla": "অনুশীলনেই দক্ষতা আসে।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 225,
+      "english": "I learned something new today.",
+      "bangla": "আমি আজ নতুন কিছু শিখেছি।",
+      "category": "School & Learning"
+    },
+    {
+      "id": 226,
+      "english": "I'm at work.",
+      "bangla": "আমি কর্মস্থলে আছি।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 227,
+      "english": "What time do you start work?",
+      "bangla": "আপনি কখন কাজ শুরু করেন?",
+      "category": "Work & Office"
+    },
+    {
+      "id": 228,
+      "english": "I have a meeting at ten.",
+      "bangla": "আমার দশটায় একটি মিটিং আছে।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 229,
+      "english": "I'm running late.",
+      "bangla": "আমার দেরি হয়ে যাচ্ছে।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 230,
+      "english": "Please send me the file.",
+      "bangla": "দয়া করে আমাকে ফাইলটি পাঠান।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 231,
+      "english": "I sent you an email.",
+      "bangla": "আমি আপনাকে একটি ইমেইল পাঠিয়েছি।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 232,
+      "english": "Did you receive my message?",
+      "bangla": "আপনি কি আমার বার্তাটি পেয়েছেন?",
+      "category": "Work & Office"
+    },
+    {
+      "id": 233,
+      "english": "Let's discuss this later.",
+      "bangla": "চলুন এটি পরে আলোচনা করি।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 234,
+      "english": "I'm working on it.",
+      "bangla": "আমি এটি নিয়ে কাজ করছি।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 235,
+      "english": "The task is almost finished.",
+      "bangla": "কাজটি প্রায় শেষ।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 236,
+      "english": "I need more time.",
+      "bangla": "আমার আরও সময় দরকার।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 237,
+      "english": "Can you help me with this?",
+      "bangla": "আপনি কি আমাকে এটি করতে সাহায্য করতে পারেন?",
+      "category": "Work & Office"
+    },
+    {
+      "id": 238,
+      "english": "What is the deadline?",
+      "bangla": "শেষ সময়সীমা কবে?",
+      "category": "Work & Office"
+    },
+    {
+      "id": 239,
+      "english": "We need to finish this today.",
+      "bangla": "আমাদের এটি আজই শেষ করতে হবে।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 240,
+      "english": "I'll check and let you know.",
+      "bangla": "আমি দেখে আপনাকে জানাব।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 241,
+      "english": "Please update the document.",
+      "bangla": "দয়া করে নথিটি হালনাগাদ করুন।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 242,
+      "english": "The internet is not working.",
+      "bangla": "ইন্টারনেট কাজ করছে না।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 243,
+      "english": "The printer is out of paper.",
+      "bangla": "প্রিন্টারে কাগজ নেই।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 244,
+      "english": "I'm taking a short break.",
+      "bangla": "আমি অল্প সময়ের বিরতি নিচ্ছি।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 245,
+      "english": "Let's have lunch together.",
+      "bangla": "চলুন একসঙ্গে দুপুরের খাবার খাই।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 246,
+      "english": "The meeting has been canceled.",
+      "bangla": "মিটিংটি বাতিল হয়েছে।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 247,
+      "english": "The meeting has been postponed.",
+      "bangla": "মিটিংটি পিছিয়ে দেওয়া হয়েছে।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 248,
+      "english": "I agree with your idea.",
+      "bangla": "আমি আপনার ধারণার সঙ্গে একমত।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 249,
+      "english": "That's a good suggestion.",
+      "bangla": "এটি একটি ভালো পরামর্শ।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 250,
+      "english": "See you at the office tomorrow.",
+      "bangla": "আগামীকাল অফিসে দেখা হবে।",
+      "category": "Work & Office"
+    },
+    {
+      "id": 251,
+      "english": "Can you hear me?",
+      "bangla": "আপনি কি আমার কথা শুনতে পাচ্ছেন?",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 252,
+      "english": "The signal is weak.",
+      "bangla": "নেটওয়ার্কের সংকেত দুর্বল।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 253,
+      "english": "The call was disconnected.",
+      "bangla": "কলটি কেটে গেছে।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 254,
+      "english": "I'll call you back.",
+      "bangla": "আমি আপনাকে আবার ফোন করব।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 255,
+      "english": "Please answer the phone.",
+      "bangla": "দয়া করে ফোনটি ধরুন।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 256,
+      "english": "Who is calling?",
+      "bangla": "কে ফোন করেছেন?",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 257,
+      "english": "May I speak to Rahim?",
+      "bangla": "আমি কি রহিমের সঙ্গে কথা বলতে পারি?",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 258,
+      "english": "He's not available right now.",
+      "bangla": "তিনি এখন কথা বলতে পারছেন না।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 259,
+      "english": "Please leave a message.",
+      "bangla": "দয়া করে একটি বার্তা রেখে যান।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 260,
+      "english": "Send me the location.",
+      "bangla": "আমাকে লোকেশনটি পাঠান।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 261,
+      "english": "Check your inbox.",
+      "bangla": "আপনার ইনবক্স দেখুন।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 262,
+      "english": "I haven't received it yet.",
+      "bangla": "আমি এখনো এটি পাইনি।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 263,
+      "english": "Please send it again.",
+      "bangla": "দয়া করে এটি আবার পাঠান।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 264,
+      "english": "My phone battery is low.",
+      "bangla": "আমার ফোনের চার্জ কম।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 265,
+      "english": "I need to charge my phone.",
+      "bangla": "আমার ফোনটি চার্জ দিতে হবে।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 266,
+      "english": "What is the Wi-Fi password?",
+      "bangla": "ওয়াই-ফাইয়ের পাসওয়ার্ড কী?",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 267,
+      "english": "The internet is very slow.",
+      "bangla": "ইন্টারনেট খুব ধীর।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 268,
+      "english": "The website isn't loading.",
+      "bangla": "ওয়েবসাইটটি খুলছে না।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 269,
+      "english": "Please share the link.",
+      "bangla": "দয়া করে লিংকটি শেয়ার করুন।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 270,
+      "english": "I saw your post.",
+      "bangla": "আমি আপনার পোস্টটি দেখেছি।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 271,
+      "english": "I'll reply later.",
+      "bangla": "আমি পরে উত্তর দেব।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 272,
+      "english": "Turn on your mobile data.",
+      "bangla": "আপনার মোবাইল ডেটা চালু করুন।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 273,
+      "english": "My storage is full.",
+      "bangla": "আমার ফোনের স্টোরেজ পূর্ণ।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 274,
+      "english": "Please mute your microphone.",
+      "bangla": "দয়া করে আপনার মাইক্রোফোনটি বন্ধ রাখুন।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 275,
+      "english": "The video is not clear.",
+      "bangla": "ভিডিওটি পরিষ্কার দেখা যাচ্ছে না।",
+      "category": "Phone & Internet"
+    },
+    {
+      "id": 276,
+      "english": "What time is it?",
+      "bangla": "এখন কয়টা বাজে?",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 277,
+      "english": "It's half past seven.",
+      "bangla": "এখন সাড়ে সাতটা।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 278,
+      "english": "It's almost noon.",
+      "bangla": "প্রায় দুপুর হয়ে গেছে।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 279,
+      "english": "What day is it today?",
+      "bangla": "আজ কী বার?",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 280,
+      "english": "Today is Monday.",
+      "bangla": "আজ সোমবার।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 281,
+      "english": "What is today's date?",
+      "bangla": "আজ কত তারিখ?",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 282,
+      "english": "It's the second of August.",
+      "bangla": "আজ ২ আগস্ট।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 283,
+      "english": "Are you free today?",
+      "bangla": "আপনি কি আজ ফাঁকা আছেন?",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 284,
+      "english": "I'm busy this morning.",
+      "bangla": "আমি আজ সকালে ব্যস্ত।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 285,
+      "english": "I'm free after lunch.",
+      "bangla": "আমি দুপুরের খাবারের পর ফাঁকা আছি।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 286,
+      "english": "What time should we meet?",
+      "bangla": "আমরা কখন দেখা করব?",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 287,
+      "english": "Let's meet at four.",
+      "bangla": "চলুন চারটায় দেখা করি।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 288,
+      "english": "Please be on time.",
+      "bangla": "দয়া করে সময়মতো আসবেন।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 289,
+      "english": "I'll be there in ten minutes.",
+      "bangla": "আমি দশ মিনিটের মধ্যে সেখানে পৌঁছাব।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 290,
+      "english": "I'm a little early.",
+      "bangla": "আমি একটু আগে এসে গেছি।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 291,
+      "english": "Sorry, I'm late.",
+      "bangla": "দুঃখিত, আমার দেরি হয়েছে।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 292,
+      "english": "Can we reschedule the meeting?",
+      "bangla": "আমরা কি মিটিংটির সময় পরিবর্তন করতে পারি?",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 293,
+      "english": "Tomorrow works for me.",
+      "bangla": "আগামীকাল আমার জন্য সুবিধাজনক।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 294,
+      "english": "I'm not available on Friday.",
+      "bangla": "আমি শুক্রবার সময় দিতে পারব না।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 295,
+      "english": "Let's do it next week.",
+      "bangla": "চলুন এটি আগামী সপ্তাহে করি।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 296,
+      "english": "I have an appointment today.",
+      "bangla": "আজ আমার একটি অ্যাপয়েন্টমেন্ট আছে।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 297,
+      "english": "The appointment is at three.",
+      "bangla": "অ্যাপয়েন্টমেন্টটি তিনটায়।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 298,
+      "english": "It won't take long.",
+      "bangla": "এতে বেশি সময় লাগবে না।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 299,
+      "english": "We still have plenty of time.",
+      "bangla": "আমাদের হাতে এখনো অনেক সময় আছে।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 300,
+      "english": "Time goes by quickly.",
+      "bangla": "সময় দ্রুত চলে যায়।",
+      "category": "Time & Schedules"
+    },
+    {
+      "id": 301,
+      "english": "How are you feeling?",
+      "bangla": "আপনি কেমন বোধ করছেন?",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 302,
+      "english": "I'm not feeling well.",
+      "bangla": "আমি ভালো বোধ করছি না।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 303,
+      "english": "I have a headache.",
+      "bangla": "আমার মাথাব্যথা করছে।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 304,
+      "english": "I have a fever.",
+      "bangla": "আমার জ্বর হয়েছে।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 305,
+      "english": "I have a cough.",
+      "bangla": "আমার কাশি হয়েছে।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 306,
+      "english": "My throat hurts.",
+      "bangla": "আমার গলা ব্যথা করছে।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 307,
+      "english": "I feel dizzy.",
+      "bangla": "আমার মাথা ঘুরছে।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 308,
+      "english": "I need to see a doctor.",
+      "bangla": "আমার একজন ডাক্তার দেখানো দরকার।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 309,
+      "english": "Where is the nearest hospital?",
+      "bangla": "কাছের হাসপাতালটি কোথায়?",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 310,
+      "english": "Do you have an appointment?",
+      "bangla": "আপনার কি অ্যাপয়েন্টমেন্ট আছে?",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 311,
+      "english": "Please take a deep breath.",
+      "bangla": "দয়া করে গভীরভাবে শ্বাস নিন।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 312,
+      "english": "Take this medicine after meals.",
+      "bangla": "খাবারের পর এই ওষুধটি খান।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 313,
+      "english": "Drink plenty of water.",
+      "bangla": "প্রচুর পানি পান করুন।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 314,
+      "english": "You need some rest.",
+      "bangla": "আপনার কিছুটা বিশ্রাম দরকার।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 315,
+      "english": "I feel much better now.",
+      "bangla": "আমি এখন অনেক ভালো বোধ করছি।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 316,
+      "english": "Are you allergic to anything?",
+      "bangla": "আপনার কি কোনো কিছুতে অ্যালার্জি আছে?",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 317,
+      "english": "I have an allergy to dust.",
+      "bangla": "ধুলায় আমার অ্যালার্জি আছে।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 318,
+      "english": "My back hurts.",
+      "bangla": "আমার পিঠে ব্যথা করছে।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 319,
+      "english": "I cut my finger.",
+      "bangla": "আমার আঙুল কেটে গেছে।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 320,
+      "english": "Please call a doctor.",
+      "bangla": "দয়া করে একজন ডাক্তার ডাকুন।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 321,
+      "english": "I exercise three times a week.",
+      "bangla": "আমি সপ্তাহে তিন দিন ব্যায়াম করি।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 322,
+      "english": "I need more sleep.",
+      "bangla": "আমার আরও ঘুম দরকার।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 323,
+      "english": "Try to eat healthy food.",
+      "bangla": "স্বাস্থ্যকর খাবার খাওয়ার চেষ্টা করুন।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 324,
+      "english": "Don't worry too much.",
+      "bangla": "খুব বেশি চিন্তা করবেন না।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 325,
+      "english": "Take care of your health.",
+      "bangla": "নিজের স্বাস্থ্যের যত্ন নিন।",
+      "category": "Health & Wellbeing"
+    },
+    {
+      "id": 326,
+      "english": "How is the weather today?",
+      "bangla": "আজ আবহাওয়া কেমন?",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 327,
+      "english": "It's very hot today.",
+      "bangla": "আজ খুব গরম।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 328,
+      "english": "It's cold outside.",
+      "bangla": "বাইরে ঠান্ডা।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 329,
+      "english": "The sky is cloudy.",
+      "bangla": "আকাশ মেঘলা।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 330,
+      "english": "It looks like rain.",
+      "bangla": "মনে হচ্ছে বৃষ্টি হবে।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 331,
+      "english": "It's raining heavily.",
+      "bangla": "মুষলধারে বৃষ্টি হচ্ছে।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 332,
+      "english": "Take an umbrella with you.",
+      "bangla": "সঙ্গে একটি ছাতা নিন।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 333,
+      "english": "The rain has stopped.",
+      "bangla": "বৃষ্টি থেমে গেছে।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 334,
+      "english": "The sun is shining.",
+      "bangla": "সূর্য আলো দিচ্ছে।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 335,
+      "english": "It's a beautiful day.",
+      "bangla": "আজকের দিনটি সুন্দর।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 336,
+      "english": "The weather is changing.",
+      "bangla": "আবহাওয়া বদলাচ্ছে।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 337,
+      "english": "There was a storm last night.",
+      "bangla": "গত রাতে ঝড় হয়েছিল।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 338,
+      "english": "The road is wet.",
+      "bangla": "রাস্তাটি ভেজা।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 339,
+      "english": "Be careful in the fog.",
+      "bangla": "কুয়াশায় সাবধানে চলুন।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 340,
+      "english": "The air feels fresh.",
+      "bangla": "বাতাস সতেজ লাগছে।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 341,
+      "english": "It's very humid today.",
+      "bangla": "আজ বাতাসে আর্দ্রতা খুব বেশি।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 342,
+      "english": "The river is rising.",
+      "bangla": "নদীর পানি বাড়ছে।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 343,
+      "english": "The water is not clean.",
+      "bangla": "পানিটি পরিষ্কার নয়।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 344,
+      "english": "Please don't throw rubbish here.",
+      "bangla": "দয়া করে এখানে ময়লা ফেলবেন না।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 345,
+      "english": "Put it in the bin.",
+      "bangla": "এটি ময়লার ঝুড়িতে ফেলুন।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 346,
+      "english": "We should save water.",
+      "bangla": "আমাদের পানি সাশ্রয় করা উচিত।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 347,
+      "english": "Turn off the tap.",
+      "bangla": "কলটি বন্ধ করুন।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 348,
+      "english": "The power is out.",
+      "bangla": "বিদ্যুৎ নেই।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 349,
+      "english": "The weather will be better tomorrow.",
+      "bangla": "আগামীকাল আবহাওয়া ভালো হবে।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 350,
+      "english": "Let's go outside.",
+      "bangla": "চলুন বাইরে যাই।",
+      "category": "Weather & Environment"
+    },
+    {
+      "id": 351,
+      "english": "What are you doing?",
+      "bangla": "তুমি কী করছ?",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 352,
+      "english": "I'm spending time with friends.",
+      "bangla": "আমি বন্ধুদের সঙ্গে সময় কাটাচ্ছি।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 353,
+      "english": "Are you free this evening?",
+      "bangla": "তুমি কি আজ সন্ধ্যায় ফাঁকা আছ?",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 354,
+      "english": "Would you like to join us?",
+      "bangla": "তুমি কি আমাদের সঙ্গে যোগ দিতে চাও?",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 355,
+      "english": "Let's go out for tea.",
+      "bangla": "চলো বাইরে চা খেতে যাই।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 356,
+      "english": "That sounds like fun.",
+      "bangla": "শুনে মজার মনে হচ্ছে।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 357,
+      "english": "Where should we meet?",
+      "bangla": "আমরা কোথায় দেখা করব?",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 358,
+      "english": "I'll meet you there.",
+      "bangla": "আমি সেখানে তোমার সঙ্গে দেখা করব।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 359,
+      "english": "Thanks for inviting me.",
+      "bangla": "আমাকে আমন্ত্রণ জানানোর জন্য ধন্যবাদ।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 360,
+      "english": "I'm sorry, I can't come.",
+      "bangla": "দুঃখিত, আমি আসতে পারব না।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 361,
+      "english": "Maybe next time.",
+      "bangla": "হয়তো পরেরবার।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 362,
+      "english": "It was a great party.",
+      "bangla": "অনুষ্ঠানটি দারুণ ছিল।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 363,
+      "english": "I had a wonderful time.",
+      "bangla": "আমি খুব ভালো সময় কাটিয়েছি।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 364,
+      "english": "Let's take a picture.",
+      "bangla": "চলো একটি ছবি তুলি।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 365,
+      "english": "Please send me the photos.",
+      "bangla": "দয়া করে আমাকে ছবিগুলো পাঠিও।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 366,
+      "english": "Happy birthday!",
+      "bangla": "শুভ জন্মদিন!",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 367,
+      "english": "This gift is for you.",
+      "bangla": "এই উপহারটি তোমার জন্য।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 368,
+      "english": "I hope you like it.",
+      "bangla": "আশা করি এটি তোমার ভালো লাগবে।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 369,
+      "english": "Long time no see.",
+      "bangla": "অনেক দিন পর দেখা।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 370,
+      "english": "I missed you.",
+      "bangla": "আমি তোমাকে খুব মনে করেছি।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 371,
+      "english": "Keep in touch.",
+      "bangla": "যোগাযোগ রেখো।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 372,
+      "english": "Call me when you are free.",
+      "bangla": "তুমি ফাঁকা হলে আমাকে ফোন করো।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 373,
+      "english": "Give my regards to your family.",
+      "bangla": "তোমার পরিবারকে আমার শুভেচ্ছা জানিও।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 374,
+      "english": "Come and visit us sometime.",
+      "bangla": "কোনো একদিন আমাদের বাড়িতে এসো।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 375,
+      "english": "It was good to see you.",
+      "bangla": "তোমার সঙ্গে দেখা হয়ে ভালো লাগল।",
+      "category": "Friends & Social Life"
+    },
+    {
+      "id": 376,
+      "english": "Can you help me?",
+      "bangla": "আপনি কি আমাকে সাহায্য করতে পারেন?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 377,
+      "english": "Could you do me a favor?",
+      "bangla": "আপনি কি আমার একটি উপকার করতে পারেন?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 378,
+      "english": "Please speak slowly.",
+      "bangla": "দয়া করে ধীরে কথা বলুন।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 379,
+      "english": "Please say that again.",
+      "bangla": "দয়া করে কথাটি আবার বলুন।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 380,
+      "english": "Could you write it down?",
+      "bangla": "আপনি কি এটি লিখে দিতে পারেন?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 381,
+      "english": "Can you show me how to do it?",
+      "bangla": "আপনি কি আমাকে এটি কীভাবে করতে হয় দেখাতে পারেন?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 382,
+      "english": "Please give me a minute.",
+      "bangla": "দয়া করে আমাকে এক মিনিট সময় দিন।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 383,
+      "english": "Can I ask you a question?",
+      "bangla": "আমি কি আপনাকে একটি প্রশ্ন করতে পারি?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 384,
+      "english": "May I come in?",
+      "bangla": "আমি কি ভেতরে আসতে পারি?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 385,
+      "english": "May I sit here?",
+      "bangla": "আমি কি এখানে বসতে পারি?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 386,
+      "english": "Can I use your phone?",
+      "bangla": "আমি কি আপনার ফোনটি ব্যবহার করতে পারি?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 387,
+      "english": "Can I borrow your pen?",
+      "bangla": "আমি কি আপনার কলমটি ধার নিতে পারি?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 388,
+      "english": "Could you open the door?",
+      "bangla": "আপনি কি দরজাটি খুলে দেবেন?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 389,
+      "english": "Would you mind closing the window?",
+      "bangla": "জানালাটি বন্ধ করলে কি আপনার অসুবিধা হবে?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 390,
+      "english": "Please don't make any noise.",
+      "bangla": "দয়া করে কোনো শব্দ করবেন না।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 391,
+      "english": "Wait for me, please.",
+      "bangla": "দয়া করে আমার জন্য অপেক্ষা করুন।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 392,
+      "english": "Let me think about it.",
+      "bangla": "আমাকে বিষয়টি নিয়ে ভাবতে দিন।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 393,
+      "english": "Let me know when you're ready.",
+      "bangla": "আপনি প্রস্তুত হলে আমাকে জানাবেন।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 394,
+      "english": "Can you come a little earlier?",
+      "bangla": "আপনি কি একটু আগে আসতে পারেন?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 395,
+      "english": "Could you pick me up?",
+      "bangla": "আপনি কি আমাকে নিতে আসতে পারেন?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 396,
+      "english": "Please keep this safe.",
+      "bangla": "দয়া করে এটি নিরাপদে রাখুন।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 397,
+      "english": "Can I take a day off?",
+      "bangla": "আমি কি এক দিনের ছুটি নিতে পারি?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 398,
+      "english": "May I leave now?",
+      "bangla": "আমি কি এখন যেতে পারি?",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 399,
+      "english": "Please don't tell anyone.",
+      "bangla": "দয়া করে কাউকে বলবেন না।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 400,
+      "english": "Feel free to ask questions.",
+      "bangla": "নির্দ্বিধায় প্রশ্ন করুন।",
+      "category": "Requests & Permission"
+    },
+    {
+      "id": 401,
+      "english": "What's wrong?",
+      "bangla": "কী সমস্যা হয়েছে?",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 402,
+      "english": "I need help.",
+      "bangla": "আমার সাহায্য দরকার।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 403,
+      "english": "Something is wrong.",
+      "bangla": "কিছু একটা সমস্যা হয়েছে।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 404,
+      "english": "I can't open the door.",
+      "bangla": "আমি দরজাটি খুলতে পারছি না।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 405,
+      "english": "The key is broken.",
+      "bangla": "চাবিটি ভেঙে গেছে।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 406,
+      "english": "The car won't start.",
+      "bangla": "গাড়িটি চালু হচ্ছে না।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 407,
+      "english": "We have a flat tire.",
+      "bangla": "গাড়ির একটি টায়ার পাংচার হয়েছে।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 408,
+      "english": "My bag is missing.",
+      "bangla": "আমার ব্যাগটি খুঁজে পাচ্ছি না।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 409,
+      "english": "I lost my wallet.",
+      "bangla": "আমি আমার মানিব্যাগ হারিয়েছি।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 410,
+      "english": "My phone has been stolen.",
+      "bangla": "আমার ফোনটি চুরি হয়েছে।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 411,
+      "english": "Please call the police.",
+      "bangla": "দয়া করে পুলিশকে ফোন করুন।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 412,
+      "english": "Call an ambulance.",
+      "bangla": "একটি অ্যাম্বুলেন্স ডাকুন।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 413,
+      "english": "There is a fire.",
+      "bangla": "আগুন লেগেছে।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 414,
+      "english": "Get out of the building.",
+      "bangla": "ভবন থেকে বের হয়ে যান।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 415,
+      "english": "Stay calm.",
+      "bangla": "শান্ত থাকুন।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 416,
+      "english": "Don't touch that.",
+      "bangla": "ওটি স্পর্শ করবেন না।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 417,
+      "english": "Be careful!",
+      "bangla": "সাবধানে থাকুন!",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 418,
+      "english": "Watch out!",
+      "bangla": "সাবধান!",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 419,
+      "english": "The floor is slippery.",
+      "bangla": "মেঝেটি পিচ্ছিল।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 420,
+      "english": "I need a mechanic.",
+      "bangla": "আমার একজন মেকানিক দরকার।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 421,
+      "english": "Can you fix this?",
+      "bangla": "আপনি কি এটি ঠিক করতে পারবেন?",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 422,
+      "english": "How much will the repair cost?",
+      "bangla": "মেরামত করতে কত খরচ হবে?",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 423,
+      "english": "The problem has been solved.",
+      "bangla": "সমস্যাটি সমাধান হয়েছে।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 424,
+      "english": "Everything is under control.",
+      "bangla": "সবকিছু নিয়ন্ত্রণে আছে।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 425,
+      "english": "Thank you for your help.",
+      "bangla": "সাহায্য করার জন্য আপনাকে ধন্যবাদ।",
+      "category": "Problems & Emergencies"
+    },
+    {
+      "id": 426,
+      "english": "I'm happy.",
+      "bangla": "আমি খুশি।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 427,
+      "english": "I'm feeling sad.",
+      "bangla": "আমার মন খারাপ।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 428,
+      "english": "I'm very tired.",
+      "bangla": "আমি খুব ক্লান্ত।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 429,
+      "english": "I'm worried about you.",
+      "bangla": "আমি তোমাকে নিয়ে চিন্তিত।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 430,
+      "english": "I'm a little nervous.",
+      "bangla": "আমি একটু নার্ভাস।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 431,
+      "english": "I'm excited about the trip.",
+      "bangla": "ভ্রমণটি নিয়ে আমি খুব উচ্ছ্বসিত।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 432,
+      "english": "I'm bored.",
+      "bangla": "আমার একঘেয়ে লাগছে।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 433,
+      "english": "I'm surprised.",
+      "bangla": "আমি অবাক হয়েছি।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 434,
+      "english": "I'm proud of you.",
+      "bangla": "আমি তোমাকে নিয়ে গর্বিত।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 435,
+      "english": "I'm disappointed.",
+      "bangla": "আমি হতাশ।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 436,
+      "english": "Don't be angry.",
+      "bangla": "রাগ কোরো না।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 437,
+      "english": "That makes me happy.",
+      "bangla": "এতে আমি খুশি হই।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 438,
+      "english": "I like this idea.",
+      "bangla": "আমার এই ধারণাটি ভালো লেগেছে।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 439,
+      "english": "I don't like the color.",
+      "bangla": "আমার রঙটি ভালো লাগছে না।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 440,
+      "english": "What do you think?",
+      "bangla": "আপনার কী মনে হয়?",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 441,
+      "english": "In my opinion, it's a good choice.",
+      "bangla": "আমার মতে, এটি একটি ভালো পছন্দ।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 442,
+      "english": "I think you're right.",
+      "bangla": "আমার মনে হয় আপনি ঠিক বলেছেন।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 443,
+      "english": "I don't think that's true.",
+      "bangla": "আমার মনে হয় না কথাটি সত্য।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 444,
+      "english": "I completely agree.",
+      "bangla": "আমি পুরোপুরি একমত।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 445,
+      "english": "I don't agree with you.",
+      "bangla": "আমি আপনার সঙ্গে একমত নই।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 446,
+      "english": "It doesn't matter to me.",
+      "bangla": "এতে আমার কিছু যায় আসে না।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 447,
+      "english": "That's interesting.",
+      "bangla": "এটি বেশ মজার।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 448,
+      "english": "That's not fair.",
+      "bangla": "এটি ন্যায্য নয়।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 449,
+      "english": "I'm not sure about that.",
+      "bangla": "আমি এ বিষয়ে নিশ্চিত নই।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 450,
+      "english": "I hope everything goes well.",
+      "bangla": "আশা করি সবকিছু ভালোভাবে হবে।",
+      "category": "Feelings & Opinions"
+    },
+    {
+      "id": 451,
+      "english": "What are your plans for today?",
+      "bangla": "আজ আপনার কী পরিকল্পনা?",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 452,
+      "english": "I haven't decided yet.",
+      "bangla": "আমি এখনো সিদ্ধান্ত নিইনি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 453,
+      "english": "I'm planning to stay home.",
+      "bangla": "আমি বাড়িতে থাকার পরিকল্পনা করছি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 454,
+      "english": "We're going out tonight.",
+      "bangla": "আমরা আজ রাতে বাইরে যাচ্ছি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 455,
+      "english": "Let's make a plan.",
+      "bangla": "চলুন একটি পরিকল্পনা করি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 456,
+      "english": "What should we do first?",
+      "bangla": "আমাদের প্রথমে কী করা উচিত?",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 457,
+      "english": "We need to leave early.",
+      "bangla": "আমাদের তাড়াতাড়ি বের হতে হবে।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 458,
+      "english": "I'll think about it.",
+      "bangla": "আমি বিষয়টি নিয়ে ভাবব।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 459,
+      "english": "I've changed my mind.",
+      "bangla": "আমি আমার সিদ্ধান্ত বদলেছি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 460,
+      "english": "That's a good plan.",
+      "bangla": "এটি একটি ভালো পরিকল্পনা।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 461,
+      "english": "Let's do it this way.",
+      "bangla": "চলুন এভাবে কাজটি করি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 462,
+      "english": "I have another idea.",
+      "bangla": "আমার আরেকটি ধারণা আছে।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 463,
+      "english": "We can decide later.",
+      "bangla": "আমরা পরে সিদ্ধান্ত নিতে পারি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 464,
+      "english": "It depends on the weather.",
+      "bangla": "এটি আবহাওয়ার ওপর নির্ভর করছে।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 465,
+      "english": "I'm going to buy a new phone.",
+      "bangla": "আমি একটি নতুন ফোন কিনতে যাচ্ছি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 466,
+      "english": "I want to learn how to drive.",
+      "bangla": "আমি গাড়ি চালানো শিখতে চাই।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 467,
+      "english": "I'm trying to improve my English.",
+      "bangla": "আমি আমার ইংরেজি উন্নত করার চেষ্টা করছি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 468,
+      "english": "We plan to travel next month.",
+      "bangla": "আমরা আগামী মাসে ভ্রমণ করার পরিকল্পনা করেছি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 469,
+      "english": "I might be busy tomorrow.",
+      "bangla": "আমি আগামীকাল ব্যস্ত থাকতে পারি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 470,
+      "english": "I'll let you know later.",
+      "bangla": "আমি আপনাকে পরে জানাব।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 471,
+      "english": "Are you ready to go?",
+      "bangla": "আপনি কি যাওয়ার জন্য প্রস্তুত?",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 472,
+      "english": "Let's leave now.",
+      "bangla": "চলুন এখনই বের হই।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 473,
+      "english": "We should hurry.",
+      "bangla": "আমাদের তাড়াতাড়ি করা উচিত।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 474,
+      "english": "Everything is ready.",
+      "bangla": "সবকিছু প্রস্তুত।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 475,
+      "english": "Let's get started.",
+      "bangla": "চলুন শুরু করি।",
+      "category": "Plans & Decisions"
+    },
+    {
+      "id": 476,
+      "english": "Really?",
+      "bangla": "সত্যি?",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 477,
+      "english": "Of course.",
+      "bangla": "অবশ্যই।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 478,
+      "english": "Sure, why not?",
+      "bangla": "নিশ্চয়ই, কেন নয়?",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 479,
+      "english": "I see.",
+      "bangla": "বুঝতে পেরেছি।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 480,
+      "english": "I understand.",
+      "bangla": "আমি বুঝতে পারছি।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 481,
+      "english": "I don't understand.",
+      "bangla": "আমি বুঝতে পারছি না।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 482,
+      "english": "That's right.",
+      "bangla": "ঠিক বলেছেন।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 483,
+      "english": "That's not right.",
+      "bangla": "এটি ঠিক নয়।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 484,
+      "english": "Maybe.",
+      "bangla": "হতে পারে।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 485,
+      "english": "Probably.",
+      "bangla": "সম্ভবত।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 486,
+      "english": "I don't know.",
+      "bangla": "আমি জানি না।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 487,
+      "english": "I'm not sure.",
+      "bangla": "আমি নিশ্চিত নই।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 488,
+      "english": "It could be.",
+      "bangla": "এমন হতে পারে।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 489,
+      "english": "Exactly.",
+      "bangla": "একদম ঠিক।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 490,
+      "english": "Not exactly.",
+      "bangla": "ঠিক তা নয়।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 491,
+      "english": "That's enough.",
+      "bangla": "এটাই যথেষ্ট।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 492,
+      "english": "Never mind.",
+      "bangla": "থাক, বাদ দিন।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 493,
+      "english": "What happened?",
+      "bangla": "কী হয়েছে?",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 494,
+      "english": "Nothing happened.",
+      "bangla": "কিছুই হয়নি।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 495,
+      "english": "What do you mean?",
+      "bangla": "আপনি কী বোঝাতে চাচ্ছেন?",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 496,
+      "english": "It means a lot to me.",
+      "bangla": "এটি আমার কাছে অনেক গুরুত্বপূর্ণ।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 497,
+      "english": "That makes sense.",
+      "bangla": "কথাটি যুক্তিসংগত।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 498,
+      "english": "I have no idea.",
+      "bangla": "আমার কোনো ধারণা নেই।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 499,
+      "english": "Let's see.",
+      "bangla": "দেখা যাক।",
+      "category": "Common Conversation"
+    },
+    {
+      "id": 500,
+      "english": "That's all for now.",
+      "bangla": "এখন এ পর্যন্তই।",
+      "category": "Common Conversation"
+    }
+  ]
+}
