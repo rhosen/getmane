@@ -1,12 +1,12 @@
 ---
-title: What Is Mane? A Modern Offline Bangla Dictionary for Android
-description: Official introduction to Mane, its core features, and who it is built for.
-lastReviewed: July 2026
-appVersionTested: Current public Play listing
-postKicker: Product · Introduction
-heroStatLabel: Core idea
-heroStatValue: One app
-heroStatNote: Lookup, review, and study support in a single focused dictionary experience.
+title: "What Is Mane? A Modern Offline Bangla Dictionary for Android"
+description: "Official introduction to Mane, its core features, and who it is built for."
+lastReviewed: August 2026
+appVersionTested: "Current public Play listing"
+postKicker: "Product · Guide"
+heroStatLabel: "Reading time"
+heroStatValue: "2 min"
+heroStatNote: "A practical guide for Bangla speakers."
 ---
 Mane (মানে) is an Android app for English-to-Bangla and Bangla-to-English dictionary lookup, vocabulary review, and study support. At its core, it is built for people who want a cleaner and more useful dictionary experience than a simple translation box can offer.
 

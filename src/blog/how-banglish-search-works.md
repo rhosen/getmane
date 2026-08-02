@@ -1,12 +1,12 @@
 ---
-title: How Banglish Search Works in Mane
-description: Why Banglish input matters and how it improves dictionary lookup for Bangla speakers.
-lastReviewed: July 2026
-appVersionTested: Current public Play listing
-postKicker: Search · Study habits
-heroStatLabel: Search habit
-heroStatValue: Banglish
-heroStatNote: A faster way to reach Bangla meanings without changing keyboards.
+title: "How Banglish Search Works in Mane"
+description: "Why Banglish input matters and how it improves dictionary lookup for Bangla speakers."
+lastReviewed: August 2026
+appVersionTested: "Current public Play listing"
+postKicker: "Product · Guide"
+heroStatLabel: "Reading time"
+heroStatValue: "2 min"
+heroStatNote: "A practical guide for Bangla speakers."
 ---
 Banglish input matters because many Bangla speakers already think and type this way. In everyday study or quick phone use, it is often easier to write a Bangla word with English letters than to switch layouts, slow down, and type it with a full Bangla keyboard.
 
