@@ -132,21 +132,45 @@ function createSentenceResource({
   const sourcePath = path.resolve(__dirname, sourceRelativePath);
   const source = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
   const topicMap = new Map();
+  const hasNestedTopics = Array.isArray(source.topics) && source.topics.length > 0;
 
-  const sentences = source.sentences.map((entry) => {
+  const sourceEntries = hasNestedTopics
+    ? source.topics.flatMap((topic) => {
+      const topicTitle = String(topic.title || '').trim();
+      const topicSlug = slugify(topic.slug || topicTitle);
+
+      return (topic.groups || []).flatMap((group) => {
+        const groupTitle = String(group.title || '').trim();
+
+        return (group.items || []).map((entry) => ({
+          ...entry,
+          category: topicTitle,
+          group: groupTitle,
+          topicTitle,
+          topicSlug,
+          topicSummary: topic.summary || ''
+        }));
+      });
+    })
+    : source.sentences;
+
+  const sentences = sourceEntries.map((entry, index) => {
     const categoryTitle = String(entry.category || '').trim();
+    const topicSlug = slugify(entry.topicSlug || categoryTitle);
     const normalizedEntry = {
       ...entry,
-      sequence: entry.id,
+      sequence: hasNestedTopics ? index + 1 : entry.id,
       category: categoryTitle,
-      topicSlug: slugify(categoryTitle)
+      topicSlug
     };
 
-    if (!topicMap.has(normalizedEntry.topicSlug)) {
-      topicMap.set(normalizedEntry.topicSlug, {
-        slug: normalizedEntry.topicSlug,
+    if (!topicMap.has(topicSlug)) {
+      topicMap.set(topicSlug, {
+        slug: topicSlug,
         title: normalizedEntry.category,
         titleBn: '',
+        summary: entry.topicSummary || '',
+        groupCount: 0,
         sentences: []
       });
     }
@@ -156,31 +180,38 @@ function createSentenceResource({
       id: `sentence-${normalizedEntry.sequence}`
     };
 
-    topicMap.get(normalizedEntry.topicSlug).sentences.push(sentence);
+    topicMap.get(topicSlug).sentences.push(sentence);
     return sentence;
   });
 
-  const topicSource = Array.isArray(source.categories) && source.categories.length
-    ? source.categories
-    : [...topicMap.values()].map((topic) => ({
-      name: topic.title,
-      count: topic.sentences.length
-    }));
+  const topicSource = hasNestedTopics && Array.isArray(source.topics) && source.topics.length
+    ? source.topics
+    : Array.isArray(source.categories) && source.categories.length
+      ? source.categories
+      : [...topicMap.values()].map((topic) => ({
+        name: topic.title,
+        count: topic.sentences.length
+      }));
 
   const topics = topicSource.map((topic, index) => {
-    const topicSlug = slugify(topic.name);
+    const topicTitle = String(topic.name || topic.title || '').trim();
+    const topicSlug = slugify(topic.slug || topicTitle);
     const topicEntry = topicMap.get(topicSlug);
     const sentenceCount = topicEntry ? topicEntry.sentences.length : 0;
+    const groupCount = Array.isArray(topic.groups) ? topic.groups.length : 0;
 
     return {
       slug: topicSlug,
-      title: topic.name,
+      title: topicTitle,
       titleBn: '',
+      summary: topic.summary || topicEntry?.summary || '',
       sentences: topicEntry ? topicEntry.sentences : [],
       number: String(index + 1).padStart(2, '0'),
       id: `topic-${topicSlug}`,
       count: sentenceCount,
-      countLabel: formatNumber(sentenceCount)
+      countLabel: formatNumber(sentenceCount),
+      groupCount,
+      groupCountLabel: formatNumber(groupCount)
     };
   });
 
@@ -202,6 +233,15 @@ function createSentenceResource({
     ctaFooterContent
   };
 }
+
+const spokenEnglishSentences = createSentenceResource({
+  sourceRelativePath: './spoken-english.json',
+  title: '1200+ Spoken English Sentences with Bangla Meaning',
+  shortTitle: '1200+ spoken English sentences',
+  description: 'Practical spoken English sentences with Bangla meanings, organized into everyday speaking situations and topic-based lessons.',
+  pathName: '/resources/1200-spoken-english-sentences-bangla/',
+  ctaFooterContent: 'resource_spoken_english_footer'
+});
 
 const vocabulary = createVocabularyResource({
   bundleRelativePath: '../scripts/mane-resource.bundle.js',
@@ -257,10 +297,18 @@ module.exports = {
         url: dailyUseSentences.path,
         badge: 'New',
         meta: `${formatNumber(dailyUseSentences.wordCount)} sentences • ${formatNumber(dailyUseSentences.topicCount)} topics`
+      },
+      {
+        title: spokenEnglishSentences.title,
+        description: 'Browse 1,200+ spoken English sentences with Bangla meanings for everyday communication and conversation practice.',
+        url: spokenEnglishSentences.path,
+        badge: 'New',
+        meta: `${formatNumber(spokenEnglishSentences.wordCount)} sentences • ${formatNumber(spokenEnglishSentences.topicCount)} topics`
       }
     ]
   },
   vocabulary,
   mostCommonVocabulary,
-  dailyUseSentences
+  dailyUseSentences,
+  spokenEnglishSentences
 };

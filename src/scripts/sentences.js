@@ -61,7 +61,8 @@
       entry.__searchText = normalize([
         entry.english,
         entry.bangla,
-        entry.category
+        entry.category,
+        entry.group
       ].filter(Boolean).join(' '));
     }
 
@@ -95,6 +96,12 @@
             <dt>Topic</dt>
             <dd>${escapeHtml(entry.category)}</dd>
           </div>
+          ${entry.group ? `
+          <div>
+            <dt>Group</dt>
+            <dd>${escapeHtml(entry.group)}</dd>
+          </div>
+          ` : ''}
         </dl>
       </article>
     `).join('');
